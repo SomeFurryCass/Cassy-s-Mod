@@ -1,0 +1,14 @@
+{
+  "parent": "forge:item/default",
+  "loader": "forge:composite",
+  "parts": {
+    "part1": {
+      "loader": "forge:obj",
+      "model": "foreign_technologies:models/item/ether_generator_mk1.obj",
+      "ambientToFullbright": true
+    }
+  },
+  "textures": {
+    "particle": "foreign_technologies:blocks/placeholder_texture"
+  }
+}

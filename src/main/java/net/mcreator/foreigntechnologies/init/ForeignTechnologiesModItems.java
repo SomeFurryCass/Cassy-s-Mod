@@ -8,7 +8,10 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.foreigntechnologies.item.WoodESwordItem;
 import net.mcreator.foreigntechnologies.item.WoodEShovelItem;
@@ -86,4 +89,10 @@ public class ForeignTechnologiesModItems {
 	public static final RegistryObject<Item> WOOD_E_SHOVEL = REGISTRY.register("wood_e_shovel", () -> new WoodEShovelItem());
 	public static final RegistryObject<Item> WOOD_E_AXE = REGISTRY.register("wood_e_axe", () -> new WoodEAxeItem());
 	public static final RegistryObject<Item> WOOD_E_HOE = REGISTRY.register("wood_e_hoe", () -> new WoodEHoeItem());
+	public static final RegistryObject<Item> ETHER_GENERATOR = block(ForeignTechnologiesModBlocks.ETHER_GENERATOR,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+
+	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
+	}
 }

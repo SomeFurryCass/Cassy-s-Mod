@@ -28,6 +28,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModParticleTypes;
 import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModItems;
+import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -45,7 +46,7 @@ public class ForeignTechnologiesMod {
 	public ForeignTechnologiesMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		ForeignTechnologiesModBlocks.REGISTRY.register(bus);
 		ForeignTechnologiesModItems.REGISTRY.register(bus);
 
 		ForeignTechnologiesModParticleTypes.REGISTRY.register(bus);
