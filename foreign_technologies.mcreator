@@ -643,54 +643,167 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "etherdroprecipie"
+    },
+    {
+      "name": "Pureetherrecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pureetherrecipe"
+    },
+    {
+      "name": "EtherPurifierrecipie",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ether_purifierrecipie"
+    },
+    {
+      "name": "Etherstone",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "etherstone"
+    },
+    {
+      "name": "EtherSlate",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ether_slate"
+    },
+    {
+      "name": "EtherStalk",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ether_stalk"
+    },
+    {
+      "name": "EtherGlass",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ether_glass"
+    },
+    {
+      "name": "EtherSurface",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ether_surface"
+    },
+    {
+      "name": "EtherPanel",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ether_panel"
+    },
+    {
+      "name": "Etheroverworld",
+      "type": "biome",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "etheroverworld"
+    },
+    {
+      "name": "Etherslaterecipie",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "etherslaterecipie"
+    },
+    {
+      "name": "EtherPanelrecipie",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ether_panelrecipie"
+    },
+    {
+      "name": "Etherbottlebyhand",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "etherbottlebyhand"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "etheraudio1",
+      "files": [
+        "shouldnt_be_here"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.foreign_technologies.strange_e_sword": "Strange E Sword",
-      "item.foreign_technologies.stone_e_pick": "Stone E Pick",
-      "itemGroup.tabether_tools": "Ether Tools",
-      "item.foreign_technologies.copper_e_sword": "Copper E Sword",
       "item.foreign_technologies.strange_core": "Strange Core",
       "item.foreign_technologies.weak_ether_lens": "Weak Ether Lens",
+      "biome.foreign_technologies.etheroverworld": "Etheroverworld",
       "item.foreign_technologies.goldcore": "Gold Core",
       "item.foreign_technologies.brittle_stone_core": "Brittle Stone Core",
       "advancements.foreign_tech.title": "Foreign Tech",
       "item.foreign_technologies.raw_ether": "Raw Ether",
-      "item.foreign_technologies.wood_e_axe": "Wood E Sword",
-      "item.foreign_technologies.copper_e_pick": "Copper E Pick",
       "item.foreign_technologies.strange_e_pick": "Strange E Pick",
       "block.foreign_technologies.ether_purifier": "Ether Purifier",
-      "item.foreign_technologies.pure_ether": "Pure Ether",
-      "item.foreign_technologies.diamond_e_pick": "Diamond E Pick",
       "item.foreign_technologies.gold_e_pick": "Gold E Pick",
       "advancements.foreign_tech.descr": "craft a brittle core, it isn\u0027t much but it\u0027s a start",
-      "item.foreign_technologies.netherite_core": "Netherite Core",
       "item.foreign_technologies.wood_e_pickaxe": "Wood E Pickaxe",
-      "block.foreign_technologies.ether_generator": "Ether Generator",
       "item.foreign_technologies.wood_e_hoe": "Wood E Hoe",
       "item.foreign_technologies.fren": "Fren",
       "item.foreign_technologies.fren_stick": "Fren on a Stick",
       "item.foreign_technologies.wood_e_shovel": "Wood E Shovel",
-      "item.foreign_technologies.strange_ball": "Strange Ball",
-      "item.foreign_technologies.ironcore": "Iron Core",
       "item.foreign_technologies.netherite_e_sword": "Netherite E Sword",
-      "item.foreign_technologies.coppercore": "Copper Core",
       "item.foreign_technologies.pure_ether_bottle": "Pure Ether Bottle",
       "item.foreign_technologies.weak_ether": "Weak Ether",
-      "item.foreign_technologies.stone_e_sword": "Stone E Sword",
       "item.foreign_technologies.diamond_core": "Diamond Core",
       "item.foreign_technologies.iron_e_pick": "Iron E Pick",
       "item.foreign_technologies.super_ether_emitter": "Super Ether Emitter",
-      "item.foreign_technologies.diamond_e_sword": "Diamond E Sword",
       "item.foreign_technologies.stone_core": "Stone Core",
-      "item.foreign_technologies.ether_bottle": "Ether Bottle",
       "item.foreign_technologies.wood_e_sword": "Wood E Sword",
+      "item.foreign_technologies.ether_bottle": "Ether Bottle",
       "item.foreign_technologies.netherite_e_pick": "Netherite E Pick",
-      "item.foreign_technologies.iron_e_sword": "Iron E Sword",
       "item.foreign_technologies.ether_emitter": "Ether Lens",
+      "item.foreign_technologies.stone_e_pick": "Stone E Pick",
+      "block.foreign_technologies.ether_glass": "Ether Glass",
+      "itemGroup.tabether_tools": "Ether Tools",
+      "item.foreign_technologies.copper_e_sword": "Copper E Sword",
+      "block.foreign_technologies.ether_panel": "Ether Panel",
+      "item.foreign_technologies.wood_e_axe": "Wood E Sword",
+      "item.foreign_technologies.copper_e_pick": "Copper E Pick",
+      "block.foreign_technologies.ether_slate": "Ether Slate",
+      "block.foreign_technologies.ether_stalk": "Ether Stalk",
+      "item.foreign_technologies.pure_ether": "Pure Ether",
+      "item.foreign_technologies.diamond_e_pick": "Diamond E Pick",
+      "item.foreign_technologies.netherite_core": "Netherite Core",
+      "block.foreign_technologies.ether_generator": "Ether Generator",
+      "item.foreign_technologies.ironcore": "Iron Core",
+      "item.foreign_technologies.strange_ball": "Strange Ball",
+      "item.foreign_technologies.coppercore": "Copper Core",
+      "item.foreign_technologies.stone_e_sword": "Stone E Sword",
+      "block.foreign_technologies.ether_surface": "Ether Surface",
+      "item.foreign_technologies.diamond_e_sword": "Diamond E Sword",
+      "block.foreign_technologies.etherstone": "Etherstone",
+      "item.foreign_technologies.iron_e_sword": "Iron E Sword",
+      "subtitles.etheraudio1": "",
       "item.foreign_technologies.gold_e_sword": "Gold E Sword",
       "item.foreign_technologies.ether_drop": "Ether Drop"
     }

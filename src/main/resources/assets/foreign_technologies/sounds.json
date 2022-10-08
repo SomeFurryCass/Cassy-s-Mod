@@ -1,0 +1,11 @@
+{
+  "etheraudio1": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "foreign_technologies:shouldnt_be_here",
+        "stream": true
+      }
+    ]
+  }
+}

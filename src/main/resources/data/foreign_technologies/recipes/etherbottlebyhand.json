@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foreign_technologies:raw_ether"
+    },
+    {
+      "item": "foreign_technologies:weak_ether"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "foreign_technologies:raw_ether"
+    }
+  ],
+  "result": {
+    "item": "foreign_technologies:pure_ether_bottle",
+    "count": 1
+  }
+}

@@ -30,6 +30,7 @@ import net.mcreator.foreigntechnologies.item.StoneEPickItem;
 import net.mcreator.foreigntechnologies.item.StoneCoreItem;
 import net.mcreator.foreigntechnologies.item.RawEtherItem;
 import net.mcreator.foreigntechnologies.item.PureEtherItem;
+import net.mcreator.foreigntechnologies.item.PureEtherBottleItem;
 import net.mcreator.foreigntechnologies.item.NetheriteESwordItem;
 import net.mcreator.foreigntechnologies.item.NetheriteEPickItem;
 import net.mcreator.foreigntechnologies.item.NetheriteCoreItem;
@@ -42,6 +43,7 @@ import net.mcreator.foreigntechnologies.item.GoldEPickItem;
 import net.mcreator.foreigntechnologies.item.FrenStickItem;
 import net.mcreator.foreigntechnologies.item.FrenItem;
 import net.mcreator.foreigntechnologies.item.EtherEmitterItem;
+import net.mcreator.foreigntechnologies.item.EtherDropItem;
 import net.mcreator.foreigntechnologies.item.EtherBottleItem;
 import net.mcreator.foreigntechnologies.item.DiamondESwordItem;
 import net.mcreator.foreigntechnologies.item.DiamondEPickItem;
@@ -94,6 +96,19 @@ public class ForeignTechnologiesModItems {
 			CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> PURE_ETHER = REGISTRY.register("pure_ether", () -> new PureEtherItem());
 	public static final RegistryObject<Item> ETHER_PURIFIER = block(ForeignTechnologiesModBlocks.ETHER_PURIFIER,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> PURE_ETHER_BOTTLE = REGISTRY.register("pure_ether_bottle", () -> new PureEtherBottleItem());
+	public static final RegistryObject<Item> ETHER_DROP = REGISTRY.register("ether_drop", () -> new EtherDropItem());
+	public static final RegistryObject<Item> ETHERSTONE = block(ForeignTechnologiesModBlocks.ETHERSTONE, ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> ETHER_SLATE = block(ForeignTechnologiesModBlocks.ETHER_SLATE,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> ETHER_STALK = block(ForeignTechnologiesModBlocks.ETHER_STALK,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> ETHER_GLASS = block(ForeignTechnologiesModBlocks.ETHER_GLASS,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> ETHER_SURFACE = block(ForeignTechnologiesModBlocks.ETHER_SURFACE,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> ETHER_PANEL = block(ForeignTechnologiesModBlocks.ETHER_PANEL,
 			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
