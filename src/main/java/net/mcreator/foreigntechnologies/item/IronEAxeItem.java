@@ -1,12 +1,7 @@
 
 package net.mcreator.foreigntechnologies.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.AxeItem;
-
-import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModTabs;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class IronEAxeItem extends AxeItem {
 	public IronEAxeItem() {
@@ -34,6 +29,11 @@ public class IronEAxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3.3f, new Item.Properties().tab(ForeignTechnologiesModTabs.TAB_ETHER_TOOLS));
+		},
+
+				1, -3.3f,
+
+				new Item.Properties().tab(ForeignTechnologiesModTabs.TAB_ETHER_TOOLS));
 	}
+
 }

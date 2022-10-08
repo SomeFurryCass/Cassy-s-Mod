@@ -124,11 +124,22 @@ public class ForeignTechnologiesModItems {
 			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
 	public static final RegistryObject<Item> COPPER_E_AXE = REGISTRY.register("copper_e_axe", () -> new CopperEAxeItem());
 	public static final RegistryObject<Item> COPPER_E_SHOVEL = REGISTRY.register("copper_e_shovel", () -> new CopperEShovelItem());
+	public static final RegistryObject<Item> ETHERSTONE = block(ForeignTechnologiesModBlocks.ETHERSTONE, ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
 	public static final RegistryObject<Item> COPPER_E_HOE = REGISTRY.register("copper_e_hoe", () -> new CopperEHoeItem());
+	public static final RegistryObject<Item> ETHER_SLATE = block(ForeignTechnologiesModBlocks.ETHER_SLATE,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
 	public static final RegistryObject<Item> STONE_E_AXE = REGISTRY.register("stone_e_axe", () -> new StoneEAxeItem());
+	public static final RegistryObject<Item> ETHER_STALK = block(ForeignTechnologiesModBlocks.ETHER_STALK,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
 	public static final RegistryObject<Item> STONE_E_SHOVEL = REGISTRY.register("stone_e_shovel", () -> new StoneEShovelItem());
+	public static final RegistryObject<Item> ETHER_GLASS = block(ForeignTechnologiesModBlocks.ETHER_GLASS,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
 	public static final RegistryObject<Item> STONE_E_HOE = REGISTRY.register("stone_e_hoe", () -> new StoneEHoeItem());
+	public static final RegistryObject<Item> ETHER_SURFACE = block(ForeignTechnologiesModBlocks.ETHER_SURFACE,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
 	public static final RegistryObject<Item> IRON_E_AXE = REGISTRY.register("iron_e_axe", () -> new IronEAxeItem());
+	public static final RegistryObject<Item> ETHER_PANEL = block(ForeignTechnologiesModBlocks.ETHER_PANEL,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
 	public static final RegistryObject<Item> IRON_E_SHOVEL = REGISTRY.register("iron_e_shovel", () -> new IronEShovelItem());
 	public static final RegistryObject<Item> IRON_E_HOE = REGISTRY.register("iron_e_hoe", () -> new IronEHoeItem());
 	public static final RegistryObject<Item> DIAMOND_E_AXE = REGISTRY.register("diamond_e_axe", () -> new DiamondEAxeItem());

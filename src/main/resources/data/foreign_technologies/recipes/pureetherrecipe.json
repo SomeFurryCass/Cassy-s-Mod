@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:weak_ether"
+    },
+    "1": {
+      "item": "foreign_technologies:ether_drop"
+    },
+    "2": {
+      "item": "foreign_technologies:weak_ether"
+    },
+    "3": {
+      "item": "foreign_technologies:ether_drop"
+    },
+    "4": {
+      "item": "foreign_technologies:raw_ether"
+    },
+    "5": {
+      "item": "foreign_technologies:ether_drop"
+    },
+    "6": {
+      "item": "foreign_technologies:weak_ether"
+    },
+    "7": {
+      "item": "foreign_technologies:ether_drop"
+    },
+    "8": {
+      "item": "foreign_technologies:weak_ether"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:pure_ether",
+    "count": 1
+  }
+}

@@ -1,12 +1,7 @@
 
 package net.mcreator.foreigntechnologies.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.HoeItem;
-
-import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModTabs;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class StoneEHoeItem extends HoeItem {
 	public StoneEHoeItem() {
@@ -34,6 +29,11 @@ public class StoneEHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 0, -3f, new Item.Properties().tab(ForeignTechnologiesModTabs.TAB_ETHER_TOOLS));
+		},
+
+				0, -3f,
+
+				new Item.Properties().tab(ForeignTechnologiesModTabs.TAB_ETHER_TOOLS));
 	}
+
 }

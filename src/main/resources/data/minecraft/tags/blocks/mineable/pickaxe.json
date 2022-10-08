@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "foreign_technologies:ether_purifier",
+    "foreign_technologies:etherstone",
+    "foreign_technologies:ether_slate",
+    "foreign_technologies:ether_glass",
+    "foreign_technologies:ether_surface",
+    "foreign_technologies:ether_panel"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "foreign_technologies:blocks/etherpaneltopbottom",
+    "up": "foreign_technologies:blocks/etherpaneltopbottom",
+    "north": "foreign_technologies:blocks/etherpanelsides",
+    "east": "foreign_technologies:blocks/etherpanelsides",
+    "south": "foreign_technologies:blocks/etherpanelsides",
+    "west": "foreign_technologies:blocks/etherpanelsides",
+    "particle": "foreign_technologies:blocks/etherpaneltopbottom"
+  }
+}

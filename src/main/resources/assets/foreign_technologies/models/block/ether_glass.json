@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "foreign_technologies:blocks/etherglasstopbottom",
+    "up": "foreign_technologies:blocks/etherglasstopbottom",
+    "north": "foreign_technologies:blocks/etherglasssides",
+    "east": "foreign_technologies:blocks/etherglasssides",
+    "south": "foreign_technologies:blocks/etherglasssides",
+    "west": "foreign_technologies:blocks/etherglasssides",
+    "particle": "foreign_technologies:blocks/etherglasstopbottom"
+  }
+}

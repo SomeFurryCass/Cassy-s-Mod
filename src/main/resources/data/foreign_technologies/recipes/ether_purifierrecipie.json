@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:ether_emitter"
+    },
+    "1": {
+      "item": "minecraft:polished_blackstone"
+    },
+    "2": {
+      "item": "foreign_technologies:ether_emitter"
+    },
+    "3": {
+      "item": "minecraft:iron_block"
+    },
+    "4": {
+      "item": "foreign_technologies:pure_ether"
+    },
+    "5": {
+      "item": "minecraft:iron_block"
+    },
+    "6": {
+      "item": "foreign_technologies:ether_emitter"
+    },
+    "7": {
+      "item": "minecraft:polished_blackstone"
+    },
+    "8": {
+      "item": "foreign_technologies:ether_emitter"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:ether_purifier",
+    "count": 1
+  }
+}

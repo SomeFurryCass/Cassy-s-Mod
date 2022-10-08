@@ -1,11 +1,7 @@
 
 package net.mcreator.foreigntechnologies.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.HoeItem;
-import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class IronEHoeItem extends HoeItem {
 	public IronEHoeItem() {
@@ -33,6 +29,11 @@ public class IronEHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 0, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		},
+
+				0, -3f,
+
+				new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}
+
 }

@@ -1,47 +1,19 @@
 
 package net.mcreator.foreigntechnologies.block;
 
-import net.minecraftforge.network.NetworkHooks;
-
-import net.minecraft.world.phys.BlockHitResult;
-import net.minecraft.world.level.storage.loot.LootContext;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 import net.minecraft.world.level.material.Material;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.entity.BlockEntity;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.EntityBlock;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.inventory.AbstractContainerMenu;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.world.MenuProvider;
-import net.minecraft.world.InteractionResult;
-import net.minecraft.world.InteractionHand;
-import net.minecraft.world.Containers;
-import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.network.chat.TextComponent;
-import net.minecraft.network.chat.Component;
-import net.minecraft.network.FriendlyByteBuf;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.foreigntechnologies.world.inventory.PurifierGUIMenu;
-import net.mcreator.foreigntechnologies.block.entity.EtherPurifierBlockEntity;
-
-import java.util.List;
-import java.util.Collections;
-
-import io.netty.buffer.Unpooled;
 
 public class EtherPurifierBlock extends Block
 		implements
 
 			EntityBlock {
+
 	public EtherPurifierBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.GRAVEL).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_GRAY).sound(SoundType.METAL).strength(5f, 10f)
+				.requiresCorrectToolForDrops());
+
 	}
 
 	@Override
@@ -50,30 +22,19 @@ public class EtherPurifierBlock extends Block
 	}
 
 	@Override
+	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
+			return tieredItem.getTier().getLevel() >= 2;
+		return false;
+	}
+
+	@Override
 	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(this, 1));
-	}
-
-	@Override
-	public InteractionResult use(BlockState blockstate, Level world, BlockPos pos, Player entity, InteractionHand hand, BlockHitResult hit) {
-		super.use(blockstate, world, pos, entity, hand, hit);
-		if (entity instanceof ServerPlayer player) {
-			NetworkHooks.openGui(player, new MenuProvider() {
-				@Override
-				public Component getDisplayName() {
-					return new TextComponent("Ether Purifier");
-				}
-
-				@Override
-				public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
-					return new PurifierGUIMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(pos));
-				}
-			}, pos);
-		}
-		return InteractionResult.SUCCESS;
 	}
 
 	@Override
@@ -102,6 +63,7 @@ public class EtherPurifierBlock extends Block
 				Containers.dropContents(world, pos, be);
 				world.updateNeighbourForOutputSignal(pos, this);
 			}
+
 			super.onRemove(state, world, pos, newState, isMoving);
 		}
 	}
@@ -119,4 +81,5 @@ public class EtherPurifierBlock extends Block
 		else
 			return 0;
 	}
+
 }
