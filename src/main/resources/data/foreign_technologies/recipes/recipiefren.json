@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:ether_bottle"
+    },
+    "1": {
+      "item": "minecraft:netherite_block"
+    },
+    "2": {
+      "item": "foreign_technologies:ether_bottle"
+    },
+    "3": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "4": {
+      "item": "foreign_technologies:strange_core"
+    },
+    "5": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "6": {
+      "item": "foreign_technologies:ether_bottle"
+    },
+    "7": {
+      "item": "minecraft:netherite_block"
+    },
+    "8": {
+      "item": "foreign_technologies:ether_bottle"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:strange_ball",
+    "count": 1
+  }
+}

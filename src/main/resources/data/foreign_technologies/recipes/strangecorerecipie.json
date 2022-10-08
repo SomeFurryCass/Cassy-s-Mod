@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:netherite_core"
+    },
+    "1": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "2": {
+      "item": "foreign_technologies:netherite_core"
+    },
+    "3": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "4": {
+      "item": "minecraft:nether_star"
+    },
+    "5": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "6": {
+      "item": "foreign_technologies:netherite_core"
+    },
+    "7": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "8": {
+      "item": "foreign_technologies:netherite_core"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:strange_core",
+    "count": 1
+  }
+}

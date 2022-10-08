@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:weak_ether_lens"
+    },
+    "1": {
+      "item": "foreign_technologies:ironcore"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:iron_e_sword",
+    "count": 1
+  }
+}

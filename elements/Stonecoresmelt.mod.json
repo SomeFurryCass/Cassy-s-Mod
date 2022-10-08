@@ -1,0 +1,20 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 10.0,
+    "cookingTime": 240,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:BrittleStoneCore"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:StoneCore"
+    },
+    "name": "stonecoresmelt",
+    "namespace": "mod"
+  }
+}

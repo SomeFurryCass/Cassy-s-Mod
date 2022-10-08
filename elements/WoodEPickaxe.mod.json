@@ -1,0 +1,27 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "woodepickaxe",
+    "customModelName": "Normal",
+    "name": "Wood E Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 100,
+    "efficiency": 100.0,
+    "attackSpeed": 0.5,
+    "enchantability": 100,
+    "damageVsEntity": 40.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

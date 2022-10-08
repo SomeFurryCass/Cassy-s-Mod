@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 10,
+  "cookingtime": 240,
+  "ingredient": {
+    "item": "foreign_technologies:brittle_stone_core"
+  },
+  "result": "foreign_technologies:stone_core"
+}

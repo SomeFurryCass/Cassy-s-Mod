@@ -1,0 +1,29 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "frenonstick",
+    "customModelName": "Normal",
+    "name": "Fren on a Stick",
+    "specialInfo": [
+      "you stuck him on a stick, why?"
+    ],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 9999,
+    "efficiency": 9999.0,
+    "attackSpeed": 1.0,
+    "enchantability": 9999,
+    "damageVsEntity": 9999.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

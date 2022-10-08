@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1",
+    "2 "
+  ],
+  "key": {
+    "1": {
+      "item": "foreign_technologies:fren"
+    },
+    "2": {
+      "item": "foreign_technologies:wood_e_sword"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:fren_stick",
+    "count": 1
+  }
+}

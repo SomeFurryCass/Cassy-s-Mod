@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "1": {
+      "item": "minecraft:quartz_block"
+    },
+    "2": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "3": {
+      "item": "foreign_technologies:ether_emitter"
+    },
+    "4": {
+      "item": "minecraft:nether_star"
+    },
+    "5": {
+      "item": "foreign_technologies:ether_emitter"
+    },
+    "6": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "7": {
+      "item": "minecraft:quartz_block"
+    },
+    "8": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:super_ether_emitter",
+    "count": 1
+  }
+}

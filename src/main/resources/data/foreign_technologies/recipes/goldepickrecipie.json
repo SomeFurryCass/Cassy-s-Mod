@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:ether_emitter"
+    },
+    "1": {
+      "item": "foreign_technologies:goldcore"
+    },
+    "2": {
+      "item": "foreign_technologies:ether_emitter"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:gold_e_pick",
+    "count": 1
+  }
+}
