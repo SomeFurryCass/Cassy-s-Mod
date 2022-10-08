@@ -29,6 +29,7 @@ import net.mcreator.foreigntechnologies.item.StoneESwordItem;
 import net.mcreator.foreigntechnologies.item.StoneEPickItem;
 import net.mcreator.foreigntechnologies.item.StoneCoreItem;
 import net.mcreator.foreigntechnologies.item.RawEtherItem;
+import net.mcreator.foreigntechnologies.item.PureEtherItem;
 import net.mcreator.foreigntechnologies.item.NetheriteESwordItem;
 import net.mcreator.foreigntechnologies.item.NetheriteEPickItem;
 import net.mcreator.foreigntechnologies.item.NetheriteCoreItem;
@@ -91,6 +92,9 @@ public class ForeignTechnologiesModItems {
 	public static final RegistryObject<Item> WOOD_E_HOE = REGISTRY.register("wood_e_hoe", () -> new WoodEHoeItem());
 	public static final RegistryObject<Item> ETHER_GENERATOR = block(ForeignTechnologiesModBlocks.ETHER_GENERATOR,
 			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> PURE_ETHER = REGISTRY.register("pure_ether", () -> new PureEtherItem());
+	public static final RegistryObject<Item> ETHER_PURIFIER = block(ForeignTechnologiesModBlocks.ETHER_PURIFIER,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

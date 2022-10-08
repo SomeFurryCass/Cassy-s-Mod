@@ -587,6 +587,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "ether_generator"
+    },
+    {
+      "name": "PureEther",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pure_ether"
+    },
+    {
+      "name": "EtherPurifier",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ether_purifier"
+    },
+    {
+      "name": "EtherTools",
+      "type": "tab",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ether_tools"
     }
   ],
   "variable_elements": [],
@@ -595,6 +619,7 @@
     "en_us": {
       "item.foreign_technologies.strange_e_sword": "Strange E Sword",
       "item.foreign_technologies.stone_e_pick": "Stone E Pick",
+      "itemGroup.tabether_tools": "Ether Tools",
       "item.foreign_technologies.copper_e_sword": "Copper E Sword",
       "item.foreign_technologies.strange_core": "Strange Core",
       "item.foreign_technologies.weak_ether_lens": "Weak Ether Lens",
@@ -605,6 +630,8 @@
       "item.foreign_technologies.wood_e_axe": "Wood E Sword",
       "item.foreign_technologies.copper_e_pick": "Copper E Pick",
       "item.foreign_technologies.strange_e_pick": "Strange E Pick",
+      "block.foreign_technologies.ether_purifier": "Ether Purifier",
+      "item.foreign_technologies.pure_ether": "Pure Ether",
       "item.foreign_technologies.diamond_e_pick": "Diamond E Pick",
       "item.foreign_technologies.gold_e_pick": "Gold E Pick",
       "advancements.foreign_tech.descr": "craft a brittle core, it isn\u0027t much but it\u0027s a start",

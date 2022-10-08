@@ -26,6 +26,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModTabs;
 import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModParticleTypes;
 import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModItems;
 import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModBlocks;
@@ -44,7 +45,7 @@ public class ForeignTechnologiesMod {
 	private static int messageID = 0;
 
 	public ForeignTechnologiesMod() {
-
+		ForeignTechnologiesModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		ForeignTechnologiesModBlocks.REGISTRY.register(bus);
 		ForeignTechnologiesModItems.REGISTRY.register(bus);

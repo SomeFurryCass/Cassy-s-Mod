@@ -9,18 +9,16 @@ import net.minecraft.world.item.Item;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModTabs;
-
 import java.util.List;
 
-public class RawEtherItem extends Item {
-	public RawEtherItem() {
-		super(new Item.Properties().tab(ForeignTechnologiesModTabs.TAB_ETHER_TOOLS).stacksTo(64).rarity(Rarity.UNCOMMON));
+public class PureEtherItem extends Item {
+	public PureEtherItem() {
+		super(new Item.Properties().tab(null).stacksTo(64).fireResistant().rarity(Rarity.RARE));
 	}
 
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("Harvested from another world."));
+		list.add(new TextComponent("Purified using otherworldly matter"));
 	}
 }

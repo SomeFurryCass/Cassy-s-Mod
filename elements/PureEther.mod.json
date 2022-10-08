@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "raw_ether",
+    "texture": "pureether",
     "customModelName": "Normal",
-    "name": "Raw Ether",
-    "rarity": "UNCOMMON",
+    "name": "Pure Ether",
+    "rarity": "RARE",
     "creativeTab": {
-      "value": "CUSTOM:EtherTools"
+      "value": "No creative tab entry"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -19,13 +19,13 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Harvested from another world."
+      "Purified using otherworldly matter"
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
