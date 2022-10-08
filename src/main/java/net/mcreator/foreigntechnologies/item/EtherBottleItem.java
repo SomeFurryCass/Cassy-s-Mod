@@ -9,13 +9,11 @@ import net.minecraft.world.item.Item;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModTabs;
-
 import java.util.List;
 
 public class EtherBottleItem extends Item {
 	public EtherBottleItem() {
-		super(new Item.Properties().tab(ForeignTechnologiesModTabs.TAB_ETHER_TOOLS).stacksTo(16).rarity(Rarity.UNCOMMON));
+		super(new Item.Properties().tab(null).stacksTo(16).rarity(Rarity.UNCOMMON));
 	}
 
 	@Override

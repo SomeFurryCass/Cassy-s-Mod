@@ -8,7 +8,7 @@
     "name": "Ether Bottle",
     "rarity": "UNCOMMON",
     "creativeTab": {
-      "value": "CUSTOM:EtherTools"
+      "value": "No creative tab entry"
     },
     "stackSize": 16,
     "enchantability": 0,

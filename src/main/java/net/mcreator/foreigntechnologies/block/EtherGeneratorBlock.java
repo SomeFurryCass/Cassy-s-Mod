@@ -23,7 +23,7 @@ import java.util.Collections;
 
 public class EtherGeneratorBlock extends Block {
 	public EtherGeneratorBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f).noOcclusion()
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(2f, 10f).noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 	}
 
