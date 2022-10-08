@@ -1,7 +1,12 @@
 
 package net.mcreator.foreigntechnologies.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.ShovelItem;
+import net.minecraft.world.item.Item;
+
+import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModTabs;
 
 public class CopperEShovelItem extends ShovelItem {
 	public CopperEShovelItem() {
@@ -29,11 +34,6 @@ public class CopperEShovelItem extends ShovelItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		},
-
-				1, -3f,
-
-				new Item.Properties().tab(ForeignTechnologiesModTabs.TAB_ETHER_TOOLS));
+		}, 1, -3f, new Item.Properties().tab(ForeignTechnologiesModTabs.TAB_ETHER_TOOLS));
 	}
-
 }

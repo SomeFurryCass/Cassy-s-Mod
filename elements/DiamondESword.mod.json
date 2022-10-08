@@ -8,10 +8,10 @@
     "name": "Diamond E Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:EtherTools"
     },
     "toolType": "Sword",
-    "harvestLevel": 4,
+    "harvestLevel": 3,
     "efficiency": 12.0,
     "attackSpeed": 1.0,
     "enchantability": 15,

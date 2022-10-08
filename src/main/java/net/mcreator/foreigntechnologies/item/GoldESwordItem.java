@@ -5,7 +5,8 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
+
+import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModTabs;
 
 public class GoldESwordItem extends SwordItem {
 	public GoldESwordItem() {
@@ -23,7 +24,7 @@ public class GoldESwordItem extends SwordItem {
 			}
 
 			public int getLevel() {
-				return 3;
+				return 2;
 			}
 
 			public int getEnchantmentValue() {
@@ -33,6 +34,6 @@ public class GoldESwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 3, -3f, new Item.Properties().tab(ForeignTechnologiesModTabs.TAB_ETHER_TOOLS));
 	}
 }

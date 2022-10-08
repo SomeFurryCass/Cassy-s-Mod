@@ -8,10 +8,10 @@
     "name": "Stone E Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:EtherTools"
     },
     "toolType": "Sword",
-    "harvestLevel": 2,
+    "harvestLevel": 1,
     "efficiency": 4.0,
     "attackSpeed": 1.0,
     "enchantability": 5,

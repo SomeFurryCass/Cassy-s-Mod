@@ -19,6 +19,7 @@ import net.mcreator.foreigntechnologies.block.EtherSurfaceBlock;
 import net.mcreator.foreigntechnologies.block.EtherStalkBlock;
 import net.mcreator.foreigntechnologies.block.EtherSlateBlock;
 import net.mcreator.foreigntechnologies.block.EtherPurifierBlock;
+import net.mcreator.foreigntechnologies.block.EtherPurifierAtiveBlock;
 import net.mcreator.foreigntechnologies.block.EtherPanelBlock;
 import net.mcreator.foreigntechnologies.block.EtherGlassBlock;
 import net.mcreator.foreigntechnologies.block.EtherGeneratorBlock;
@@ -28,6 +29,7 @@ public class ForeignTechnologiesModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, ForeignTechnologiesMod.MODID);
 	public static final RegistryObject<Block> ETHER_GENERATOR = REGISTRY.register("ether_generator", () -> new EtherGeneratorBlock());
 	public static final RegistryObject<Block> ETHER_PURIFIER = REGISTRY.register("ether_purifier", () -> new EtherPurifierBlock());
+	public static final RegistryObject<Block> ETHER_PURIFIER_ATIVE = REGISTRY.register("ether_purifier_ative", () -> new EtherPurifierAtiveBlock());
 	public static final RegistryObject<Block> ETHERSTONE = REGISTRY.register("etherstone", () -> new EtherstoneBlock());
 	public static final RegistryObject<Block> ETHER_SLATE = REGISTRY.register("ether_slate", () -> new EtherSlateBlock());
 	public static final RegistryObject<Block> ETHER_STALK = REGISTRY.register("ether_stalk", () -> new EtherStalkBlock());

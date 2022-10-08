@@ -83,7 +83,7 @@ public class ForeignTechnologiesModBiomes {
 									preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, ETHEROVERWORLD.getId()),
 											ForeignTechnologiesModBlocks.ETHER_SURFACE.get().defaultBlockState(),
 											ForeignTechnologiesModBlocks.ETHERSTONE.get().defaultBlockState(),
-											ForeignTechnologiesModBlocks.ETHER_SLATE.get().defaultBlockState()));
+											ForeignTechnologiesModBlocks.ETHERSTONE.get().defaultBlockState()));
 							NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(),
 									noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
 									noiseGeneratorSettings.noiseRouter(),

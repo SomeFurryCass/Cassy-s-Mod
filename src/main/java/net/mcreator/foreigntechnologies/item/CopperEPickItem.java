@@ -24,7 +24,7 @@ public class CopperEPickItem extends PickaxeItem {
 			}
 
 			public int getLevel() {
-				return 3;
+				return 2;
 			}
 
 			public int getEnchantmentValue() {

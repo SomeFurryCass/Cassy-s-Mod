@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.foreigntechnologies.block.entity.EtherPurifierBlockEntity;
+import net.mcreator.foreigntechnologies.block.entity.EtherPurifierAtiveBlockEntity;
 import net.mcreator.foreigntechnologies.ForeignTechnologiesMod;
 
 public class ForeignTechnologiesModBlockEntities {
@@ -19,6 +20,8 @@ public class ForeignTechnologiesModBlockEntities {
 			ForeignTechnologiesMod.MODID);
 	public static final RegistryObject<BlockEntityType<?>> ETHER_PURIFIER = register("ether_purifier", ForeignTechnologiesModBlocks.ETHER_PURIFIER,
 			EtherPurifierBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> ETHER_PURIFIER_ATIVE = register("ether_purifier_ative",
+			ForeignTechnologiesModBlocks.ETHER_PURIFIER_ATIVE, EtherPurifierAtiveBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block,
 			BlockEntityType.BlockEntitySupplier<?> supplier) {

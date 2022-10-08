@@ -8,7 +8,7 @@
     "name": "Gold Core",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:EtherTools"
     },
     "stackSize": 64,
     "enchantability": 0,

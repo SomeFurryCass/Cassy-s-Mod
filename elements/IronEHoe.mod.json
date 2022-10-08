@@ -8,7 +8,7 @@
     "name": "Iron E Hoe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:EtherTools"
     },
     "toolType": "Hoe",
     "harvestLevel": 3,

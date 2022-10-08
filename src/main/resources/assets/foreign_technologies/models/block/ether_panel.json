@@ -3,10 +3,10 @@
   "textures": {
     "down": "foreign_technologies:blocks/etherpaneltopbottom",
     "up": "foreign_technologies:blocks/etherpaneltopbottom",
-    "north": "foreign_technologies:blocks/etherpanelsides",
-    "east": "foreign_technologies:blocks/etherpanelsides",
-    "south": "foreign_technologies:blocks/etherpanelsides",
-    "west": "foreign_technologies:blocks/etherpanelsides",
+    "north": "foreign_technologies:blocks/etherpanelsidesupdate",
+    "east": "foreign_technologies:blocks/etherpanelsidesupdate",
+    "south": "foreign_technologies:blocks/etherpanelsidesupdate",
+    "west": "foreign_technologies:blocks/etherpanelsidesupdate",
     "particle": "foreign_technologies:blocks/etherpaneltopbottom"
   }
 }

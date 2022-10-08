@@ -2,7 +2,7 @@
   "_fv": 33,
   "_type": "biome",
   "definition": {
-    "name": "Etheroverworld",
+    "name": "Ether",
     "groundBlock": {
       "value": "CUSTOM:EtherSurface"
     },
@@ -10,7 +10,7 @@
       "value": "CUSTOM:Etherstone"
     },
     "underwaterBlock": {
-      "value": "CUSTOM:EtherSlate"
+      "value": ""
     },
     "airColor": {
       "value": -16777216,
@@ -50,7 +50,7 @@
       "value": "CUSTOM:Ether"
     },
     "particlesProbability": 5.0,
-    "biomeCategory": "NONE",
+    "biomeCategory": "MESA",
     "rainingPossibility": 0.0,
     "temperature": 0.0,
     "baseHeight": 0.1,
@@ -58,7 +58,7 @@
     "spawnBiome": true,
     "spawnBiomeNether": false,
     "spawnInCaves": false,
-    "biomeWeight": 5,
+    "biomeWeight": 14,
     "biomeDictionaryTypes": [],
     "grassPerChunk": 0,
     "seagrassPerChunk": 0,
@@ -69,10 +69,10 @@
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
-    "treesPerChunk": 2,
+    "treesPerChunk": 1,
     "vanillaTreeType": "Mega spruce trees",
     "treeType": 1,
-    "minHeight": 20,
+    "minHeight": 16,
     "treeStem": {
       "value": "CUSTOM:EtherStalk"
     },
