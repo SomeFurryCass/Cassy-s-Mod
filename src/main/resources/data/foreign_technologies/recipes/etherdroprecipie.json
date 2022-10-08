@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:raw_ether"
+    },
+    "1": {
+      "item": "minecraft:coal"
+    },
+    "2": {
+      "item": "foreign_technologies:raw_ether"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:ether_drop",
+    "count": 2
+  }
+}

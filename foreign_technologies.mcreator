@@ -611,6 +611,38 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "ether_tools"
+    },
+    {
+      "name": "PureEtherBottle",
+      "type": "item",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pure_ether_bottle"
+    },
+    {
+      "name": "PurifierGUI",
+      "type": "gui",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purifier_gui"
+    },
+    {
+      "name": "EtherDrop",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ether_drop"
+    },
+    {
+      "name": "Etherdroprecipie",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "etherdroprecipie"
     }
   ],
   "variable_elements": [],
@@ -646,6 +678,7 @@
       "item.foreign_technologies.ironcore": "Iron Core",
       "item.foreign_technologies.netherite_e_sword": "Netherite E Sword",
       "item.foreign_technologies.coppercore": "Copper Core",
+      "item.foreign_technologies.pure_ether_bottle": "Pure Ether Bottle",
       "item.foreign_technologies.weak_ether": "Weak Ether",
       "item.foreign_technologies.stone_e_sword": "Stone E Sword",
       "item.foreign_technologies.diamond_core": "Diamond Core",
@@ -658,7 +691,8 @@
       "item.foreign_technologies.netherite_e_pick": "Netherite E Pick",
       "item.foreign_technologies.iron_e_sword": "Iron E Sword",
       "item.foreign_technologies.ether_emitter": "Ether Lens",
-      "item.foreign_technologies.gold_e_sword": "Gold E Sword"
+      "item.foreign_technologies.gold_e_sword": "Gold E Sword",
+      "item.foreign_technologies.ether_drop": "Ether Drop"
     }
   },
   "foldersRoot": {

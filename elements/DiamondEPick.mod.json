@@ -8,7 +8,7 @@
     "name": "Diamond E Pick",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:EtherTools"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 3,

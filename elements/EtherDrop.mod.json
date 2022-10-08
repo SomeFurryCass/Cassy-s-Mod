@@ -3,10 +3,10 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "ether_emitter",
+    "texture": "etherdrops",
     "customModelName": "Normal",
-    "name": "Ether Lens",
-    "rarity": "UNCOMMON",
+    "name": "Ether Drop",
+    "rarity": "RARE",
     "creativeTab": {
       "value": "CUSTOM:EtherTools"
     },
@@ -19,7 +19,7 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,

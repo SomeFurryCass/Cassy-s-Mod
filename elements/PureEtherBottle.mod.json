@@ -3,10 +3,10 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "ether_emitter",
+    "texture": "ether_bottle",
     "customModelName": "Normal",
-    "name": "Ether Lens",
-    "rarity": "UNCOMMON",
+    "name": "Pure Ether Bottle",
+    "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:EtherTools"
     },
@@ -25,7 +25,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [],
-    "hasGlow": false,
+    "hasGlow": true,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,

@@ -3,10 +3,11 @@ package net.mcreator.foreigntechnologies.item;
 
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
+
+import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModTabs;
 
 public class EtherEmitterItem extends Item {
 	public EtherEmitterItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS).stacksTo(64).rarity(Rarity.UNCOMMON));
+		super(new Item.Properties().tab(ForeignTechnologiesModTabs.TAB_ETHER_TOOLS).stacksTo(64).rarity(Rarity.UNCOMMON));
 	}
 }
