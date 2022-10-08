@@ -1,6 +1,7 @@
 {
   "item.foreign_technologies.strange_e_sword": "Strange E Sword",
   "item.foreign_technologies.strange_core": "Strange Core",
+  "subtitles.otherworldysounds": "",
   "item.foreign_technologies.weak_ether_lens": "Weak Ether Lens",
   "biome.foreign_technologies.etheroverworld": "Etheroverworld",
   "item.foreign_technologies.goldcore": "Gold Core",
@@ -23,8 +24,8 @@
   "item.foreign_technologies.iron_e_pick": "Iron E Pick",
   "item.foreign_technologies.super_ether_emitter": "Super Ether Emitter",
   "item.foreign_technologies.stone_core": "Stone Core",
-  "item.foreign_technologies.ether_bottle": "Ether Bottle",
   "item.foreign_technologies.wood_e_sword": "Wood E Sword",
+  "item.foreign_technologies.ether_bottle": "Ether Bottle",
   "item.foreign_technologies.netherite_e_pick": "Netherite E Pick",
   "item.foreign_technologies.ether_emitter": "Ether Lens",
   "item.foreign_technologies.stone_e_pick": "Stone E Pick",
