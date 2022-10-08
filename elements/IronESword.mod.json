@@ -8,7 +8,7 @@
     "name": "Iron E Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:EtherTools"
     },
     "toolType": "Sword",
     "harvestLevel": 2,

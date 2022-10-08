@@ -30,6 +30,7 @@ import net.mcreator.foreigntechnologies.item.StoneEPickItem;
 import net.mcreator.foreigntechnologies.item.StoneCoreItem;
 import net.mcreator.foreigntechnologies.item.RawEtherItem;
 import net.mcreator.foreigntechnologies.item.PureEtherItem;
+import net.mcreator.foreigntechnologies.item.PureEtherBottleItem;
 import net.mcreator.foreigntechnologies.item.NetheriteESwordItem;
 import net.mcreator.foreigntechnologies.item.NetheriteEPickItem;
 import net.mcreator.foreigntechnologies.item.NetheriteCoreItem;
@@ -42,6 +43,7 @@ import net.mcreator.foreigntechnologies.item.GoldEPickItem;
 import net.mcreator.foreigntechnologies.item.FrenStickItem;
 import net.mcreator.foreigntechnologies.item.FrenItem;
 import net.mcreator.foreigntechnologies.item.EtherEmitterItem;
+import net.mcreator.foreigntechnologies.item.EtherDropItem;
 import net.mcreator.foreigntechnologies.item.EtherBottleItem;
 import net.mcreator.foreigntechnologies.item.DiamondESwordItem;
 import net.mcreator.foreigntechnologies.item.DiamondEPickItem;
@@ -95,6 +97,8 @@ public class ForeignTechnologiesModItems {
 	public static final RegistryObject<Item> PURE_ETHER = REGISTRY.register("pure_ether", () -> new PureEtherItem());
 	public static final RegistryObject<Item> ETHER_PURIFIER = block(ForeignTechnologiesModBlocks.ETHER_PURIFIER,
 			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> PURE_ETHER_BOTTLE = REGISTRY.register("pure_ether_bottle", () -> new PureEtherBottleItem());
+	public static final RegistryObject<Item> ETHER_DROP = REGISTRY.register("ether_drop", () -> new EtherDropItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

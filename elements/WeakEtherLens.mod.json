@@ -8,7 +8,7 @@
     "name": "Weak Ether Lens",
     "rarity": "UNCOMMON",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:EtherTools"
     },
     "stackSize": 64,
     "enchantability": 0,
