@@ -645,6 +645,326 @@
       "registry_name": "etherdroprecipie"
     },
     {
+      "name": "StrangeEShovelREcipie",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strange_e_shovel_r_ecipie"
+    },
+    {
+      "name": "StrangeEAxeRecipie",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strange_e_axe_recipie"
+    },
+    {
+      "name": "CopperEAxeRecipie",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_e_axe_recipie"
+    },
+    {
+      "name": "IronEAxeRecipie",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_e_axe_recipie"
+    },
+    {
+      "name": "CopperEShovel",
+      "type": "tool",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_e_shovel"
+    },
+    {
+      "name": "StrangeEHoe",
+      "type": "tool",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strange_e_hoe"
+    },
+    {
+      "name": "StoneEShovel",
+      "type": "tool",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_e_shovel"
+    },
+    {
+      "name": "GoldEHoe",
+      "type": "tool",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_e_hoe"
+    },
+    {
+      "name": "StoneEHoe",
+      "type": "tool",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_e_hoe"
+    },
+    {
+      "name": "CopperEHoe",
+      "type": "tool",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_e_hoe"
+    },
+    {
+      "name": "NetheriteEShovelRecipie",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_e_shovel_recipie"
+    },
+    {
+      "name": "StoneEAxeRecipie",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_e_axe_recipie"
+    },
+    {
+      "name": "NetheriteEHoe",
+      "type": "tool",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_e_hoe"
+    },
+    {
+      "name": "IronEShovel",
+      "type": "tool",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_e_shovel"
+    },
+    {
+      "name": "NetherireEAxeRecipie",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherire_e_axe_recipie"
+    },
+    {
+      "name": "CopperEHoeREcipie",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_e_hoe_r_ecipie"
+    },
+    {
+      "name": "StoneEShovelRecipie",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_e_shovel_recipie"
+    },
+    {
+      "name": "CopperEAxe",
+      "type": "tool",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_e_axe"
+    },
+    {
+      "name": "IronEShovelRecipie",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_e_shovel_recipie"
+    },
+    {
+      "name": "DiamondEHoeRecipie",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_e_hoe_recipie"
+    },
+    {
+      "name": "NetheriteEAxe",
+      "type": "tool",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_e_axe"
+    },
+    {
+      "name": "IronEAxe",
+      "type": "tool",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_e_axe"
+    },
+    {
+      "name": "StoneEHoeRecipie",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_e_hoe_recipie"
+    },
+    {
+      "name": "NetheriteEShovel",
+      "type": "tool",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_e_shovel"
+    },
+    {
+      "name": "NetheriteEHoeRecipie",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_e_hoe_recipie"
+    },
+    {
+      "name": "DiamondEAxe",
+      "type": "tool",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_e_axe"
+    },
+    {
+      "name": "CopperEShovelRecipie",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_e_shovel_recipie"
+    },
+    {
+      "name": "EtherPurifierAtive",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ether_purifier_ative"
+    },
+    {
+      "name": "IronEHoe",
+      "type": "tool",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_e_hoe"
+    },
+    {
+      "name": "IronEHoeRecipie",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_e_hoe_recipie"
+    },
+    {
+      "name": "DiamondEHoe",
+      "type": "tool",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_e_hoe"
+    },
+    {
+      "name": "StrangeEShovel",
+      "type": "tool",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strange_e_shovel"
+    },
+    {
+      "name": "DiamondEShovelRecipie",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_e_shovel_recipie"
+    },
+    {
+      "name": "DiamondEAxeRecipie",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_e_axe_recipie"
+    },
+    {
+      "name": "GoldEAxe",
+      "type": "tool",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_e_axe"
+    },
+    {
+      "name": "StrangeEAxe",
+      "type": "tool",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strange_e_axe"
+    },
+    {
+      "name": "StrangeEHoeRecipie",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strange_e_hoe_recipie"
+    },
+    {
+      "name": "StoneEAxe",
+      "type": "tool",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_e_axe"
+    },
+    {
+      "name": "DiamondEShovel",
+      "type": "tool",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_e_shovel"
+    },
+    {
+      "name": "GoldEShovel",
+      "type": "tool",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_e_shovel"
+    },
+    {
       "name": "Pureetherrecipe",
       "type": "recipe",
       "sortid": 78,
@@ -653,36 +973,20 @@
       "registry_name": "pureetherrecipe"
     },
     {
-      "name": "EtherPurifierrecipie",
-      "type": "recipe",
-      "sortid": 79,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ether_purifierrecipie"
-    },
-    {
-      "name": "Etherstone",
-      "type": "block",
-      "sortid": 80,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "etherstone"
-    },
-    {
-      "name": "EtherSlate",
-      "type": "block",
-      "sortid": 81,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ether_slate"
-    },
-    {
       "name": "EtherStalk",
       "type": "block",
       "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ether_stalk"
+    },
+    {
+      "name": "EtherPanel",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ether_panel"
     },
     {
       "name": "EtherGlass",
@@ -701,12 +1005,36 @@
       "registry_name": "ether_surface"
     },
     {
-      "name": "EtherPanel",
-      "type": "block",
-      "sortid": 85,
+      "name": "Etherslaterecipie",
+      "type": "recipe",
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ether_panel"
+      "registry_name": "etherslaterecipie"
+    },
+    {
+      "name": "EtherSlate",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ether_slate"
+    },
+    {
+      "name": "Etherbottlebyhand",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "etherbottlebyhand"
+    },
+    {
+      "name": "EtherPurifierrecipie",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ether_purifierrecipie"
     },
     {
       "name": "Etheroverworld",
@@ -717,14 +1045,6 @@
       "registry_name": "etheroverworld"
     },
     {
-      "name": "Etherslaterecipie",
-      "type": "recipe",
-      "sortid": 87,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "etherslaterecipie"
-    },
-    {
       "name": "EtherPanelrecipie",
       "type": "recipe",
       "sortid": 88,
@@ -733,12 +1053,12 @@
       "registry_name": "ether_panelrecipie"
     },
     {
-      "name": "Etherbottlebyhand",
-      "type": "recipe",
-      "sortid": 89,
+      "name": "Etherstone",
+      "type": "block",
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "etherbottlebyhand"
+      "registry_name": "etherstone"
     }
   ],
   "variable_elements": [],
@@ -766,7 +1086,6 @@
       "item.foreign_technologies.strange_core": "Strange Core",
       "subtitles.otherworldysounds": "",
       "item.foreign_technologies.weak_ether_lens": "Weak Ether Lens",
-      "biome.foreign_technologies.etheroverworld": "Etheroverworld",
       "item.foreign_technologies.goldcore": "Gold Core",
       "item.foreign_technologies.brittle_stone_core": "Brittle Stone Core",
       "advancements.foreign_tech.title": "Foreign Tech",
@@ -792,14 +1111,10 @@
       "item.foreign_technologies.netherite_e_pick": "Netherite E Pick",
       "item.foreign_technologies.ether_emitter": "Ether Lens",
       "item.foreign_technologies.stone_e_pick": "Stone E Pick",
-      "block.foreign_technologies.ether_glass": "Ether Glass",
       "itemGroup.tabether_tools": "Ether Tools",
       "item.foreign_technologies.copper_e_sword": "Copper E Sword",
-      "block.foreign_technologies.ether_panel": "Ether Panel",
       "item.foreign_technologies.wood_e_axe": "Wood E Sword",
       "item.foreign_technologies.copper_e_pick": "Copper E Pick",
-      "block.foreign_technologies.ether_slate": "Ether Slate",
-      "block.foreign_technologies.ether_stalk": "Ether Stalk",
       "item.foreign_technologies.pure_ether": "Pure Ether",
       "item.foreign_technologies.diamond_e_pick": "Diamond E Pick",
       "item.foreign_technologies.netherite_core": "Netherite Core",
@@ -808,9 +1123,7 @@
       "item.foreign_technologies.strange_ball": "Strange Ball",
       "item.foreign_technologies.coppercore": "Copper Core",
       "item.foreign_technologies.stone_e_sword": "Stone E Sword",
-      "block.foreign_technologies.ether_surface": "Ether Surface",
       "item.foreign_technologies.diamond_e_sword": "Diamond E Sword",
-      "block.foreign_technologies.etherstone": "Etherstone",
       "item.foreign_technologies.iron_e_sword": "Iron E Sword",
       "subtitles.etheraudio1": "",
       "item.foreign_technologies.gold_e_sword": "Gold E Sword",

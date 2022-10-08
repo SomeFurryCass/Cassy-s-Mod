@@ -24,7 +24,7 @@ public class IronEPickItem extends PickaxeItem {
 			}
 
 			public int getLevel() {
-				return 2;
+				return 3;
 			}
 
 			public int getEnchantmentValue() {

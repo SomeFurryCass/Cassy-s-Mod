@@ -8,10 +8,10 @@
     "name": "Iron E Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:EtherTools"
+      "value": "TOOLS"
     },
     "toolType": "Sword",
-    "harvestLevel": 2,
+    "harvestLevel": 3,
     "efficiency": 8.0,
     "attackSpeed": 1.0,
     "enchantability": 14,

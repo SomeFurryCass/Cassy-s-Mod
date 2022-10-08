@@ -5,8 +5,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Item;
-
-import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModTabs;
+import net.minecraft.world.item.CreativeModeTab;
 
 public class StoneESwordItem extends SwordItem {
 	public StoneESwordItem() {
@@ -24,7 +23,7 @@ public class StoneESwordItem extends SwordItem {
 			}
 
 			public int getLevel() {
-				return 1;
+				return 2;
 			}
 
 			public int getEnchantmentValue() {
@@ -34,6 +33,6 @@ public class StoneESwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3f, new Item.Properties().tab(ForeignTechnologiesModTabs.TAB_ETHER_TOOLS));
+		}, 3, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}
 }

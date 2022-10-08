@@ -3,11 +3,10 @@ package net.mcreator.foreigntechnologies.item;
 
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
-
-import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModTabs;
+import net.minecraft.world.item.CreativeModeTab;
 
 public class BrittleStoneCoreItem extends Item {
 	public BrittleStoneCoreItem() {
-		super(new Item.Properties().tab(ForeignTechnologiesModTabs.TAB_ETHER_TOOLS).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS).stacksTo(64).rarity(Rarity.COMMON));
 	}
 }

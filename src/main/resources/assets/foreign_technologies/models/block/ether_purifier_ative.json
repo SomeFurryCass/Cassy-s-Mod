@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "foreign_technologies:blocks/purifierbottom",
+    "up": "foreign_technologies:blocks/purifierbottom",
+    "north": "foreign_technologies:blocks/etherpurifierfront",
+    "east": "foreign_technologies:blocks/purifiersides",
+    "south": "foreign_technologies:blocks/purifiersides",
+    "west": "foreign_technologies:blocks/purifiersides",
+    "particle": "foreign_technologies:blocks/purifierbottom"
+  }
+}

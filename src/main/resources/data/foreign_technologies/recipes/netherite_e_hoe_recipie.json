@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:ether_emitter"
+    },
+    "1": {
+      "item": "foreign_technologies:netherite_core"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:netherite_e_hoe",
+    "count": 1
+  }
+}

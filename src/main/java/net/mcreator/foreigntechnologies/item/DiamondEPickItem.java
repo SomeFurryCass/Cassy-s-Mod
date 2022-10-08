@@ -24,7 +24,7 @@ public class DiamondEPickItem extends PickaxeItem {
 			}
 
 			public int getLevel() {
-				return 3;
+				return 4;
 			}
 
 			public int getEnchantmentValue() {

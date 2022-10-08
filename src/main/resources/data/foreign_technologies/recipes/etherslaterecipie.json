@@ -2,20 +2,20 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "foreign_technologies:etherstone"
+      "item": "foreign_technologies:deleted_mod_element"
     },
     {
-      "item": "foreign_technologies:etherstone"
+      "item": "foreign_technologies:deleted_mod_element"
     },
     {
-      "item": "foreign_technologies:etherstone"
+      "item": "foreign_technologies:deleted_mod_element"
     },
     {
-      "item": "foreign_technologies:etherstone"
+      "item": "foreign_technologies:deleted_mod_element"
     }
   ],
   "result": {
-    "item": "foreign_technologies:ether_slate",
+    "item": "foreign_technologies:deleted_mod_element",
     "count": 4
   }
 }

@@ -12,7 +12,7 @@ public class StoneEPickItem extends PickaxeItem {
 	public StoneEPickItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 91;
+				return 0;
 			}
 
 			public float getSpeed() {
@@ -24,7 +24,7 @@ public class StoneEPickItem extends PickaxeItem {
 			}
 
 			public int getLevel() {
-				return 1;
+				return 2;
 			}
 
 			public int getEnchantmentValue() {
