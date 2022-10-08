@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:stone_core"
+    },
+    "1": {
+      "item": "foreign_technologies:weak_ether_lens"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "3": {
+      "item": "foreign_technologies:weak_ether_lens"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:stone_e_axe",
+    "count": 1
+  }
+}

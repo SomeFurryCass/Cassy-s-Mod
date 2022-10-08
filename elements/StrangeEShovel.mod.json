@@ -1,0 +1,27 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "strangeeshovel",
+    "customModelName": "Normal",
+    "name": "Strange E Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 6,
+    "efficiency": 20.0,
+    "attackSpeed": 1.0,
+    "enchantability": 25,
+    "damageVsEntity": 15.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

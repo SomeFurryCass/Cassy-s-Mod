@@ -23,7 +23,7 @@ public class DiamondESwordItem extends SwordItem {
 			}
 
 			public int getLevel() {
-				return 3;
+				return 4;
 			}
 
 			public int getEnchantmentValue() {

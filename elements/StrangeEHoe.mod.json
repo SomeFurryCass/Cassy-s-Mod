@@ -1,0 +1,29 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "strangeehoe",
+    "customModelName": "Normal",
+    "name": "Strange E Hoe",
+    "specialInfo": [
+      "just... why..?"
+    ],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 6,
+    "efficiency": 20.0,
+    "attackSpeed": 1.0,
+    "enchantability": 25,
+    "damageVsEntity": 10.0,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

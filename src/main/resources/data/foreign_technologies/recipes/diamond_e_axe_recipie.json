@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:diamond_core"
+    },
+    "1": {
+      "item": "foreign_technologies:ether_emitter"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "3": {
+      "item": "foreign_technologies:ether_emitter"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:diamond_e_axe",
+    "count": 1
+  }
+}

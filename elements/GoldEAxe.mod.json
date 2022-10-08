@@ -1,0 +1,27 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "goldreaxe",
+    "customModelName": "Normal",
+    "name": "Gold E Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:EtherTools"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 3,
+    "efficiency": 12.0,
+    "attackSpeed": 1.2,
+    "enchantability": 22,
+    "damageVsEntity": 5.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

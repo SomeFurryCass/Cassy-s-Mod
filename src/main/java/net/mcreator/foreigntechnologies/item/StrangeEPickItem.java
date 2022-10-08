@@ -22,7 +22,7 @@ public class StrangeEPickItem extends PickaxeItem {
 			}
 
 			public int getLevel() {
-				return 5;
+				return 6;
 			}
 
 			public int getEnchantmentValue() {

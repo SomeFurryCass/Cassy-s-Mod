@@ -1,0 +1,27 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "copperehoe",
+    "customModelName": "Normal",
+    "name": "Copper E Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:EtherTools"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 2,
+    "efficiency": 5.0,
+    "attackSpeed": 1.0,
+    "enchantability": 12,
+    "damageVsEntity": 1.5,
+    "usageCount": 100,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

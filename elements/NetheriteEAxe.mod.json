@@ -1,0 +1,27 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "netheriteeaxe",
+    "customModelName": "Normal",
+    "name": "Netherite E Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:EtherTools"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 5,
+    "efficiency": 16.0,
+    "attackSpeed": 0.9,
+    "enchantability": 19,
+    "damageVsEntity": 18.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
