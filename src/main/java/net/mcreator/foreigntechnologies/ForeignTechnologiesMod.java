@@ -30,6 +30,7 @@ import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModTabs;
 import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModParticleTypes;
 import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModItems;
 import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModBlocks;
+import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModBlockEntities;
 import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModBiomes;
 
 import java.util.function.Supplier;
@@ -50,6 +51,8 @@ public class ForeignTechnologiesMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		ForeignTechnologiesModBlocks.REGISTRY.register(bus);
 		ForeignTechnologiesModItems.REGISTRY.register(bus);
+
+		ForeignTechnologiesModBlockEntities.REGISTRY.register(bus);
 
 		ForeignTechnologiesModBiomes.REGISTRY.register(bus);
 		ForeignTechnologiesModParticleTypes.REGISTRY.register(bus);

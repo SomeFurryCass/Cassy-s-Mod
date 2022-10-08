@@ -2,6 +2,7 @@
 package net.mcreator.foreigntechnologies.block;
 
 import net.minecraft.world.level.storage.loot.LootContext;
+import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -11,8 +12,10 @@ import net.minecraft.world.level.block.EntityBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.TieredItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.AbstractContainerMenu;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.world.Containers;
 import net.minecraft.core.BlockPos;
@@ -27,12 +30,20 @@ public class EtherPurifierBlock extends Block
 
 			EntityBlock {
 	public EtherPurifierBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.GRAVEL).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_GRAY).sound(SoundType.METAL).strength(5f, 10f)
+				.requiresCorrectToolForDrops());
 	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
+	}
+
+	@Override
+	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
+			return tieredItem.getTier().getLevel() >= 2;
+		return false;
 	}
 
 	@Override
