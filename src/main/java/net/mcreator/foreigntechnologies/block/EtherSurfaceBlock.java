@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class EtherSurfaceBlock extends Block {
 	public EtherSurfaceBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(2.5f, 18f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.GRASS).sound(SoundType.STONE).strength(2.5f, 18f).requiresCorrectToolForDrops());
 	}
 
 	@Override

@@ -39,7 +39,7 @@ public class EtherParticle extends TextureSheetParticle {
 		this.setSize(0.2f, 0.2f);
 
 		this.lifetime = (int) Math.max(1, 15 + (this.random.nextInt(10) - 5));
-		this.gravity = -1f;
+		this.gravity = -0.5f;
 		this.hasPhysics = true;
 		this.xd = vx * 1;
 		this.yd = vy * 1;

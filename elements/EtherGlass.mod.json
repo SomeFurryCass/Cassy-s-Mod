@@ -19,8 +19,8 @@
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
-    "connectedSides": false,
-    "transparencyType": "CUTOUT",
+    "connectedSides": true,
+    "transparencyType": "TRANSLUCENT",
     "disableOffset": false,
     "boundingBoxes": [
       {

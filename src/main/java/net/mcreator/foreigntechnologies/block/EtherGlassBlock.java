@@ -18,6 +18,7 @@ import net.minecraft.world.item.TieredItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.particles.SimpleParticleType;
+import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
@@ -33,6 +34,11 @@ import java.util.Collections;
 public class EtherGlassBlock extends Block {
 	public EtherGlassBlock() {
 		super(BlockBehaviour.Properties.of(Material.GLASS).sound(SoundType.GLASS).strength(1f, 10f).lightLevel(s -> 5).requiresCorrectToolForDrops());
+	}
+
+	@Override
+	public boolean skipRendering(BlockState state, BlockState adjacentBlockState, Direction side) {
+		return adjacentBlockState.getBlock() == this ? true : super.skipRendering(state, adjacentBlockState, side);
 	}
 
 	@Override
@@ -73,7 +79,7 @@ public class EtherGlassBlock extends Block {
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(ForeignTechnologiesModBlocks.ETHER_GLASS.get(), renderType -> renderType == RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(ForeignTechnologiesModBlocks.ETHER_GLASS.get(), renderType -> renderType == RenderType.translucent());
 	}
 
 }

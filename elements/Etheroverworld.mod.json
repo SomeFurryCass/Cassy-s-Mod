@@ -45,22 +45,24 @@
       "value": ""
     },
     "moodSoundDelay": 6000,
-    "spawnParticles": true,
+    "spawnParticles": false,
     "particleToSpawn": {
       "value": "CUSTOM:Ether"
     },
     "particlesProbability": 5.0,
-    "biomeCategory": "MESA",
+    "biomeCategory": "PLAINS",
     "rainingPossibility": 0.0,
     "temperature": 0.0,
     "baseHeight": 0.1,
-    "heightVariation": 0.2,
+    "heightVariation": 0.19999999999999998,
     "spawnBiome": true,
-    "spawnBiomeNether": false,
+    "spawnBiomeNether": true,
     "spawnInCaves": false,
     "biomeWeight": 20,
-    "biomeDictionaryTypes": [],
-    "grassPerChunk": 0,
+    "biomeDictionaryTypes": [
+      "PLAINS"
+    ],
+    "grassPerChunk": 10,
     "seagrassPerChunk": 0,
     "flowersPerChunk": 0,
     "mushroomsPerChunk": 0,
@@ -69,7 +71,7 @@
     "gravelPatchesPerChunk": 0,
     "reedsPerChunk": 0,
     "cactiPerChunk": 0,
-    "treesPerChunk": 1,
+    "treesPerChunk": 10,
     "vanillaTreeType": "Mega spruce trees",
     "treeType": 1,
     "minHeight": 16,
@@ -85,8 +87,8 @@
     "treeFruits": {
       "value": ""
     },
-    "spawnStronghold": false,
-    "spawnMineshaft": false,
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
     "spawnMineshaftMesa": false,
     "spawnPillagerOutpost": false,
     "villageType": "none",
@@ -108,7 +110,7 @@
     "defaultFeatures": [
       "Caves",
       "Ores",
-      "FrozenTopLayer"
+      "AmethystGeodes"
     ],
     "spawnEntries": []
   }
