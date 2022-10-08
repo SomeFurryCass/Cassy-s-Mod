@@ -37,6 +37,7 @@ import net.mcreator.foreigntechnologies.item.StoneCoreItem;
 import net.mcreator.foreigntechnologies.item.RawEtherItem;
 import net.mcreator.foreigntechnologies.item.PureEtherItem;
 import net.mcreator.foreigntechnologies.item.PureEtherBottleItem;
+import net.mcreator.foreigntechnologies.item.OtherworldyTransmissionItem;
 import net.mcreator.foreigntechnologies.item.NetheriteESwordItem;
 import net.mcreator.foreigntechnologies.item.NetheriteEShovelItem;
 import net.mcreator.foreigntechnologies.item.NetheriteEPickItem;
@@ -154,6 +155,8 @@ public class ForeignTechnologiesModItems {
 	public static final RegistryObject<Item> STRANGE_E_AXE = REGISTRY.register("strange_e_axe", () -> new StrangeEAxeItem());
 	public static final RegistryObject<Item> STRANGE_E_SHOVEL = REGISTRY.register("strange_e_shovel", () -> new StrangeEShovelItem());
 	public static final RegistryObject<Item> STRANGE_E_HOE = REGISTRY.register("strange_e_hoe", () -> new StrangeEHoeItem());
+	public static final RegistryObject<Item> OTHERWORLDY_TRANSMISSION = REGISTRY.register("otherworldy_transmission",
+			() -> new OtherworldyTransmissionItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

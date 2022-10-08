@@ -58,7 +58,7 @@
     "spawnBiome": true,
     "spawnBiomeNether": false,
     "spawnInCaves": false,
-    "biomeWeight": 14,
+    "biomeWeight": 20,
     "biomeDictionaryTypes": [],
     "grassPerChunk": 0,
     "seagrassPerChunk": 0,
@@ -80,10 +80,10 @@
       "value": "CUSTOM:EtherGlass"
     },
     "treeVines": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
     "treeFruits": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
     "spawnStronghold": false,
     "spawnMineshaft": false,

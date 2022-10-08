@@ -1059,6 +1059,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "etherstone"
+    },
+    {
+      "name": "OtherworldyTransmission",
+      "type": "musicdisc",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "otherworldy_transmission"
     }
   ],
   "variable_elements": [],
@@ -1088,8 +1096,8 @@
       "subtitles.otherworldysounds": "",
       "item.foreign_technologies.weak_ether_lens": "Weak Ether Lens",
       "biome.foreign_technologies.etheroverworld": "Ether",
-      "block.foreign_technologies.ether_purifier_ative": "Ether Purifier",
       "item.foreign_technologies.goldcore": "Gold Core",
+      "block.foreign_technologies.ether_purifier_ative": "Ether Purifier",
       "item.foreign_technologies.brittle_stone_core": "Brittle Stone Core",
       "advancements.foreign_tech.title": "Foreign Tech",
       "item.foreign_technologies.raw_ether": "Raw Ether",
@@ -1130,6 +1138,7 @@
       "item.foreign_technologies.copper_e_sword": "Copper E Sword",
       "item.foreign_technologies.diamond_e_axe": "Diamond E Axe",
       "block.foreign_technologies.ether_panel": "Ether Panel",
+      "item.foreign_technologies.otherworldy_transmission.desc": "Description :3",
       "item.foreign_technologies.iron_e_shovel": "Iron E Shovel",
       "item.foreign_technologies.wood_e_axe": "Wood E Sword",
       "item.foreign_technologies.copper_e_pick": "Copper E Pick",
@@ -1138,6 +1147,7 @@
       "item.foreign_technologies.pure_ether": "Pure Ether",
       "item.foreign_technologies.diamond_e_pick": "Diamond E Pick",
       "item.foreign_technologies.netherite_core": "Netherite Core",
+      "item.foreign_technologies.otherworldy_transmission": "Otherworldy Transmission",
       "block.foreign_technologies.ether_generator": "Ether Generator",
       "item.foreign_technologies.gold_e_shovel": "Gold E Shovel",
       "item.foreign_technologies.ironcore": "Iron Core",

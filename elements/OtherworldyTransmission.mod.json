@@ -1,0 +1,17 @@
+{
+  "_fv": 33,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music_disc_ether",
+    "name": "Otherworldy Transmission",
+    "description": "Description :3",
+    "creativeTab": {
+      "value": "CUSTOM:EtherTools"
+    },
+    "music": {
+      "value": "CUSTOM:otherworldysounds"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}
