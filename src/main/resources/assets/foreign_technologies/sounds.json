@@ -16,5 +16,14 @@
         "stream": true
       }
     ]
+  },
+  "etherportalsound": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "foreign_technologies:alienwind1",
+        "stream": false
+      }
+    ]
   }
 }

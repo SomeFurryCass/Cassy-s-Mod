@@ -7,7 +7,7 @@
         "value": "CUSTOM:Etheroverworld"
       }
     ],
-    "worldGenType": "End like gen",
+    "worldGenType": "Normal world gen",
     "mainFillerBlock": {
       "value": "CUSTOM:Etherstone"
     },
@@ -23,7 +23,7 @@
     "isDark": false,
     "doesWaterVaporize": false,
     "sleepResult": "BED_EXPLODES",
-    "hasSkyLight": true,
+    "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
     "portalFrame": {
       "value": "Blocks.POLISHED_BLACKSTONE"
@@ -33,11 +33,11 @@
     },
     "portalLuminance": 0,
     "portalSound": {
-      "value": "block.portal.ambient"
+      "value": "CUSTOM:etherportalsound"
     },
     "igniterName": "Ether Crest",
     "igniterTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:EtherTools"
     },
     "texture": "ethercrest",
     "portalTexture": "etherportal",
