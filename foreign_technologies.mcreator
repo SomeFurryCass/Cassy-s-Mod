@@ -1169,6 +1169,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "deepcrest"
+    },
+    {
+      "name": "PureEtherBottleRecipe",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pure_ether_bottle_recipe"
     }
   ],
   "variable_elements": [],

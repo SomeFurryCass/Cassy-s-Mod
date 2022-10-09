@@ -10,13 +10,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:EtherBottle"
+        "value": "CUSTOM:PureEtherBottle"
       },
       {
         "value": "Blocks.NETHERITE_BLOCK"
       },
       {
-        "value": "CUSTOM:EtherBottle"
+        "value": "CUSTOM:PureEtherBottle"
       },
       {
         "value": "Blocks.CRYING_OBSIDIAN"
@@ -28,13 +28,13 @@
         "value": "Blocks.CRYING_OBSIDIAN"
       },
       {
-        "value": "CUSTOM:EtherBottle"
+        "value": "CUSTOM:PureEtherBottle"
       },
       {
         "value": "Blocks.NETHERITE_BLOCK"
       },
       {
-        "value": "CUSTOM:EtherBottle"
+        "value": "CUSTOM:PureEtherBottle"
       }
     ],
     "recipeReturnStack": {

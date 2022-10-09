@@ -7,13 +7,13 @@
   ],
   "key": {
     "0": {
-      "item": "foreign_technologies:ether_bottle"
+      "item": "foreign_technologies:pure_ether_bottle"
     },
     "1": {
       "item": "minecraft:netherite_block"
     },
     "2": {
-      "item": "foreign_technologies:ether_bottle"
+      "item": "foreign_technologies:pure_ether_bottle"
     },
     "3": {
       "item": "minecraft:crying_obsidian"
@@ -25,13 +25,13 @@
       "item": "minecraft:crying_obsidian"
     },
     "6": {
-      "item": "foreign_technologies:ether_bottle"
+      "item": "foreign_technologies:pure_ether_bottle"
     },
     "7": {
       "item": "minecraft:netherite_block"
     },
     "8": {
-      "item": "foreign_technologies:ether_bottle"
+      "item": "foreign_technologies:pure_ether_bottle"
     }
   },
   "result": {

@@ -8,7 +8,7 @@
     "name": "Pure Ether Bottle",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:EtherTools"
+      "value": "No creative tab entry"
     },
     "stackSize": 64,
     "enchantability": 0,
