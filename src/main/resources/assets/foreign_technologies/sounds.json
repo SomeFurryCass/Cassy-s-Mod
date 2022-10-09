@@ -61,5 +61,14 @@
         "stream": false
       }
     ]
+  },
+  "etheraudiolow": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "foreign_technologies:shouldnt_be_here",
+        "stream": false
+      }
+    ]
   }
 }

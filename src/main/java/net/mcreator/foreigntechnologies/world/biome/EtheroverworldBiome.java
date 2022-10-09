@@ -46,7 +46,7 @@ public class EtheroverworldBiome {
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-16777216).waterColor(-13421773).waterFogColor(-13421773)
 				.skyColor(-16777216).foliageColorOverride(-13421773).grassColorOverride(-13421773)
-				.ambientLoopSound(new SoundEvent(new ResourceLocation("foreign_technologies:etheraudio1"))).build();
+				.ambientLoopSound(new SoundEvent(new ResourceLocation("foreign_technologies:etheraudiolow"))).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
 				PlacementUtils.register("foreign_technologies:tree_etheroverworld",

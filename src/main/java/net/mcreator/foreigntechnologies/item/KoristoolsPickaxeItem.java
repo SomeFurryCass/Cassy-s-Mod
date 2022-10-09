@@ -26,7 +26,7 @@ public class KoristoolsPickaxeItem extends PickaxeItem {
 			}
 
 			public int getLevel() {
-				return 3;
+				return 5;
 			}
 
 			public int getEnchantmentValue() {

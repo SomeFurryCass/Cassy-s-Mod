@@ -22,7 +22,7 @@ public class StrangeEShovelItem extends ShovelItem {
 			}
 
 			public int getLevel() {
-				return 6;
+				return 7;
 			}
 
 			public int getEnchantmentValue() {
@@ -32,6 +32,6 @@ public class StrangeEShovelItem extends ShovelItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3f, new Item.Properties().tab(null).fireResistant());
+		}, 1, -2.5999999999999999f, new Item.Properties().tab(null).fireResistant());
 	}
 }

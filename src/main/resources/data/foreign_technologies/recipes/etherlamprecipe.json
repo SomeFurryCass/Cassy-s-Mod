@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foreign_technologies:ether_drop"
+    },
+    {
+      "item": "foreign_technologies:koris"
+    }
+  ],
+  "result": {
+    "item": "foreign_technologies:ether_lamp",
+    "count": 4
+  }
+}

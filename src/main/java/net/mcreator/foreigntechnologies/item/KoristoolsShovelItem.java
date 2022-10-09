@@ -26,7 +26,7 @@ public class KoristoolsShovelItem extends ShovelItem {
 			}
 
 			public int getLevel() {
-				return 3;
+				return 6;
 			}
 
 			public int getEnchantmentValue() {

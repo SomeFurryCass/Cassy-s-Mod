@@ -1503,6 +1503,98 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "stalkreedrecipe"
+    },
+    {
+      "name": "StalkDoor",
+      "type": "block",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stalk_door"
+    },
+    {
+      "name": "Stalkdoorrecipe",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stalkdoorrecipe"
+    },
+    {
+      "name": "StalkDoorOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stalk_door_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Etherslatebricks",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "etherslatebricks"
+    },
+    {
+      "name": "Etherdust",
+      "type": "particle",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "etherdust"
+    },
+    {
+      "name": "EtherLamp",
+      "type": "block",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ether_lamp"
+    },
+    {
+      "name": "Etherlamprecipe",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "etherlamprecipe"
+    },
+    {
+      "name": "EtherDropOre",
+      "type": "block",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ether_drop_ore"
+    },
+    {
+      "name": "SlateDropOre",
+      "type": "block",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slate_drop_ore"
     }
   ],
   "variable_elements": [],
@@ -1562,10 +1654,19 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "etheraudiolow",
+      "files": [
+        "shouldnt_be_here"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
+      "block.foreign_technologies.ether_drop_ore": "Ether Drop Ore",
       "subtitles.otherworldysounds": "",
       "biome.foreign_technologies.etheroverworld": "Ether",
       "item.foreign_technologies.korisarmor_armor_leggings": "Korisarmor Leggings",
@@ -1574,6 +1675,7 @@
       "item.foreign_technologies.stone_e_hoe": "Stone E Hoe",
       "advancements.foreign_tech.descr": "craft a brittle core, it isn\u0027t much but it\u0027s a start",
       "item.foreign_technologies.wood_e_pickaxe": "Wood E Pickaxe",
+      "block.foreign_technologies.ether_lamp": "Ether Lamp",
       "item.foreign_technologies.gold_e_axe": "Gold E Axe",
       "item.foreign_technologies.netherite_e_axe": "Netherite E Axe",
       "item.foreign_technologies.koristools_hoe": "Koris Hoe",
@@ -1587,18 +1689,18 @@
       "block.foreign_technologies.reinforced_etherstone": "Reinforced Etherstone",
       "item.foreign_technologies.stone_core": "Stone Core",
       "block.foreign_technologies.ether_slate_brick": "Ether Slate Brick",
-      "item.foreign_technologies.wood_e_sword": "Wood E Sword",
       "block.foreign_technologies.stripped_stalk": "Stripped Stalk",
+      "item.foreign_technologies.wood_e_sword": "Wood E Sword",
       "item.foreign_technologies.netherite_e_pick": "Netherite E Pick",
       "item.foreign_technologies.ether_emitter": "Ether Lens",
-      "item.foreign_technologies.koris_chunk": "Koris Chunk",
       "item.foreign_technologies.stone_e_pick": "Stone E Pick",
+      "item.foreign_technologies.koris_chunk": "Koris Chunk",
       "block.foreign_technologies.ether_glass": "Ether Glass",
       "subtitles.etherportalsound": "",
       "item.foreign_technologies.copper_e_hoe": "Copper E Hoe",
       "item.foreign_technologies.iron_e_axe": "Iron E Axe",
-      "item.foreign_technologies.stone_e_axe": "Stone E Axe",
       "block.foreign_technologies.stalk_planks": "Stalk Planks",
+      "item.foreign_technologies.stone_e_axe": "Stone E Axe",
       "block.foreign_technologies.koris_ore": "Koris Ore",
       "item.foreign_technologies.diamond_e_axe": "Diamond E Axe",
       "subtitles.watchersounds": "",
@@ -1653,6 +1755,7 @@
       "item.foreign_technologies.korisarmor_armor_helmet": "Korisarmor Helmet",
       "item.foreign_technologies.strange_e_shovel": "Strange E Shovel",
       "itemGroup.tabether_tools": "Ether Tools",
+      "block.foreign_technologies.stalk_door": "Stalk Door",
       "item.foreign_technologies.koristools_pickaxe": "Koris Pickaxe",
       "item.foreign_technologies.copper_e_sword": "Copper E Sword",
       "item.foreign_technologies.the_deep_ether": "Deep Crest",
@@ -1667,7 +1770,9 @@
       "item.foreign_technologies.ironcore": "Iron Core",
       "item.foreign_technologies.strange_ball": "Strange Ball",
       "item.foreign_technologies.coppercore": "Copper Core",
+      "subtitles.etheraudiolow": "",
       "block.foreign_technologies.koris_glass": "Koris Glass",
+      "block.foreign_technologies.slate_drop_ore": "Slate Drop Ore",
       "block.foreign_technologies.ether_surface": "Ether Surface",
       "item.foreign_technologies.netherite_e_shovel": "Netherite E Shovel",
       "item.foreign_technologies.koristools_axe": "Koris Axe",

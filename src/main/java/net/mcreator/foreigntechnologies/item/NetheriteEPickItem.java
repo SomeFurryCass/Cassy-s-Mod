@@ -24,7 +24,7 @@ public class NetheriteEPickItem extends PickaxeItem {
 			}
 
 			public int getLevel() {
-				return 4;
+				return 5;
 			}
 
 			public int getEnchantmentValue() {

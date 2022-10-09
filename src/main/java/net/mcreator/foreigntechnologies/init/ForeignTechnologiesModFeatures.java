@@ -19,6 +19,7 @@ import net.minecraft.core.Holder;
 
 import net.mcreator.foreigntechnologies.world.features.ores.KorisslateoreFeature;
 import net.mcreator.foreigntechnologies.world.features.ores.KorisOreFeature;
+import net.mcreator.foreigntechnologies.world.features.ores.EtherDropOreFeature;
 import net.mcreator.foreigntechnologies.world.features.SmallstalkFeature;
 import net.mcreator.foreigntechnologies.world.features.LargestalkFeature;
 import net.mcreator.foreigntechnologies.world.features.HugestalkFeature;
@@ -47,6 +48,8 @@ public class ForeignTechnologiesModFeatures {
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, KorisOreFeature.GENERATE_BIOMES, KorisOreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> KORISSLATEORE = register("korisslateore", KorisslateoreFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.UNDERGROUND_ORES, KorisslateoreFeature.GENERATE_BIOMES, KorisslateoreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> ETHER_DROP_ORE = register("ether_drop_ore", EtherDropOreFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.UNDERGROUND_ORES, EtherDropOreFeature.GENERATE_BIOMES, EtherDropOreFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

@@ -11,9 +11,9 @@
       "value": "No creative tab entry"
     },
     "toolType": "Spade",
-    "harvestLevel": 6,
+    "harvestLevel": 7,
     "efficiency": 20.0,
-    "attackSpeed": 1.0,
+    "attackSpeed": 1.4000000000000001,
     "enchantability": 25,
     "damageVsEntity": 15.0,
     "usageCount": 0,

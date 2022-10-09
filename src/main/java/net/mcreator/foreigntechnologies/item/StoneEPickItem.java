@@ -24,7 +24,7 @@ public class StoneEPickItem extends PickaxeItem {
 			}
 
 			public int getLevel() {
-				return 1;
+				return 2;
 			}
 
 			public int getEnchantmentValue() {
@@ -34,6 +34,6 @@ public class StoneEPickItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3f, new Item.Properties().tab(ForeignTechnologiesModTabs.TAB_ETHER_TOOLS));
+		}, 1, -2.7999999999999998f, new Item.Properties().tab(ForeignTechnologiesModTabs.TAB_ETHER_TOOLS));
 	}
 }

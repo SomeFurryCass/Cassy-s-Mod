@@ -17,6 +17,8 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.foreigntechnologies.block.TheDeepEtherPortalBlock;
 import net.mcreator.foreigntechnologies.block.StrippedStalkBlock;
 import net.mcreator.foreigntechnologies.block.StalkPlanksBlock;
+import net.mcreator.foreigntechnologies.block.StalkDoorBlock;
+import net.mcreator.foreigntechnologies.block.SlateDropOreBlock;
 import net.mcreator.foreigntechnologies.block.ReinforcedEtherstoneBlock;
 import net.mcreator.foreigntechnologies.block.KorisslateoreBlock;
 import net.mcreator.foreigntechnologies.block.KorisPillarBlock;
@@ -32,8 +34,10 @@ import net.mcreator.foreigntechnologies.block.EtherSlateBlock;
 import net.mcreator.foreigntechnologies.block.EtherPurifierBlock;
 import net.mcreator.foreigntechnologies.block.EtherPurifierAtiveBlock;
 import net.mcreator.foreigntechnologies.block.EtherPanelBlock;
+import net.mcreator.foreigntechnologies.block.EtherLampBlock;
 import net.mcreator.foreigntechnologies.block.EtherGlassBlock;
 import net.mcreator.foreigntechnologies.block.EtherGeneratorBlock;
+import net.mcreator.foreigntechnologies.block.EtherDropOreBlock;
 import net.mcreator.foreigntechnologies.block.DistortionBlock;
 import net.mcreator.foreigntechnologies.ForeignTechnologiesMod;
 
@@ -62,6 +66,10 @@ public class ForeignTechnologiesModBlocks {
 			() -> new ReinforcedEtherstoneBlock());
 	public static final RegistryObject<Block> STRIPPED_STALK = REGISTRY.register("stripped_stalk", () -> new StrippedStalkBlock());
 	public static final RegistryObject<Block> STALK_PLANKS = REGISTRY.register("stalk_planks", () -> new StalkPlanksBlock());
+	public static final RegistryObject<Block> STALK_DOOR = REGISTRY.register("stalk_door", () -> new StalkDoorBlock());
+	public static final RegistryObject<Block> ETHER_LAMP = REGISTRY.register("ether_lamp", () -> new EtherLampBlock());
+	public static final RegistryObject<Block> ETHER_DROP_ORE = REGISTRY.register("ether_drop_ore", () -> new EtherDropOreBlock());
+	public static final RegistryObject<Block> SLATE_DROP_ORE = REGISTRY.register("slate_drop_ore", () -> new SlateDropOreBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -71,6 +79,8 @@ public class ForeignTechnologiesModBlocks {
 			EtherGlassBlock.registerRenderLayer();
 			KorisFenceBlock.registerRenderLayer();
 			KorisGlassBlock.registerRenderLayer();
+			StalkDoorBlock.registerRenderLayer();
+			EtherLampBlock.registerRenderLayer();
 		}
 	}
 }

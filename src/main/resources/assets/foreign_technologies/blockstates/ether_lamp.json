@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "foreign_technologies:block/ether_lamp",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "foreign_technologies:block/ether_lamp",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "foreign_technologies:block/ether_lamp",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "foreign_technologies:block/ether_lamp",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "foreign_technologies:block/ether_lamp"
+    },
+    "facing=west": {
+      "model": "foreign_technologies:block/ether_lamp",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

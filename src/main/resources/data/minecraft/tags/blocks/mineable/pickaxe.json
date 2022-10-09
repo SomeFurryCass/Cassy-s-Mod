@@ -13,6 +13,8 @@
     "foreign_technologies:koris_fence",
     "foreign_technologies:koris_glass",
     "foreign_technologies:koris_pillar",
-    "foreign_technologies:reinforced_etherstone"
+    "foreign_technologies:reinforced_etherstone",
+    "foreign_technologies:ether_drop_ore",
+    "foreign_technologies:slate_drop_ore"
   ]
 }

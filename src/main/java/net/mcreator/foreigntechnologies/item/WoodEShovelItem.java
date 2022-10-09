@@ -32,6 +32,6 @@ public class WoodEShovelItem extends ShovelItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3.5f, new Item.Properties().tab(null));
+		}, 1, -2.8f, new Item.Properties().tab(null));
 	}
 }

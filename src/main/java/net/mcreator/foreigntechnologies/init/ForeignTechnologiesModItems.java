@@ -11,6 +11,7 @@ import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
@@ -208,8 +209,19 @@ public class ForeignTechnologiesModItems {
 	public static final RegistryObject<Item> STALK_PLANKS = block(ForeignTechnologiesModBlocks.STALK_PLANKS,
 			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
 	public static final RegistryObject<Item> STALK_REED = REGISTRY.register("stalk_reed", () -> new StalkReedItem());
+	public static final RegistryObject<Item> STALK_DOOR = doubleBlock(ForeignTechnologiesModBlocks.STALK_DOOR,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> ETHER_LAMP = block(ForeignTechnologiesModBlocks.ETHER_LAMP, ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> ETHER_DROP_ORE = block(ForeignTechnologiesModBlocks.ETHER_DROP_ORE,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> SLATE_DROP_ORE = block(ForeignTechnologiesModBlocks.SLATE_DROP_ORE,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
+	}
+
+	private static RegistryObject<Item> doubleBlock(RegistryObject<Block> block, CreativeModeTab tab) {
+		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), new Item.Properties().tab(tab)));
 	}
 }

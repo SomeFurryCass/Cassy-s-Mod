@@ -24,7 +24,7 @@ public class StoneEAxeItem extends AxeItem {
 			}
 
 			public int getLevel() {
-				return 1;
+				return 2;
 			}
 
 			public int getEnchantmentValue() {

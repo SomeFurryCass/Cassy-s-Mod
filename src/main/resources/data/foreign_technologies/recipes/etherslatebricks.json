@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foreign_technologies:ether_slate"
+    },
+    {
+      "item": "foreign_technologies:ether_slate"
+    },
+    {
+      "item": "foreign_technologies:ether_slate"
+    },
+    {
+      "item": "foreign_technologies:ether_slate"
+    }
+  ],
+  "result": {
+    "item": "foreign_technologies:ether_slate_brick",
+    "count": 4
+  }
+}

@@ -33,7 +33,7 @@
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": "CUSTOM:etheraudio1"
+      "value": "CUSTOM:etheraudiolow"
     },
     "additionsSound": {
       "value": ""

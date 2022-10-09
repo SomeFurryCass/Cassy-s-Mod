@@ -22,7 +22,7 @@ public class StrangeEAxeItem extends AxeItem {
 			}
 
 			public int getLevel() {
-				return 6;
+				return 7;
 			}
 
 			public int getEnchantmentValue() {

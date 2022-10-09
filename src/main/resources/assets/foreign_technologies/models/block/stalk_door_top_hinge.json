@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top_rh",
+  "textures": {
+    "bottom": "foreign_technologies:blocks/stalkdoorbottomnoknob",
+    "top": "foreign_technologies:blocks/stalkdoortop"
+  }
+}
