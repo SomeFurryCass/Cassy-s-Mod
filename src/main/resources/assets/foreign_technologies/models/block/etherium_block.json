@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "foreign_technologies:blocks/etheriumblockalternate",
+    "up": "foreign_technologies:blocks/etheriumblockalternate",
+    "north": "foreign_technologies:blocks/etheriumblockalternate",
+    "east": "foreign_technologies:blocks/etheriumblockalternate",
+    "south": "foreign_technologies:blocks/etheriumblockalternate",
+    "west": "foreign_technologies:blocks/etheriumblockalternate",
+    "particle": "foreign_technologies:blocks/etheriumblockalternate"
+  }
+}

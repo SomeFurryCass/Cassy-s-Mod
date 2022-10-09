@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:azem"
+    },
+    "1": {
+      "item": "foreign_technologies:azem"
+    },
+    "3": {
+      "item": "foreign_technologies:stalk_reed"
+    },
+    "5": {
+      "item": "foreign_technologies:stalk_reed"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:azema_hoe",
+    "count": 1
+  }
+}

@@ -70,6 +70,13 @@ import net.mcreator.foreigntechnologies.item.GoldEHoeItem;
 import net.mcreator.foreigntechnologies.item.GoldEAxeItem;
 import net.mcreator.foreigntechnologies.item.FrenStickItem;
 import net.mcreator.foreigntechnologies.item.FrenItem;
+import net.mcreator.foreigntechnologies.item.EtheriumsSwordItem;
+import net.mcreator.foreigntechnologies.item.EtheriumsShovelItem;
+import net.mcreator.foreigntechnologies.item.EtheriumsPickaxeItem;
+import net.mcreator.foreigntechnologies.item.EtheriumsHoeItem;
+import net.mcreator.foreigntechnologies.item.EtheriumsAxeItem;
+import net.mcreator.foreigntechnologies.item.EtheriumaArmorItem;
+import net.mcreator.foreigntechnologies.item.EtheriumItem;
 import net.mcreator.foreigntechnologies.item.EtherdimensionItem;
 import net.mcreator.foreigntechnologies.item.EtherEmitterItem;
 import net.mcreator.foreigntechnologies.item.EtherDropItem;
@@ -87,6 +94,13 @@ import net.mcreator.foreigntechnologies.item.CopperEPickItem;
 import net.mcreator.foreigntechnologies.item.CopperEHoeItem;
 import net.mcreator.foreigntechnologies.item.CopperEAxeItem;
 import net.mcreator.foreigntechnologies.item.BrittleStoneCoreItem;
+import net.mcreator.foreigntechnologies.item.AzemaSwordItem;
+import net.mcreator.foreigntechnologies.item.AzemaShovelItem;
+import net.mcreator.foreigntechnologies.item.AzemaPickaxeItem;
+import net.mcreator.foreigntechnologies.item.AzemaHoeItem;
+import net.mcreator.foreigntechnologies.item.AzemaAxeItem;
+import net.mcreator.foreigntechnologies.item.AzemItem;
+import net.mcreator.foreigntechnologies.item.AzemChunkItem;
 import net.mcreator.foreigntechnologies.ForeignTechnologiesMod;
 
 public class ForeignTechnologiesModItems {
@@ -216,6 +230,37 @@ public class ForeignTechnologiesModItems {
 			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
 	public static final RegistryObject<Item> SLATE_DROP_ORE = block(ForeignTechnologiesModBlocks.SLATE_DROP_ORE,
 			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> ETHERIUM = REGISTRY.register("etherium", () -> new EtheriumItem());
+	public static final RegistryObject<Item> ETHERIUM_CLUSTER = block(ForeignTechnologiesModBlocks.ETHERIUM_CLUSTER,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> ETHERIUMA_ARMOR_HELMET = REGISTRY.register("etheriuma_armor_helmet",
+			() -> new EtheriumaArmorItem.Helmet());
+	public static final RegistryObject<Item> ETHERIUMA_ARMOR_CHESTPLATE = REGISTRY.register("etheriuma_armor_chestplate",
+			() -> new EtheriumaArmorItem.Chestplate());
+	public static final RegistryObject<Item> ETHERIUMA_ARMOR_LEGGINGS = REGISTRY.register("etheriuma_armor_leggings",
+			() -> new EtheriumaArmorItem.Leggings());
+	public static final RegistryObject<Item> ETHERIUMA_ARMOR_BOOTS = REGISTRY.register("etheriuma_armor_boots", () -> new EtheriumaArmorItem.Boots());
+	public static final RegistryObject<Item> AZEM = REGISTRY.register("azem", () -> new AzemItem());
+	public static final RegistryObject<Item> AZEM_CHUNK = REGISTRY.register("azem_chunk", () -> new AzemChunkItem());
+	public static final RegistryObject<Item> AZEM_ORE = block(ForeignTechnologiesModBlocks.AZEM_ORE, ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> AZEM_SLATE = block(ForeignTechnologiesModBlocks.AZEM_SLATE, ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> AZEM_BLOCK = block(ForeignTechnologiesModBlocks.AZEM_BLOCK, ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> KORIS_BLOCK = block(ForeignTechnologiesModBlocks.KORIS_BLOCK,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> KORIS_PLATING = block(ForeignTechnologiesModBlocks.KORIS_PLATING,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> ETHERIUM_BLOCK = block(ForeignTechnologiesModBlocks.ETHERIUM_BLOCK,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> AZEMA_PICKAXE = REGISTRY.register("azema_pickaxe", () -> new AzemaPickaxeItem());
+	public static final RegistryObject<Item> AZEMA_AXE = REGISTRY.register("azema_axe", () -> new AzemaAxeItem());
+	public static final RegistryObject<Item> AZEMA_SWORD = REGISTRY.register("azema_sword", () -> new AzemaSwordItem());
+	public static final RegistryObject<Item> AZEMA_SHOVEL = REGISTRY.register("azema_shovel", () -> new AzemaShovelItem());
+	public static final RegistryObject<Item> AZEMA_HOE = REGISTRY.register("azema_hoe", () -> new AzemaHoeItem());
+	public static final RegistryObject<Item> ETHERIUMS_PICKAXE = REGISTRY.register("etheriums_pickaxe", () -> new EtheriumsPickaxeItem());
+	public static final RegistryObject<Item> ETHERIUMS_AXE = REGISTRY.register("etheriums_axe", () -> new EtheriumsAxeItem());
+	public static final RegistryObject<Item> ETHERIUMS_SWORD = REGISTRY.register("etheriums_sword", () -> new EtheriumsSwordItem());
+	public static final RegistryObject<Item> ETHERIUMS_SHOVEL = REGISTRY.register("etheriums_shovel", () -> new EtheriumsShovelItem());
+	public static final RegistryObject<Item> ETHERIUMS_HOE = REGISTRY.register("etheriums_hoe", () -> new EtheriumsHoeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

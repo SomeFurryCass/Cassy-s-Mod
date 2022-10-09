@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "foreign_technologies:blocks/korisblock",
+    "up": "foreign_technologies:blocks/korisblock",
+    "north": "foreign_technologies:blocks/korisblock",
+    "east": "foreign_technologies:blocks/korisblock",
+    "south": "foreign_technologies:blocks/korisblock",
+    "west": "foreign_technologies:blocks/korisblock",
+    "particle": "foreign_technologies:blocks/korisblock"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:etherium"
+    },
+    "1": {
+      "item": "foreign_technologies:etherium"
+    },
+    "2": {
+      "item": "foreign_technologies:etherium"
+    },
+    "3": {
+      "item": "foreign_technologies:stalk_reed"
+    },
+    "5": {
+      "item": "foreign_technologies:stalk_reed"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:etheriums_axe",
+    "count": 1
+  }
+}

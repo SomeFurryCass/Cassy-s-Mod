@@ -21,11 +21,15 @@ import net.mcreator.foreigntechnologies.block.StalkDoorBlock;
 import net.mcreator.foreigntechnologies.block.SlateDropOreBlock;
 import net.mcreator.foreigntechnologies.block.ReinforcedEtherstoneBlock;
 import net.mcreator.foreigntechnologies.block.KorisslateoreBlock;
+import net.mcreator.foreigntechnologies.block.KorisPlatingBlock;
 import net.mcreator.foreigntechnologies.block.KorisPillarBlock;
 import net.mcreator.foreigntechnologies.block.KorisOreBlock;
 import net.mcreator.foreigntechnologies.block.KorisGlassBlock;
 import net.mcreator.foreigntechnologies.block.KorisFenceBlock;
+import net.mcreator.foreigntechnologies.block.KorisBlockBlock;
 import net.mcreator.foreigntechnologies.block.EtherstoneBlock;
+import net.mcreator.foreigntechnologies.block.EtheriumClusterBlock;
+import net.mcreator.foreigntechnologies.block.EtheriumBlockBlock;
 import net.mcreator.foreigntechnologies.block.EtherdimensionPortalBlock;
 import net.mcreator.foreigntechnologies.block.EtherSurfaceBlock;
 import net.mcreator.foreigntechnologies.block.EtherStalkBlock;
@@ -39,6 +43,9 @@ import net.mcreator.foreigntechnologies.block.EtherGlassBlock;
 import net.mcreator.foreigntechnologies.block.EtherGeneratorBlock;
 import net.mcreator.foreigntechnologies.block.EtherDropOreBlock;
 import net.mcreator.foreigntechnologies.block.DistortionBlock;
+import net.mcreator.foreigntechnologies.block.AzemSlateBlock;
+import net.mcreator.foreigntechnologies.block.AzemOreBlock;
+import net.mcreator.foreigntechnologies.block.AzemBlockBlock;
 import net.mcreator.foreigntechnologies.ForeignTechnologiesMod;
 
 public class ForeignTechnologiesModBlocks {
@@ -70,6 +77,13 @@ public class ForeignTechnologiesModBlocks {
 	public static final RegistryObject<Block> ETHER_LAMP = REGISTRY.register("ether_lamp", () -> new EtherLampBlock());
 	public static final RegistryObject<Block> ETHER_DROP_ORE = REGISTRY.register("ether_drop_ore", () -> new EtherDropOreBlock());
 	public static final RegistryObject<Block> SLATE_DROP_ORE = REGISTRY.register("slate_drop_ore", () -> new SlateDropOreBlock());
+	public static final RegistryObject<Block> ETHERIUM_CLUSTER = REGISTRY.register("etherium_cluster", () -> new EtheriumClusterBlock());
+	public static final RegistryObject<Block> AZEM_ORE = REGISTRY.register("azem_ore", () -> new AzemOreBlock());
+	public static final RegistryObject<Block> AZEM_SLATE = REGISTRY.register("azem_slate", () -> new AzemSlateBlock());
+	public static final RegistryObject<Block> AZEM_BLOCK = REGISTRY.register("azem_block", () -> new AzemBlockBlock());
+	public static final RegistryObject<Block> KORIS_BLOCK = REGISTRY.register("koris_block", () -> new KorisBlockBlock());
+	public static final RegistryObject<Block> KORIS_PLATING = REGISTRY.register("koris_plating", () -> new KorisPlatingBlock());
+	public static final RegistryObject<Block> ETHERIUM_BLOCK = REGISTRY.register("etherium_block", () -> new EtheriumBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

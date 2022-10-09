@@ -36,13 +36,13 @@
     "name": "Distortion",
     "specialInfo": [],
     "hardness": 50.0,
-    "resistance": 10.0,
+    "resistance": 50.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:EtherTools"
     },
-    "destroyTool": "shovel",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },

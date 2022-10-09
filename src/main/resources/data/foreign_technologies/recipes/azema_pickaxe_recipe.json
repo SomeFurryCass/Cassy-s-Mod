@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:azem"
+    },
+    "1": {
+      "item": "foreign_technologies:azem"
+    },
+    "2": {
+      "item": "foreign_technologies:azem"
+    },
+    "4": {
+      "item": "foreign_technologies:stalk_reed"
+    },
+    "7": {
+      "item": "foreign_technologies:stalk_reed"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:azema_pickaxe",
+    "count": 1
+  }
+}

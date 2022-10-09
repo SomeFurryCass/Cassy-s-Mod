@@ -1,0 +1,31 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "azema_pickaxe",
+    "customModelName": "Normal",
+    "name": "Azema Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:EtherTools"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 5,
+    "efficiency": 24.0,
+    "attackSpeed": 1.5999999999999999,
+    "enchantability": 70,
+    "damageVsEntity": 10.0,
+    "usageCount": 2380,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Azem"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foreign_technologies:koris_block"
+    }
+  ],
+  "result": {
+    "item": "foreign_technologies:koris",
+    "count": 9
+  }
+}

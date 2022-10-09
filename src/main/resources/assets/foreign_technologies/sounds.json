@@ -70,5 +70,32 @@
         "stream": false
       }
     ]
+  },
+  "korisplatebreak": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "foreign_technologies:metalbreak",
+        "stream": false
+      }
+    ]
+  },
+  "korisplatestep": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "foreign_technologies:metalstep",
+        "stream": false
+      }
+    ]
+  },
+  "korisplatehit": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "foreign_technologies:metalhit",
+        "stream": false
+      }
+    ]
   }
 }

@@ -18,8 +18,7 @@ import java.util.Collections;
 
 public class DistortionBlock extends Block {
 	public DistortionBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.AMETHYST).strength(50f, 10f).requiresCorrectToolForDrops()
-				.speedFactor(0.6f));
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.AMETHYST).strength(50f).requiresCorrectToolForDrops().speedFactor(0.6f));
 	}
 
 	@Override

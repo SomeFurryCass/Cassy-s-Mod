@@ -1,0 +1,31 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "etheriumpick",
+    "customModelName": "Normal",
+    "name": "Etherium Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:EtherTools"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 7,
+    "efficiency": 30.0,
+    "attackSpeed": 2.0,
+    "enchantability": 140,
+    "damageVsEntity": 20.0,
+    "usageCount": 10000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Etherium"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

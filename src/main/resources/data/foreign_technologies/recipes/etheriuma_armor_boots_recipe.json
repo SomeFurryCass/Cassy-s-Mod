@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:etherium"
+    },
+    "2": {
+      "item": "foreign_technologies:etherium"
+    },
+    "3": {
+      "item": "foreign_technologies:etherium"
+    },
+    "4": {
+      "item": "foreign_technologies:the_deep_ether"
+    },
+    "5": {
+      "item": "foreign_technologies:etherium"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:etheriuma_armor_boots",
+    "count": 1
+  }
+}
