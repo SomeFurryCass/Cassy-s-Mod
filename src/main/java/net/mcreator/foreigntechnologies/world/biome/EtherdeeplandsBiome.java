@@ -19,7 +19,7 @@ public class EtherdeeplandsBiome {
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-16777216).waterColor(-16777216).waterFogColor(-16777216)
 				.skyColor(-16777216).foliageColorOverride(-16777216).grassColorOverride(-16777216)
-				.ambientLoopSound(new SoundEvent(new ResourceLocation("foreign_technologies:otherworldysounds"))).build();
+				.ambientLoopSound(new SoundEvent(new ResourceLocation("foreign_technologies:etheraudio1"))).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		BiomeDefaultFeatures.addDefaultCarversAndLakes(biomeGenerationSettings);
 		BiomeDefaultFeatures.addDefaultOres(biomeGenerationSettings);
