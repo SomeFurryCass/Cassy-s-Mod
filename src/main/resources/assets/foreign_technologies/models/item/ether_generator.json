@@ -1,6 +1,22 @@
 {
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "foreign_technologies:blocks/placeholder_texture"
+  "parent": "foreign_technologies:block/ether_generator",
+  "display": {
+    "thirdperson": {
+      "rotation": [
+        10,
+        -45,
+        170
+      ],
+      "translation": [
+        0,
+        1.5,
+        -2.75
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    }
   }
 }

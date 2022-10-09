@@ -1094,6 +1094,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "etherstalktreenormal"
+    },
+    {
+      "name": "Smallstalk",
+      "type": "structure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smallstalk"
+    },
+    {
+      "name": "Largestalk",
+      "type": "structure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "largestalk"
+    },
+    {
+      "name": "Hugestalk",
+      "type": "structure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hugestalk"
     }
   ],
   "variable_elements": [],

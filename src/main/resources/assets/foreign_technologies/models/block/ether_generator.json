@@ -1,14 +1,12 @@
 {
-  "parent": "forge:item/default",
-  "loader": "forge:composite",
-  "parts": {
-    "part1": {
-      "loader": "forge:obj",
-      "model": "foreign_technologies:models/item/ether_generator_mk1.obj",
-      "ambientToFullbright": true
-    }
-  },
+  "parent": "block/cube",
   "textures": {
+    "down": "foreign_technologies:blocks/placeholder_texture",
+    "up": "foreign_technologies:blocks/placeholder_texture",
+    "north": "foreign_technologies:blocks/placeholder_texture",
+    "east": "foreign_technologies:blocks/placeholder_texture",
+    "south": "foreign_technologies:blocks/placeholder_texture",
+    "west": "foreign_technologies:blocks/placeholder_texture",
     "particle": "foreign_technologies:blocks/placeholder_texture"
   }
 }
