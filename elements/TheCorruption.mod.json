@@ -52,7 +52,7 @@
     "particlesProbability": 0.5,
     "biomeCategory": "NONE",
     "rainingPossibility": 0.0,
-    "temperature": 1.0,
+    "temperature": 0.0,
     "baseHeight": 0.0,
     "heightVariation": 0.0,
     "spawnBiome": true,
@@ -107,8 +107,7 @@
     "spawnRuinedPortal": "NONE",
     "defaultFeatures": [
       "Caves",
-      "Ores",
-      "FrozenTopLayer"
+      "Ores"
     ],
     "spawnEntries": []
   }
