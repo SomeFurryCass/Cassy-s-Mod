@@ -46,7 +46,7 @@ public class KorisslateoreFeature extends OreFeature {
 				KorisslateoreFeatureRuleTest.INSTANCE, ForeignTechnologiesModBlocks.KORISSLATEORE.get().defaultBlockState(), 12));
 		PLACED_FEATURE = PlacementUtils.register("foreign_technologies:korisslateore", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(8), InSquarePlacement.spread(),
-						HeightRangePlacement.triangle(VerticalAnchor.absolute(0), VerticalAnchor.absolute(64)), BiomeFilter.biome()));
+						HeightRangePlacement.triangle(VerticalAnchor.absolute(0), VerticalAnchor.absolute(100)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

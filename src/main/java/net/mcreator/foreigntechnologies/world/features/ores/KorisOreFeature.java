@@ -45,7 +45,7 @@ public class KorisOreFeature extends OreFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("foreign_technologies:koris_ore", FEATURE,
 				new OreConfiguration(KorisOreFeatureRuleTest.INSTANCE, ForeignTechnologiesModBlocks.KORIS_ORE.get().defaultBlockState(), 12));
 		PLACED_FEATURE = PlacementUtils.register("foreign_technologies:koris_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(8), InSquarePlacement.spread(),
+				List.of(CountPlacement.of(12), InSquarePlacement.spread(),
 						HeightRangePlacement.triangle(VerticalAnchor.absolute(0), VerticalAnchor.absolute(86)), BiomeFilter.biome()));
 		return FEATURE;
 	}
