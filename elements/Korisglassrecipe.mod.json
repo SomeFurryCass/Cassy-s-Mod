@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 12,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Koris"
+      },
+      {
+        "value": "CUSTOM:EtherGlass"
+      },
+      {
+        "value": "CUSTOM:Koris"
+      },
+      {
+        "value": "CUSTOM:Koris"
+      },
+      {
+        "value": "CUSTOM:EtherGlass"
+      },
+      {
+        "value": "CUSTOM:Koris"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:KorisGlass"
+    },
+    "name": "korisglassrecipe",
+    "namespace": "mod"
+  }
+}

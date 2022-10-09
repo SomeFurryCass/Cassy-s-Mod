@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:koris"
+    },
+    "1": {
+      "item": "foreign_technologies:koris"
+    },
+    "2": {
+      "item": "foreign_technologies:koris"
+    },
+    "3": {
+      "item": "foreign_technologies:koris"
+    },
+    "4": {
+      "item": "foreign_technologies:koris"
+    },
+    "5": {
+      "item": "foreign_technologies:koris"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:koris_fence",
+    "count": 8
+  }
+}

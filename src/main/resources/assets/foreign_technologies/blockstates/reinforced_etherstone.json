@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "foreign_technologies:block/reinforced_etherstone"
+    }
+  }
+}

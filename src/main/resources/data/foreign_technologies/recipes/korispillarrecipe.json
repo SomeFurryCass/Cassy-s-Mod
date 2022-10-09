@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:koris"
+    },
+    "1": {
+      "item": "foreign_technologies:ether_panel"
+    },
+    "2": {
+      "item": "foreign_technologies:koris"
+    },
+    "3": {
+      "item": "foreign_technologies:koris"
+    },
+    "4": {
+      "item": "foreign_technologies:ether_panel"
+    },
+    "5": {
+      "item": "foreign_technologies:koris"
+    },
+    "6": {
+      "item": "foreign_technologies:koris"
+    },
+    "7": {
+      "item": "foreign_technologies:ether_panel"
+    },
+    "8": {
+      "item": "foreign_technologies:koris"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:koris_pillar",
+    "count": 8
+  }
+}

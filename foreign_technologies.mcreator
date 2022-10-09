@@ -1383,6 +1383,54 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "koris_glass"
+    },
+    {
+      "name": "KorisPillar",
+      "type": "block",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koris_pillar"
+    },
+    {
+      "name": "Korisfencerecipe",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "korisfencerecipe"
+    },
+    {
+      "name": "Korisglassrecipe",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "korisglassrecipe"
+    },
+    {
+      "name": "Korispillarrecipe",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "korispillarrecipe"
+    },
+    {
+      "name": "ReinforcedEtherstone",
+      "type": "block",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_etherstone"
+    },
+    {
+      "name": "ReinforcedEtherstonerecipe",
+      "type": "recipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_etherstonerecipe"
     }
   ],
   "variable_elements": [],
@@ -1462,15 +1510,16 @@
       "item.foreign_technologies.strange_e_hoe": "Strange E Hoe",
       "block.foreign_technologies.korisslateore": "Korisslateore",
       "item.foreign_technologies.weak_ether": "Weak Ether",
-      "item.foreign_technologies.diamond_core": "Diamond Core",
       "item.foreign_technologies.iron_e_pick": "Iron E Pick",
+      "item.foreign_technologies.diamond_core": "Diamond Core",
+      "block.foreign_technologies.reinforced_etherstone": "Reinforced Etherstone",
       "item.foreign_technologies.stone_core": "Stone Core",
       "block.foreign_technologies.ether_slate_brick": "Ether Slate Brick",
       "item.foreign_technologies.wood_e_sword": "Wood E Sword",
       "item.foreign_technologies.netherite_e_pick": "Netherite E Pick",
       "item.foreign_technologies.ether_emitter": "Ether Lens",
-      "item.foreign_technologies.koris_chunk": "Koris Chunk",
       "item.foreign_technologies.stone_e_pick": "Stone E Pick",
+      "item.foreign_technologies.koris_chunk": "Koris Chunk",
       "block.foreign_technologies.ether_glass": "Ether Glass",
       "subtitles.etherportalsound": "",
       "item.foreign_technologies.copper_e_hoe": "Copper E Hoe",
@@ -1513,6 +1562,7 @@
       "item.foreign_technologies.raw_ether": "Raw Ether",
       "item.foreign_technologies.iron_e_hoe": "Iron E Hoe",
       "item.foreign_technologies.gold_e_pick": "Gold E Pick",
+      "block.foreign_technologies.koris_pillar": "Koris Pillar",
       "item.foreign_technologies.stone_e_shovel": "Stone E Shovel",
       "item.foreign_technologies.watcher_spawn_egg": "Watcher Spawn Egg",
       "item.foreign_technologies.wood_e_hoe": "Wood E Hoe",
