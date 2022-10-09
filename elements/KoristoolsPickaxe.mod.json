@@ -3,9 +3,9 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "koristools_pickaxe",
+    "texture": "korispick",
     "customModelName": "Normal",
-    "name": "Koristools Pickaxe",
+    "name": "Koris Pickaxe",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:EtherTools"
@@ -13,7 +13,7 @@
     "toolType": "Pickaxe",
     "harvestLevel": 3,
     "efficiency": 14.0,
-    "attackSpeed": 1.0,
+    "attackSpeed": 1.4,
     "enchantability": 24,
     "damageVsEntity": 10.0,
     "usageCount": 4000,

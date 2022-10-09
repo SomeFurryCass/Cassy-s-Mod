@@ -4,10 +4,10 @@
   "definition": {
     "texture": "etherstalkcore",
     "textureTop": "etherstalkcore",
-    "textureLeft": "etherstalksides",
-    "textureFront": "etherstalksides",
-    "textureRight": "etherstalksides",
-    "textureBack": "etherstalksides",
+    "textureLeft": "stalkstripped",
+    "textureFront": "stalkstripped",
+    "textureRight": "stalkstripped",
+    "textureBack": "stalkstripped",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 5,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Ether Stalk",
+    "name": "Stripped Stalk",
     "specialInfo": [],
     "hardness": 2.5,
     "resistance": 20.0,
@@ -48,7 +48,7 @@
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
-    "requiresCorrectTool": true,
+    "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
@@ -123,6 +123,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "StrippedStalkOnBlockRightClicked"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

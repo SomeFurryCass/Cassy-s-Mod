@@ -36,6 +36,6 @@ public class KoristoolsSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(ForeignTechnologiesModItems.KORIS.get()));
 			}
-		}, 3, -3f, new Item.Properties().tab(ForeignTechnologiesModTabs.TAB_ETHER_TOOLS).fireResistant());
+		}, 3, -2.5999999999999999f, new Item.Properties().tab(ForeignTechnologiesModTabs.TAB_ETHER_TOOLS).fireResistant());
 	}
 }

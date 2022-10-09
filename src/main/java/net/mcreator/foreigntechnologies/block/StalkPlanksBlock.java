@@ -13,20 +13,18 @@ import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
-import net.minecraft.world.item.TieredItem;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import java.util.List;
 import java.util.Collections;
 
-public class EtherStalkBlock extends Block {
+public class StalkPlanksBlock extends Block {
 	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 
-	public EtherStalkBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.BAMBOO).strength(2.5f, 20f).requiresCorrectToolForDrops());
+	public StalkPlanksBlock() {
+		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.BAMBOO).strength(2.6999999999999997f, 22f));
 		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y));
 	}
 
@@ -55,13 +53,6 @@ public class EtherStalkBlock extends Block {
 			}
 		}
 		return state;
-	}
-
-	@Override
-	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
-			return tieredItem.getTier().getLevel() >= 2;
-		return false;
 	}
 
 	@Override

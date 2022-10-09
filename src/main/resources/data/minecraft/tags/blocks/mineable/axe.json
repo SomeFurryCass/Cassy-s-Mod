@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "foreign_technologies:ether_stalk"
+    "foreign_technologies:ether_stalk",
+    "foreign_technologies:stripped_stalk",
+    "foreign_technologies:stalk_planks"
   ]
 }

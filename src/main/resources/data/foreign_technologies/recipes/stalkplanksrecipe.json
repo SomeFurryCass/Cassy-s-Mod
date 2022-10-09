@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foreign_technologies:ether_stalk"
+    }
+  ],
+  "result": {
+    "item": "foreign_technologies:stalk_planks",
+    "count": 4
+  }
+}

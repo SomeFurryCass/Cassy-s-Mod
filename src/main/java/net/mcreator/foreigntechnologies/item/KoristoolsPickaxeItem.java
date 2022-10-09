@@ -36,6 +36,6 @@ public class KoristoolsPickaxeItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(ForeignTechnologiesModItems.KORIS.get()));
 			}
-		}, 1, -3f, new Item.Properties().tab(ForeignTechnologiesModTabs.TAB_ETHER_TOOLS).fireResistant());
+		}, 1, -2.6f, new Item.Properties().tab(ForeignTechnologiesModTabs.TAB_ETHER_TOOLS).fireResistant());
 	}
 }

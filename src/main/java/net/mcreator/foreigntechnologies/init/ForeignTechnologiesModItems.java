@@ -36,6 +36,7 @@ import net.mcreator.foreigntechnologies.item.StoneEPickItem;
 import net.mcreator.foreigntechnologies.item.StoneEHoeItem;
 import net.mcreator.foreigntechnologies.item.StoneEAxeItem;
 import net.mcreator.foreigntechnologies.item.StoneCoreItem;
+import net.mcreator.foreigntechnologies.item.StalkReedItem;
 import net.mcreator.foreigntechnologies.item.RawEtherItem;
 import net.mcreator.foreigntechnologies.item.PureEtherItem;
 import net.mcreator.foreigntechnologies.item.PureEtherBottleItem;
@@ -202,6 +203,11 @@ public class ForeignTechnologiesModItems {
 			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
 	public static final RegistryObject<Item> REINFORCED_ETHERSTONE = block(ForeignTechnologiesModBlocks.REINFORCED_ETHERSTONE,
 			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> STRIPPED_STALK = block(ForeignTechnologiesModBlocks.STRIPPED_STALK,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> STALK_PLANKS = block(ForeignTechnologiesModBlocks.STALK_PLANKS,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> STALK_REED = REGISTRY.register("stalk_reed", () -> new StalkReedItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

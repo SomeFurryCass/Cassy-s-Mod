@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "foreign_technologies:blocks/stalkplanks",
+    "up": "foreign_technologies:blocks/stalkplanks",
+    "north": "foreign_technologies:blocks/stalkplanks",
+    "east": "foreign_technologies:blocks/stalkplanks",
+    "south": "foreign_technologies:blocks/stalkplanks",
+    "west": "foreign_technologies:blocks/stalkplanks",
+    "particle": "foreign_technologies:blocks/stalkplanks"
+  }
+}

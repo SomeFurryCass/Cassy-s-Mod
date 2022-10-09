@@ -15,6 +15,8 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.foreigntechnologies.block.TheDeepEtherPortalBlock;
+import net.mcreator.foreigntechnologies.block.StrippedStalkBlock;
+import net.mcreator.foreigntechnologies.block.StalkPlanksBlock;
 import net.mcreator.foreigntechnologies.block.ReinforcedEtherstoneBlock;
 import net.mcreator.foreigntechnologies.block.KorisslateoreBlock;
 import net.mcreator.foreigntechnologies.block.KorisPillarBlock;
@@ -58,6 +60,8 @@ public class ForeignTechnologiesModBlocks {
 	public static final RegistryObject<Block> KORIS_PILLAR = REGISTRY.register("koris_pillar", () -> new KorisPillarBlock());
 	public static final RegistryObject<Block> REINFORCED_ETHERSTONE = REGISTRY.register("reinforced_etherstone",
 			() -> new ReinforcedEtherstoneBlock());
+	public static final RegistryObject<Block> STRIPPED_STALK = REGISTRY.register("stripped_stalk", () -> new StrippedStalkBlock());
+	public static final RegistryObject<Block> STALK_PLANKS = REGISTRY.register("stalk_planks", () -> new StalkPlanksBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

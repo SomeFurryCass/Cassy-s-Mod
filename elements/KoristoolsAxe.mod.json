@@ -3,9 +3,9 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "koristools_axe",
+    "texture": "korisaxe",
     "customModelName": "Normal",
-    "name": "Koristools Axe",
+    "name": "Koris Axe",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:EtherTools"
@@ -13,7 +13,7 @@
     "toolType": "Axe",
     "harvestLevel": 3,
     "efficiency": 14.0,
-    "attackSpeed": 1.0,
+    "attackSpeed": 1.4000000000000001,
     "enchantability": 24,
     "damageVsEntity": 13.0,
     "usageCount": 4000,

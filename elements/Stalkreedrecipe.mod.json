@@ -5,24 +5,12 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 4,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Koris"
-      },
-      {
-        "value": "CUSTOM:Koris"
-      },
-      {
         "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:StalkReed"
       },
       {
         "value": ""
@@ -31,16 +19,28 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:StalkReed"
+        "value": "CUSTOM:StalkPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:StalkPlanks"
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:KoristoolsHoe"
+      "value": "CUSTOM:StalkReed"
     },
-    "name": "koristools_hoe_recipe",
+    "name": "stalkreedrecipe",
     "namespace": "mod"
   }
 }

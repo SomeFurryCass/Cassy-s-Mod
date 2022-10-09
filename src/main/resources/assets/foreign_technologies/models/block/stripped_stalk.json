@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "foreign_technologies:blocks/etherstalkcore",
+    "up": "foreign_technologies:blocks/etherstalkcore",
+    "north": "foreign_technologies:blocks/stalkstripped",
+    "east": "foreign_technologies:blocks/stalkstripped",
+    "south": "foreign_technologies:blocks/stalkstripped",
+    "west": "foreign_technologies:blocks/stalkstripped",
+    "particle": "foreign_technologies:blocks/etherstalkcore"
+  }
+}
