@@ -1937,6 +1937,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "etheriums_hoe_recipe"
+    },
+    {
+      "name": "Strippedplanksrecipe",
+      "type": "recipe",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strippedplanksrecipe"
     }
   ],
   "variable_elements": [],

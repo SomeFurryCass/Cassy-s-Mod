@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:stripped_stalk"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:stalk_planks",
+    "count": 4
+  }
+}

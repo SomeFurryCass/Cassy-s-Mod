@@ -19,6 +19,7 @@ import net.minecraft.core.Holder;
 
 import net.mcreator.foreigntechnologies.world.features.ores.KorisslateoreFeature;
 import net.mcreator.foreigntechnologies.world.features.ores.KorisOreFeature;
+import net.mcreator.foreigntechnologies.world.features.ores.EtheriumClusterFeature;
 import net.mcreator.foreigntechnologies.world.features.ores.EtherDropOreFeature;
 import net.mcreator.foreigntechnologies.world.features.ores.AzemSlateFeature;
 import net.mcreator.foreigntechnologies.world.features.ores.AzemOreFeature;
@@ -52,6 +53,9 @@ public class ForeignTechnologiesModFeatures {
 			GenerationStep.Decoration.UNDERGROUND_ORES, KorisslateoreFeature.GENERATE_BIOMES, KorisslateoreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> ETHER_DROP_ORE = register("ether_drop_ore", EtherDropOreFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.UNDERGROUND_ORES, EtherDropOreFeature.GENERATE_BIOMES, EtherDropOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> ETHERIUM_CLUSTER = register("etherium_cluster", EtheriumClusterFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, EtheriumClusterFeature.GENERATE_BIOMES,
+					EtheriumClusterFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> AZEM_ORE = register("azem_ore", AzemOreFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, AzemOreFeature.GENERATE_BIOMES, AzemOreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> AZEM_SLATE = register("azem_slate", AzemSlateFeature::feature,
