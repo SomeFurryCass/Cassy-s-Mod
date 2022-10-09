@@ -1,0 +1,20 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 50.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:AzemOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Azem"
+    },
+    "name": "azemsmeltore",
+    "namespace": "mod"
+  }
+}

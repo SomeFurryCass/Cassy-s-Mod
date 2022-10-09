@@ -22,11 +22,11 @@ import java.util.Collections;
 public class KorisPlatingBlock extends Block {
 	public KorisPlatingBlock() {
 		super(BlockBehaviour.Properties.of(Material.METAL)
-				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("foreign_technologies:korisplatebreak")),
-						() -> new SoundEvent(new ResourceLocation("foreign_technologies:korisplatestep")),
-						() -> new SoundEvent(new ResourceLocation("foreign_technologies:korisplatebreak")),
-						() -> new SoundEvent(new ResourceLocation("foreign_technologies:korisplatehit")),
-						() -> new SoundEvent(new ResourceLocation("foreign_technologies:korisplatestep"))))
+				.sound(new ForgeSoundType(1.0f, 1.0f, () -> new SoundEvent(new ResourceLocation("foreign_technologies:metalbreakloud")),
+						() -> new SoundEvent(new ResourceLocation("foreign_technologies:metalsteploud")),
+						() -> new SoundEvent(new ResourceLocation("foreign_technologies:metalbreakloud")),
+						() -> new SoundEvent(new ResourceLocation("foreign_technologies:metalhitloud")),
+						() -> new SoundEvent(new ResourceLocation("foreign_technologies:metalsteploud"))))
 				.strength(4.5f, 45f).requiresCorrectToolForDrops());
 	}
 

@@ -97,5 +97,32 @@
         "stream": false
       }
     ]
+  },
+  "metalbreakloud": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "foreign_technologies:metalbreak",
+        "stream": false
+      }
+    ]
+  },
+  "metalsteploud": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "foreign_technologies:metalstep",
+        "stream": false
+      }
+    ]
+  },
+  "metalhitloud": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "foreign_technologies:metalhit",
+        "stream": false
+      }
+    ]
   }
 }

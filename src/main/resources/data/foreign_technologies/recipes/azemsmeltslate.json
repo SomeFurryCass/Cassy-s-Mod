@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 70,
+  "cookingtime": 220,
+  "ingredient": {
+    "item": "foreign_technologies:azem_slate"
+  },
+  "result": "foreign_technologies:azem"
+}

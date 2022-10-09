@@ -40,6 +40,12 @@ public class ForeignTechnologiesModSounds {
 				new SoundEvent(new ResourceLocation("foreign_technologies", "korisplatestep")));
 		REGISTRY.put(new ResourceLocation("foreign_technologies", "korisplatehit"),
 				new SoundEvent(new ResourceLocation("foreign_technologies", "korisplatehit")));
+		REGISTRY.put(new ResourceLocation("foreign_technologies", "metalbreakloud"),
+				new SoundEvent(new ResourceLocation("foreign_technologies", "metalbreakloud")));
+		REGISTRY.put(new ResourceLocation("foreign_technologies", "metalsteploud"),
+				new SoundEvent(new ResourceLocation("foreign_technologies", "metalsteploud")));
+		REGISTRY.put(new ResourceLocation("foreign_technologies", "metalhitloud"),
+				new SoundEvent(new ResourceLocation("foreign_technologies", "metalhitloud")));
 	}
 
 	@SubscribeEvent

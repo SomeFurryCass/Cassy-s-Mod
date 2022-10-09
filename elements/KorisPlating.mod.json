@@ -82,19 +82,19 @@
       "value": "GROUND"
     },
     "breakSound": {
-      "value": "CUSTOM:korisplatebreak"
+      "value": "CUSTOM:metalbreakloud"
     },
     "fallSound": {
-      "value": "CUSTOM:korisplatestep"
+      "value": "CUSTOM:metalsteploud"
     },
     "hitSound": {
-      "value": "CUSTOM:korisplatehit"
+      "value": "CUSTOM:metalhitloud"
     },
     "placeSound": {
-      "value": "CUSTOM:korisplatebreak"
+      "value": "CUSTOM:metalbreakloud"
     },
     "stepSound": {
-      "value": "CUSTOM:korisplatestep"
+      "value": "CUSTOM:metalsteploud"
     },
     "luminance": 0,
     "unbreakable": false,

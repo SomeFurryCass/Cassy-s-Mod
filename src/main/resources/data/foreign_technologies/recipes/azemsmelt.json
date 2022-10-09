@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 50,
+  "cookingtime": 180,
+  "ingredient": {
+    "item": "foreign_technologies:azem_chunk"
+  },
+  "result": "foreign_technologies:azem"
+}
