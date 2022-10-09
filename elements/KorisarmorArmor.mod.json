@@ -1,0 +1,62 @@
+{
+  "_fv": 33,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "korisarmor_head",
+    "enableBody": true,
+    "textureBody": "korisarmor_body",
+    "enableLeggings": true,
+    "textureLeggings": "korisarmor_leggings",
+    "enableBoots": true,
+    "textureBoots": "korisarmor_boots",
+    "creativeTab": {
+      "value": "CUSTOM:EtherTools"
+    },
+    "armorTextureFile": "korisarmor",
+    "helmetName": "Korisarmor Helmet",
+    "bodyName": "Korisarmor Chestplate",
+    "leggingsName": "Korisarmor Leggings",
+    "bootsName": "Korisarmor Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 45,
+    "damageValueHelmet": 8,
+    "damageValueBody": 18,
+    "damageValueLeggings": 22,
+    "damageValueBoots": 8,
+    "enchantability": 32,
+    "toughness": 5.0,
+    "knockbackResistance": 0.6,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Koris"
+      }
+    ]
+  }
+}

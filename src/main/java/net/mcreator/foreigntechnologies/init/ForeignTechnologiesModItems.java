@@ -45,6 +45,12 @@ import net.mcreator.foreigntechnologies.item.NetheriteEPickItem;
 import net.mcreator.foreigntechnologies.item.NetheriteEHoeItem;
 import net.mcreator.foreigntechnologies.item.NetheriteEAxeItem;
 import net.mcreator.foreigntechnologies.item.NetheriteCoreItem;
+import net.mcreator.foreigntechnologies.item.KoristoolsSwordItem;
+import net.mcreator.foreigntechnologies.item.KoristoolsShovelItem;
+import net.mcreator.foreigntechnologies.item.KoristoolsPickaxeItem;
+import net.mcreator.foreigntechnologies.item.KoristoolsHoeItem;
+import net.mcreator.foreigntechnologies.item.KoristoolsAxeItem;
+import net.mcreator.foreigntechnologies.item.KorisarmorArmorItem;
 import net.mcreator.foreigntechnologies.item.KorisItem;
 import net.mcreator.foreigntechnologies.item.KorisChunkItem;
 import net.mcreator.foreigntechnologies.item.IroncoreItem;
@@ -171,6 +177,19 @@ public class ForeignTechnologiesModItems {
 	public static final RegistryObject<Item> KORISSLATEORE = block(ForeignTechnologiesModBlocks.KORISSLATEORE,
 			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
 	public static final RegistryObject<Item> KORIS = REGISTRY.register("koris", () -> new KorisItem());
+	public static final RegistryObject<Item> KORISTOOLS_PICKAXE = REGISTRY.register("koristools_pickaxe", () -> new KoristoolsPickaxeItem());
+	public static final RegistryObject<Item> KORISTOOLS_AXE = REGISTRY.register("koristools_axe", () -> new KoristoolsAxeItem());
+	public static final RegistryObject<Item> KORISTOOLS_SWORD = REGISTRY.register("koristools_sword", () -> new KoristoolsSwordItem());
+	public static final RegistryObject<Item> KORISTOOLS_SHOVEL = REGISTRY.register("koristools_shovel", () -> new KoristoolsShovelItem());
+	public static final RegistryObject<Item> KORISTOOLS_HOE = REGISTRY.register("koristools_hoe", () -> new KoristoolsHoeItem());
+	public static final RegistryObject<Item> KORISARMOR_ARMOR_HELMET = REGISTRY.register("korisarmor_armor_helmet",
+			() -> new KorisarmorArmorItem.Helmet());
+	public static final RegistryObject<Item> KORISARMOR_ARMOR_CHESTPLATE = REGISTRY.register("korisarmor_armor_chestplate",
+			() -> new KorisarmorArmorItem.Chestplate());
+	public static final RegistryObject<Item> KORISARMOR_ARMOR_LEGGINGS = REGISTRY.register("korisarmor_armor_leggings",
+			() -> new KorisarmorArmorItem.Leggings());
+	public static final RegistryObject<Item> KORISARMOR_ARMOR_BOOTS = REGISTRY.register("korisarmor_armor_boots",
+			() -> new KorisarmorArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

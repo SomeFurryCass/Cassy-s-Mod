@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:koris"
+    },
+    "1": {
+      "item": "foreign_technologies:koris"
+    },
+    "2": {
+      "item": "foreign_technologies:koris"
+    },
+    "3": {
+      "item": "foreign_technologies:koris"
+    },
+    "5": {
+      "item": "foreign_technologies:koris"
+    },
+    "6": {
+      "item": "foreign_technologies:koris"
+    },
+    "8": {
+      "item": "foreign_technologies:koris"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:korisarmor_armor_leggings",
+    "count": 1
+  }
+}
