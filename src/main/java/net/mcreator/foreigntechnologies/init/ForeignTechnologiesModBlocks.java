@@ -17,6 +17,8 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.foreigntechnologies.block.TheDeepEtherPortalBlock;
 import net.mcreator.foreigntechnologies.block.KorisslateoreBlock;
 import net.mcreator.foreigntechnologies.block.KorisOreBlock;
+import net.mcreator.foreigntechnologies.block.KorisGlassBlock;
+import net.mcreator.foreigntechnologies.block.KorisFenceBlock;
 import net.mcreator.foreigntechnologies.block.EtherstoneBlock;
 import net.mcreator.foreigntechnologies.block.EtherdimensionPortalBlock;
 import net.mcreator.foreigntechnologies.block.EtherSurfaceBlock;
@@ -49,6 +51,8 @@ public class ForeignTechnologiesModBlocks {
 	public static final RegistryObject<Block> THE_DEEP_ETHER_PORTAL = REGISTRY.register("the_deep_ether_portal", () -> new TheDeepEtherPortalBlock());
 	public static final RegistryObject<Block> KORIS_ORE = REGISTRY.register("koris_ore", () -> new KorisOreBlock());
 	public static final RegistryObject<Block> KORISSLATEORE = REGISTRY.register("korisslateore", () -> new KorisslateoreBlock());
+	public static final RegistryObject<Block> KORIS_FENCE = REGISTRY.register("koris_fence", () -> new KorisFenceBlock());
+	public static final RegistryObject<Block> KORIS_GLASS = REGISTRY.register("koris_glass", () -> new KorisGlassBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -56,6 +60,8 @@ public class ForeignTechnologiesModBlocks {
 		public static void clientSetup(FMLClientSetupEvent event) {
 			EtherGeneratorBlock.registerRenderLayer();
 			EtherGlassBlock.registerRenderLayer();
+			KorisFenceBlock.registerRenderLayer();
+			KorisGlassBlock.registerRenderLayer();
 		}
 	}
 }

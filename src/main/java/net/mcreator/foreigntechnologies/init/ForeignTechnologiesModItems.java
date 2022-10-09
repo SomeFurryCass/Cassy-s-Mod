@@ -194,6 +194,10 @@ public class ForeignTechnologiesModItems {
 	public static final RegistryObject<Item> WATCHER = REGISTRY.register("watcher_spawn_egg",
 			() -> new ForgeSpawnEggItem(ForeignTechnologiesModEntities.WATCHER, -16777216, -1,
 					new Item.Properties().tab(ForeignTechnologiesModTabs.TAB_ETHER_TOOLS)));
+	public static final RegistryObject<Item> KORIS_FENCE = block(ForeignTechnologiesModBlocks.KORIS_FENCE,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> KORIS_GLASS = block(ForeignTechnologiesModBlocks.KORIS_GLASS,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
