@@ -60,7 +60,7 @@ public class EtherstalktreenormalFeature extends Feature<NoneFeatureConfiguratio
 			return false;
 		boolean anyPlaced = false;
 		if ((context.random().nextInt(1000000) + 1) <= 10000) {
-			int count = context.random().nextInt(-8) + 10;
+			int count = context.random().nextInt(11) + 6;
 			for (int a = 0; a < count; a++) {
 				int i = context.origin().getX() + context.random().nextInt(16);
 				int k = context.origin().getZ() + context.random().nextInt(16);
