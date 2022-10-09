@@ -37,7 +37,7 @@
     "name": "Koris Glass",
     "specialInfo": [],
     "hardness": 3.0,
-    "resistance": 28.0,
+    "resistance": 29.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
