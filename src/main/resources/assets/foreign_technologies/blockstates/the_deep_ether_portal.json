@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "foreign_technologies:block/the_deep_ether_portal_ew"
+    },
+    "axis=x": {
+      "model": "foreign_technologies:block/the_deep_ether_portal_ns"
+    }
+  }
+}

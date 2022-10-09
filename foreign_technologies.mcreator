@@ -1142,6 +1142,33 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_corruption"
+    },
+    {
+      "name": "EtherSlateBrick",
+      "type": "block",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ether_slate_brick"
+    },
+    {
+      "name": "TheDeepEther",
+      "type": "dimension",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_deep_ether",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Deepcrest",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepcrest"
     }
   ],
   "variable_elements": [],
@@ -1216,6 +1243,7 @@
       "item.foreign_technologies.diamond_e_shovel": "Diamond E Shovel",
       "item.foreign_technologies.super_ether_emitter": "Super Ether Emitter",
       "item.foreign_technologies.stone_core": "Stone Core",
+      "block.foreign_technologies.ether_slate_brick": "Ether Slate Brick",
       "block.foreign_technologies.distortion": "Distortion",
       "item.foreign_technologies.wood_e_sword": "Wood E Sword",
       "item.foreign_technologies.ether_bottle": "Ether Bottle",
@@ -1233,6 +1261,7 @@
       "item.foreign_technologies.diamond_e_axe": "Diamond E Axe",
       "block.foreign_technologies.ether_panel": "Ether Panel",
       "item.foreign_technologies.otherworldy_transmission.desc": "Description :3",
+      "item.foreign_technologies.the_deep_ether": "Deep Crest",
       "item.foreign_technologies.iron_e_shovel": "Iron E Shovel",
       "item.foreign_technologies.wood_e_axe": "Wood E Sword",
       "item.foreign_technologies.copper_e_pick": "Copper E Pick",

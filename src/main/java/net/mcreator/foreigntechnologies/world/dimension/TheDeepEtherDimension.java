@@ -22,17 +22,15 @@ import java.util.HashSet;
 import com.google.common.collect.ImmutableSet;
 
 @Mod.EventBusSubscriber
-public class EtherdimensionDimension {
+public class TheDeepEtherDimension {
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 	public static class Fixers {
 		@SubscribeEvent
 		public static void registerFillerBlocks(FMLCommonSetupEvent event) {
 			Set<Block> replaceableBlocks = new HashSet<>();
-			replaceableBlocks.add(ForeignTechnologiesModBlocks.ETHERSTONE.get());
-			replaceableBlocks.add(ForeignTechnologiesModBlocks.ETHER_SLATE.get());
-			replaceableBlocks.add(ForeignTechnologiesModBlocks.ETHER_SLATE.get());
-			replaceableBlocks.add(ForeignTechnologiesModBlocks.ETHER_SURFACE.get());
-			replaceableBlocks.add(ForeignTechnologiesModBlocks.ETHERSTONE.get());
+			replaceableBlocks.add(ForeignTechnologiesModBlocks.DISTORTION.get());
+			replaceableBlocks.add(ForeignTechnologiesModBlocks.DISTORTION.get());
+			replaceableBlocks.add(ForeignTechnologiesModBlocks.DISTORTION.get());
 			event.enqueueWork(() -> {
 				WorldCarver.CAVE.replaceableBlocks = new ImmutableSet.Builder<Block>().addAll(WorldCarver.CAVE.replaceableBlocks)
 						.addAll(replaceableBlocks).build();
@@ -47,7 +45,7 @@ public class EtherdimensionDimension {
 			DimensionSpecialEffects customEffect = new DimensionSpecialEffects(Float.NaN, true, DimensionSpecialEffects.SkyType.NONE, false, false) {
 				@Override
 				public Vec3 getBrightnessDependentFogColor(Vec3 color, float sunHeight) {
-					return new Vec3(0, 0, 0);
+					return color;
 				}
 
 				@Override
@@ -55,7 +53,7 @@ public class EtherdimensionDimension {
 					return false;
 				}
 			};
-			event.enqueueWork(() -> DimensionSpecialEffects.EFFECTS.put(new ResourceLocation("foreign_technologies:etherdimension"), customEffect));
+			event.enqueueWork(() -> DimensionSpecialEffects.EFFECTS.put(new ResourceLocation("foreign_technologies:the_deep_ether"), customEffect));
 		}
 	}
 }

@@ -20,6 +20,7 @@ import net.mcreator.foreigntechnologies.item.WoodEHoeItem;
 import net.mcreator.foreigntechnologies.item.WoodEAxeItem;
 import net.mcreator.foreigntechnologies.item.WeakEtherLensItem;
 import net.mcreator.foreigntechnologies.item.WeakEtherItem;
+import net.mcreator.foreigntechnologies.item.TheDeepEtherItem;
 import net.mcreator.foreigntechnologies.item.SuperEtherEmitterItem;
 import net.mcreator.foreigntechnologies.item.StrangeESwordItem;
 import net.mcreator.foreigntechnologies.item.StrangeEShovelItem;
@@ -160,6 +161,9 @@ public class ForeignTechnologiesModItems {
 			() -> new OtherworldyTransmissionItem());
 	public static final RegistryObject<Item> ETHERDIMENSION = REGISTRY.register("etherdimension", () -> new EtherdimensionItem());
 	public static final RegistryObject<Item> DISTORTION = block(ForeignTechnologiesModBlocks.DISTORTION, ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> ETHER_SLATE_BRICK = block(ForeignTechnologiesModBlocks.ETHER_SLATE_BRICK,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> THE_DEEP_ETHER = REGISTRY.register("the_deep_ether", () -> new TheDeepEtherItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

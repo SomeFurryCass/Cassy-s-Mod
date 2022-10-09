@@ -14,10 +14,12 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.foreigntechnologies.block.TheDeepEtherPortalBlock;
 import net.mcreator.foreigntechnologies.block.EtherstoneBlock;
 import net.mcreator.foreigntechnologies.block.EtherdimensionPortalBlock;
 import net.mcreator.foreigntechnologies.block.EtherSurfaceBlock;
 import net.mcreator.foreigntechnologies.block.EtherStalkBlock;
+import net.mcreator.foreigntechnologies.block.EtherSlateBrickBlock;
 import net.mcreator.foreigntechnologies.block.EtherSlateBlock;
 import net.mcreator.foreigntechnologies.block.EtherPurifierBlock;
 import net.mcreator.foreigntechnologies.block.EtherPurifierAtiveBlock;
@@ -41,6 +43,8 @@ public class ForeignTechnologiesModBlocks {
 	public static final RegistryObject<Block> ETHERDIMENSION_PORTAL = REGISTRY.register("etherdimension_portal",
 			() -> new EtherdimensionPortalBlock());
 	public static final RegistryObject<Block> DISTORTION = REGISTRY.register("distortion", () -> new DistortionBlock());
+	public static final RegistryObject<Block> ETHER_SLATE_BRICK = REGISTRY.register("ether_slate_brick", () -> new EtherSlateBrickBlock());
+	public static final RegistryObject<Block> THE_DEEP_ETHER_PORTAL = REGISTRY.register("the_deep_ether_portal", () -> new TheDeepEtherPortalBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

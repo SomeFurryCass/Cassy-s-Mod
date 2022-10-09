@@ -4,22 +4,15 @@
   "definition": {
     "biomesInDimension": [
       {
-        "value": "CUSTOM:Etheroverworld"
-      },
-      {
-        "value": "CUSTOM:Etherdeeplands"
+        "value": "CUSTOM:TheCorruption"
       }
     ],
-    "worldGenType": "Normal world gen",
+    "worldGenType": "End like gen",
     "mainFillerBlock": {
-      "value": "CUSTOM:Etherstone"
+      "value": "CUSTOM:Distortion"
     },
     "fluidBlock": {
-      "value": "Blocks.AIR"
-    },
-    "airColor": {
-      "value": -16777216,
-      "falpha": 0.0
+      "value": "CUSTOM:Distortion"
     },
     "canRespawnHere": false,
     "hasFog": false,
@@ -29,21 +22,21 @@
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
     "portalFrame": {
-      "value": "Blocks.POLISHED_BLACKSTONE"
+      "value": "CUSTOM:EtherSlateBrick"
     },
     "portalParticles": {
-      "value": "CUSTOM:Ether"
+      "value": "END_ROD"
     },
     "portalLuminance": 0,
     "portalSound": {
       "value": "CUSTOM:etherportalsound"
     },
-    "igniterName": "Ether Crest",
+    "igniterName": "Deep Crest",
     "igniterTab": {
       "value": "CUSTOM:EtherTools"
     },
-    "texture": "ethercrest",
-    "portalTexture": "etherportal",
+    "texture": "deepcrest",
+    "portalTexture": "portalcorruption",
     "enablePortal": true
   }
 }
