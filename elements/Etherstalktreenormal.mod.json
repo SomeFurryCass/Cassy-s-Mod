@@ -4,8 +4,8 @@
   "definition": {
     "structure": "etherstalknormal",
     "randomlyRotateStructure": true,
-    "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 10000,
+    "surfaceDetectionType": "First block",
+    "spawnProbability": 5000,
     "minCountPerChunk": 6,
     "maxCountPerChunk": 16,
     "spawnLocation": "Ground",

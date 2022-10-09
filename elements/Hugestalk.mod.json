@@ -7,7 +7,7 @@
     "surfaceDetectionType": "First motion blocking block",
     "spawnProbability": 10000,
     "minCountPerChunk": 2,
-    "maxCountPerChunk": 10,
+    "maxCountPerChunk": 4,
     "spawnLocation": "Ground",
     "spawnHeightOffset": 0,
     "spawnXOffset": 0,
