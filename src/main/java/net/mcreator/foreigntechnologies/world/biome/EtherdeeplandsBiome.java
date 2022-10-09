@@ -6,6 +6,9 @@ import net.minecraft.world.level.biome.Climate;
 import net.minecraft.world.level.biome.BiomeSpecialEffects;
 import net.minecraft.world.level.biome.BiomeGenerationSettings;
 import net.minecraft.world.level.biome.Biome;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.Music;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.data.worldgen.BiomeDefaultFeatures;
 
 public class EtherdeeplandsBiome {
@@ -16,7 +19,8 @@ public class EtherdeeplandsBiome {
 
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-16777216).waterColor(-16777216).waterFogColor(-16777216)
-				.skyColor(-16777216).foliageColorOverride(-16777216).grassColorOverride(-16777216).build();
+				.skyColor(-16777216).foliageColorOverride(-16777216).grassColorOverride(-16777216)
+				.backgroundMusic(new Music(new SoundEvent(new ResourceLocation("foreign_technologies:etheraudio1")), 12000, 24000, true)).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		BiomeDefaultFeatures.addDefaultCarversAndLakes(biomeGenerationSettings);
 		BiomeDefaultFeatures.addDefaultOres(biomeGenerationSettings);
