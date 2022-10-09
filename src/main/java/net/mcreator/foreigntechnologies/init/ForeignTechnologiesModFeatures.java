@@ -18,7 +18,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Holder;
 
 import net.mcreator.foreigntechnologies.world.features.EtherstalktreenormalFeature;
-import net.mcreator.foreigntechnologies.world.features.EtherstalkhugeFeature;
 import net.mcreator.foreigntechnologies.ForeignTechnologiesMod;
 
 import java.util.function.Supplier;
@@ -33,9 +32,6 @@ public class ForeignTechnologiesModFeatures {
 	public static final RegistryObject<Feature<?>> ETHERSTALKTREENORMAL = register("etherstalktreenormal", EtherstalktreenormalFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, EtherstalktreenormalFeature.GENERATE_BIOMES,
 					EtherstalktreenormalFeature::placedFeature));
-	public static final RegistryObject<Feature<?>> ETHERSTALKHUGE = register("etherstalkhuge", EtherstalkhugeFeature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, EtherstalkhugeFeature.GENERATE_BIOMES,
-					EtherstalkhugeFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

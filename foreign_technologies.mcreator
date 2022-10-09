@@ -1094,14 +1094,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "etherstalktreenormal"
-    },
-    {
-      "name": "Etherstalkhuge",
-      "type": "structure",
-      "sortid": 124,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "etherstalkhuge"
     }
   ],
   "variable_elements": [],
