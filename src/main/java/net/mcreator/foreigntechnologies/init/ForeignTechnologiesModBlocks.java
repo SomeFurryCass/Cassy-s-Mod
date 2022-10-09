@@ -15,6 +15,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.foreigntechnologies.block.EtherstoneBlock;
+import net.mcreator.foreigntechnologies.block.EtherdimensionPortalBlock;
 import net.mcreator.foreigntechnologies.block.EtherSurfaceBlock;
 import net.mcreator.foreigntechnologies.block.EtherStalkBlock;
 import net.mcreator.foreigntechnologies.block.EtherSlateBlock;
@@ -36,6 +37,8 @@ public class ForeignTechnologiesModBlocks {
 	public static final RegistryObject<Block> ETHER_GLASS = REGISTRY.register("ether_glass", () -> new EtherGlassBlock());
 	public static final RegistryObject<Block> ETHER_SURFACE = REGISTRY.register("ether_surface", () -> new EtherSurfaceBlock());
 	public static final RegistryObject<Block> ETHER_PANEL = REGISTRY.register("ether_panel", () -> new EtherPanelBlock());
+	public static final RegistryObject<Block> ETHERDIMENSION_PORTAL = REGISTRY.register("etherdimension_portal",
+			() -> new EtherdimensionPortalBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

@@ -1067,6 +1067,17 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "otherworldy_transmission"
+    },
+    {
+      "name": "Etherdimension",
+      "type": "dimension",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "etherdimension",
+      "metadata": {
+        "ep": true
+      }
     }
   ],
   "variable_elements": [],
@@ -1094,10 +1105,11 @@
       "item.foreign_technologies.copper_e_shovel": "Copper E Shovel",
       "item.foreign_technologies.strange_core": "Strange Core",
       "subtitles.otherworldysounds": "",
+      "item.foreign_technologies.etherdimension": "Ether Crest",
       "item.foreign_technologies.weak_ether_lens": "Weak Ether Lens",
       "biome.foreign_technologies.etheroverworld": "Ether",
-      "block.foreign_technologies.ether_purifier_ative": "Ether Purifier",
       "item.foreign_technologies.goldcore": "Gold Core",
+      "block.foreign_technologies.ether_purifier_ative": "Ether Purifier",
       "item.foreign_technologies.brittle_stone_core": "Brittle Stone Core",
       "advancements.foreign_tech.title": "Foreign Tech",
       "item.foreign_technologies.raw_ether": "Raw Ether",

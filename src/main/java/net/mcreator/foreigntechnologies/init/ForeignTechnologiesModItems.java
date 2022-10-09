@@ -58,6 +58,7 @@ import net.mcreator.foreigntechnologies.item.GoldEHoeItem;
 import net.mcreator.foreigntechnologies.item.GoldEAxeItem;
 import net.mcreator.foreigntechnologies.item.FrenStickItem;
 import net.mcreator.foreigntechnologies.item.FrenItem;
+import net.mcreator.foreigntechnologies.item.EtherdimensionItem;
 import net.mcreator.foreigntechnologies.item.EtherEmitterItem;
 import net.mcreator.foreigntechnologies.item.EtherDropItem;
 import net.mcreator.foreigntechnologies.item.EtherBottleItem;
@@ -157,6 +158,7 @@ public class ForeignTechnologiesModItems {
 	public static final RegistryObject<Item> STRANGE_E_HOE = REGISTRY.register("strange_e_hoe", () -> new StrangeEHoeItem());
 	public static final RegistryObject<Item> OTHERWORLDY_TRANSMISSION = REGISTRY.register("otherworldy_transmission",
 			() -> new OtherworldyTransmissionItem());
+	public static final RegistryObject<Item> ETHERDIMENSION = REGISTRY.register("etherdimension", () -> new EtherdimensionItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
