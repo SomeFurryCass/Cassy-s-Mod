@@ -29,6 +29,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModTabs;
 import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModParticleTypes;
 import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModItems;
+import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModFeatures;
 import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModBlocks;
 import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModBlockEntities;
 import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModBiomes;
@@ -53,6 +54,7 @@ public class ForeignTechnologiesMod {
 		ForeignTechnologiesModItems.REGISTRY.register(bus);
 
 		ForeignTechnologiesModBlockEntities.REGISTRY.register(bus);
+		ForeignTechnologiesModFeatures.REGISTRY.register(bus);
 
 		ForeignTechnologiesModBiomes.REGISTRY.register(bus);
 		ForeignTechnologiesModParticleTypes.REGISTRY.register(bus);

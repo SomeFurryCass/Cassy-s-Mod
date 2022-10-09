@@ -1086,6 +1086,38 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "ethercrestrecipie"
+    },
+    {
+      "name": "Etherstalktree",
+      "type": "structure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "etherstalktree"
+    },
+    {
+      "name": "Etherstalktreenormal",
+      "type": "structure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "etherstalktreenormal"
+    },
+    {
+      "name": "Etherstalktreelarge",
+      "type": "structure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "etherstalktreelarge"
+    },
+    {
+      "name": "Etherstalkhuge",
+      "type": "structure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "etherstalkhuge"
     }
   ],
   "variable_elements": [],
