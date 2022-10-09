@@ -5,6 +5,12 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:Etheroverworld"
+      },
+      {
+        "value": "CUSTOM:Etherdeeplands"
+      },
+      {
+        "value": "CUSTOM:TheCorruption"
       }
     ],
     "worldGenType": "Normal world gen",

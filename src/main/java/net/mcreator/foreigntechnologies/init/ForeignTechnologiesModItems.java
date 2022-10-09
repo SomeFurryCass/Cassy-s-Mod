@@ -159,6 +159,7 @@ public class ForeignTechnologiesModItems {
 	public static final RegistryObject<Item> OTHERWORLDY_TRANSMISSION = REGISTRY.register("otherworldy_transmission",
 			() -> new OtherworldyTransmissionItem());
 	public static final RegistryObject<Item> ETHERDIMENSION = REGISTRY.register("etherdimension", () -> new EtherdimensionItem());
+	public static final RegistryObject<Item> DISTORTION = block(ForeignTechnologiesModBlocks.DISTORTION, ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -29,6 +29,10 @@ public class EtherdimensionDimension {
 		public static void registerFillerBlocks(FMLCommonSetupEvent event) {
 			Set<Block> replaceableBlocks = new HashSet<>();
 			replaceableBlocks.add(ForeignTechnologiesModBlocks.ETHERSTONE.get());
+			replaceableBlocks.add(ForeignTechnologiesModBlocks.DISTORTION.get());
+			replaceableBlocks.add(ForeignTechnologiesModBlocks.DISTORTION.get());
+			replaceableBlocks.add(ForeignTechnologiesModBlocks.ETHER_SLATE.get());
+			replaceableBlocks.add(ForeignTechnologiesModBlocks.ETHER_SLATE.get());
 			replaceableBlocks.add(ForeignTechnologiesModBlocks.ETHER_SURFACE.get());
 			replaceableBlocks.add(ForeignTechnologiesModBlocks.ETHERSTONE.get());
 			event.enqueueWork(() -> {

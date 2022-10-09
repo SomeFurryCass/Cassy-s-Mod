@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "foreign_technologies:blocks/distortionanimation",
+    "up": "foreign_technologies:blocks/distortionanimation",
+    "north": "foreign_technologies:blocks/distortionanimation",
+    "east": "foreign_technologies:blocks/distortionanimation",
+    "south": "foreign_technologies:blocks/distortionanimation",
+    "west": "foreign_technologies:blocks/distortionanimation",
+    "particle": "foreign_technologies:blocks/distortionanimation"
+  }
+}

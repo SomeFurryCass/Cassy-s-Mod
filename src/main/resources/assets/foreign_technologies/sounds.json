@@ -25,5 +25,14 @@
         "stream": false
       }
     ]
+  },
+  "corruption": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "foreign_technologies:end",
+        "stream": true
+      }
+    ]
   }
 }

@@ -29,7 +29,9 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.Registry;
 import net.minecraft.core.Holder;
 
+import net.mcreator.foreigntechnologies.world.biome.TheCorruptionBiome;
 import net.mcreator.foreigntechnologies.world.biome.EtheroverworldBiome;
+import net.mcreator.foreigntechnologies.world.biome.EtherdeeplandsBiome;
 import net.mcreator.foreigntechnologies.ForeignTechnologiesMod;
 
 import java.util.Map;
@@ -42,11 +44,15 @@ import com.mojang.datafixers.util.Pair;
 public class ForeignTechnologiesModBiomes {
 	public static final DeferredRegister<Biome> REGISTRY = DeferredRegister.create(ForgeRegistries.BIOMES, ForeignTechnologiesMod.MODID);
 	public static final RegistryObject<Biome> ETHEROVERWORLD = REGISTRY.register("etheroverworld", () -> EtheroverworldBiome.createBiome());
+	public static final RegistryObject<Biome> ETHERDEEPLANDS = REGISTRY.register("etherdeeplands", () -> EtherdeeplandsBiome.createBiome());
+	public static final RegistryObject<Biome> THE_CORRUPTION = REGISTRY.register("the_corruption", () -> TheCorruptionBiome.createBiome());
 
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			EtheroverworldBiome.init();
+			EtherdeeplandsBiome.init();
+			TheCorruptionBiome.init();
 		});
 	}
 
@@ -67,6 +73,10 @@ public class ForeignTechnologiesModBiomes {
 						List<Pair<Climate.ParameterPoint, Holder<Biome>>> parameters = new ArrayList<>(noiseSource.parameters.values());
 						parameters.add(new Pair<>(EtheroverworldBiome.PARAMETER_POINT,
 								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, ETHEROVERWORLD.getId()))));
+						parameters.add(new Pair<>(EtherdeeplandsBiome.PARAMETER_POINT,
+								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, ETHERDEEPLANDS.getId()))));
+						parameters.add(new Pair<>(TheCorruptionBiome.PARAMETER_POINT,
+								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, THE_CORRUPTION.getId()))));
 
 						MultiNoiseBiomeSource moddedNoiseSource = new MultiNoiseBiomeSource(new Climate.ParameterList<>(parameters),
 								noiseSource.preset);
@@ -84,6 +94,16 @@ public class ForeignTechnologiesModBiomes {
 											ForeignTechnologiesModBlocks.ETHER_SURFACE.get().defaultBlockState(),
 											ForeignTechnologiesModBlocks.ETHERSTONE.get().defaultBlockState(),
 											ForeignTechnologiesModBlocks.ETHERSTONE.get().defaultBlockState()));
+							surfaceRules.add(1,
+									preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, ETHERDEEPLANDS.getId()),
+											ForeignTechnologiesModBlocks.ETHER_SLATE.get().defaultBlockState(),
+											ForeignTechnologiesModBlocks.ETHER_SLATE.get().defaultBlockState(),
+											ForeignTechnologiesModBlocks.ETHER_SLATE.get().defaultBlockState()));
+							surfaceRules.add(1,
+									preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, THE_CORRUPTION.getId()),
+											ForeignTechnologiesModBlocks.DISTORTION.get().defaultBlockState(),
+											ForeignTechnologiesModBlocks.DISTORTION.get().defaultBlockState(),
+											ForeignTechnologiesModBlocks.DISTORTION.get().defaultBlockState()));
 							NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(),
 									noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
 									noiseGeneratorSettings.noiseRouter(),

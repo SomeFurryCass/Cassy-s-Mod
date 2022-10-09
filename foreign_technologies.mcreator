@@ -1118,6 +1118,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "hugestalk"
+    },
+    {
+      "name": "Etherdeeplands",
+      "type": "biome",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "etherdeeplands"
+    },
+    {
+      "name": "Distortion",
+      "type": "block",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "distortion"
+    },
+    {
+      "name": "TheCorruption",
+      "type": "biome",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_corruption"
     }
   ],
   "variable_elements": [],
@@ -1144,6 +1168,14 @@
         "alienwind1"
       ],
       "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "corruption",
+      "files": [
+        "end"
+      ],
+      "category": "music",
       "subtitle": ""
     }
   ],
@@ -1184,6 +1216,7 @@
       "item.foreign_technologies.diamond_e_shovel": "Diamond E Shovel",
       "item.foreign_technologies.super_ether_emitter": "Super Ether Emitter",
       "item.foreign_technologies.stone_core": "Stone Core",
+      "block.foreign_technologies.distortion": "Distortion",
       "item.foreign_technologies.wood_e_sword": "Wood E Sword",
       "item.foreign_technologies.ether_bottle": "Ether Bottle",
       "item.foreign_technologies.netherite_e_pick": "Netherite E Pick",
@@ -1207,10 +1240,12 @@
       "block.foreign_technologies.ether_stalk": "Ether Stalk",
       "item.foreign_technologies.pure_ether": "Pure Ether",
       "item.foreign_technologies.diamond_e_pick": "Diamond E Pick",
+      "biome.foreign_technologies.etherdeeplands": "Etherdeeplands",
       "item.foreign_technologies.netherite_core": "Netherite Core",
       "item.foreign_technologies.otherworldy_transmission": "Otherworldy Transmission",
       "block.foreign_technologies.ether_generator": "Ether Generator",
       "item.foreign_technologies.gold_e_shovel": "Gold E Shovel",
+      "biome.foreign_technologies.the_corruption": "The Corruption",
       "item.foreign_technologies.ironcore": "Iron Core",
       "item.foreign_technologies.strange_ball": "Strange Ball",
       "item.foreign_technologies.coppercore": "Copper Core",
@@ -1222,6 +1257,7 @@
       "item.foreign_technologies.netherite_e_shovel": "Netherite E Shovel",
       "item.foreign_technologies.netherite_e_hoe": "Netherite E Hoe",
       "block.foreign_technologies.etherstone": "Etherstone",
+      "subtitles.corruption": "",
       "item.foreign_technologies.iron_e_sword": "Iron E Sword",
       "item.foreign_technologies.diamond_e_hoe": "Diamond E Hoe",
       "item.foreign_technologies.strange_e_axe": "Strange E Axe",

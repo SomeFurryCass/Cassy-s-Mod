@@ -24,6 +24,7 @@ import net.mcreator.foreigntechnologies.block.EtherPurifierAtiveBlock;
 import net.mcreator.foreigntechnologies.block.EtherPanelBlock;
 import net.mcreator.foreigntechnologies.block.EtherGlassBlock;
 import net.mcreator.foreigntechnologies.block.EtherGeneratorBlock;
+import net.mcreator.foreigntechnologies.block.DistortionBlock;
 import net.mcreator.foreigntechnologies.ForeignTechnologiesMod;
 
 public class ForeignTechnologiesModBlocks {
@@ -39,6 +40,7 @@ public class ForeignTechnologiesModBlocks {
 	public static final RegistryObject<Block> ETHER_PANEL = REGISTRY.register("ether_panel", () -> new EtherPanelBlock());
 	public static final RegistryObject<Block> ETHERDIMENSION_PORTAL = REGISTRY.register("etherdimension_portal",
 			() -> new EtherdimensionPortalBlock());
+	public static final RegistryObject<Block> DISTORTION = REGISTRY.register("distortion", () -> new DistortionBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
