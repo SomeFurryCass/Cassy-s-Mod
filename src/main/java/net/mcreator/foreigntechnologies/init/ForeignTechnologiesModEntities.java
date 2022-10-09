@@ -24,7 +24,7 @@ public class ForeignTechnologiesModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITIES, ForeignTechnologiesMod.MODID);
 	public static final RegistryObject<EntityType<WatcherEntity>> WATCHER = register("watcher",
 			EntityType.Builder.<WatcherEntity>of(WatcherEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(100)
-					.setUpdateInterval(3).setCustomClientFactory(WatcherEntity::new).fireImmune().sized(1f, 1f));
+					.setUpdateInterval(3).setCustomClientFactory(WatcherEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
