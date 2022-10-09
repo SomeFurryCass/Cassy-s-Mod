@@ -3024,14 +3024,20 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "foreign_technologies:ether_slate"
+                              "Name": "foreign_technologies:ether_slate",
+                              "Properties": {
+                                "axis": "y"
+                              }
                             }
                           }
                         },
                         {
                           "type": "minecraft:block",
                           "result_state": {
-                            "Name": "foreign_technologies:ether_slate"
+                            "Name": "foreign_technologies:ether_slate",
+                            "Properties": {
+                              "axis": "y"
+                            }
                           }
                         }
                       ]
@@ -3049,7 +3055,10 @@
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "foreign_technologies:ether_slate"
+                        "Name": "foreign_technologies:ether_slate",
+                        "Properties": {
+                          "axis": "y"
+                        }
                       }
                     }
                   }

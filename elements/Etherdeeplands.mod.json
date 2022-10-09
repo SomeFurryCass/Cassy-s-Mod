@@ -33,13 +33,13 @@
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": ""
+      "value": "CUSTOM:otherworldysounds"
     },
     "additionsSound": {
       "value": ""
     },
     "music": {
-      "value": "CUSTOM:etheraudio1"
+      "value": ""
     },
     "moodSound": {
       "value": ""

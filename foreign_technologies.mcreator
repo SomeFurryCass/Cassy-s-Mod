@@ -1359,6 +1359,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "korisarmor_armor_boots_recipe"
+    },
+    {
+      "name": "Watcher",
+      "type": "livingentity",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "watcher"
     }
   ],
   "variable_elements": [],
@@ -1394,6 +1402,30 @@
       ],
       "category": "music",
       "subtitle": ""
+    },
+    {
+      "name": "watcherdeath",
+      "files": [
+        "watcherdeath"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "watcherhurt",
+      "files": [
+        "watcherhurt"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "watchersounds",
+      "files": [
+        "watchersound"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -1414,15 +1446,15 @@
       "item.foreign_technologies.strange_e_hoe": "Strange E Hoe",
       "block.foreign_technologies.korisslateore": "Korisslateore",
       "item.foreign_technologies.weak_ether": "Weak Ether",
-      "item.foreign_technologies.diamond_core": "Diamond Core",
       "item.foreign_technologies.iron_e_pick": "Iron E Pick",
-      "item.foreign_technologies.stone_core": "Stone Core",
+      "item.foreign_technologies.diamond_core": "Diamond Core",
       "block.foreign_technologies.ether_slate_brick": "Ether Slate Brick",
+      "item.foreign_technologies.stone_core": "Stone Core",
       "item.foreign_technologies.wood_e_sword": "Wood E Sword",
       "item.foreign_technologies.netherite_e_pick": "Netherite E Pick",
       "item.foreign_technologies.ether_emitter": "Ether Lens",
-      "item.foreign_technologies.koris_chunk": "Koris Chunk",
       "item.foreign_technologies.stone_e_pick": "Stone E Pick",
+      "item.foreign_technologies.koris_chunk": "Koris Chunk",
       "block.foreign_technologies.ether_glass": "Ether Glass",
       "subtitles.etherportalsound": "",
       "item.foreign_technologies.copper_e_hoe": "Copper E Hoe",
@@ -1430,8 +1462,10 @@
       "item.foreign_technologies.stone_e_axe": "Stone E Axe",
       "block.foreign_technologies.koris_ore": "Koris Ore",
       "item.foreign_technologies.diamond_e_axe": "Diamond E Axe",
+      "subtitles.watchersounds": "",
       "block.foreign_technologies.ether_panel": "Ether Panel",
       "item.foreign_technologies.otherworldy_transmission.desc": "Description :3",
+      "subtitles.watcherdeath": "",
       "item.foreign_technologies.iron_e_shovel": "Iron E Shovel",
       "item.foreign_technologies.copper_e_pick": "Copper E Pick",
       "item.foreign_technologies.diamond_e_pick": "Diamond E Pick",
@@ -1451,6 +1485,7 @@
       "item.foreign_technologies.strange_e_sword": "Strange E Sword",
       "item.foreign_technologies.korisarmor_armor_boots": "Korisarmor Boots",
       "item.foreign_technologies.copper_e_shovel": "Copper E Shovel",
+      "subtitles.watcherhurt": "",
       "item.foreign_technologies.strange_core": "Strange Core",
       "item.foreign_technologies.etherdimension": "Ether Crest",
       "item.foreign_technologies.weak_ether_lens": "Weak Ether Lens",
@@ -1462,6 +1497,7 @@
       "item.foreign_technologies.iron_e_hoe": "Iron E Hoe",
       "item.foreign_technologies.gold_e_pick": "Gold E Pick",
       "item.foreign_technologies.stone_e_shovel": "Stone E Shovel",
+      "item.foreign_technologies.watcher_spawn_egg": "Watcher Spawn Egg",
       "item.foreign_technologies.wood_e_hoe": "Wood E Hoe",
       "item.foreign_technologies.fren": "Fren",
       "item.foreign_technologies.fren_stick": "Fren on a Stick",
@@ -1479,6 +1515,7 @@
       "item.foreign_technologies.copper_e_sword": "Copper E Sword",
       "item.foreign_technologies.the_deep_ether": "Deep Crest",
       "item.foreign_technologies.wood_e_axe": "Wood E Sword",
+      "entity.foreign_technologies.watcher": "Watcher",
       "block.foreign_technologies.ether_slate": "Ether Slate",
       "block.foreign_technologies.ether_stalk": "Ether Stalk",
       "item.foreign_technologies.pure_ether": "Pure Ether",

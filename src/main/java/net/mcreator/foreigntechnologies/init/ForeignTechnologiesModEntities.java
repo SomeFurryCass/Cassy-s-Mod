@@ -1,0 +1,44 @@
+
+/*
+ *    MCreator note: This file will be REGENERATED on each build.
+ */
+package net.mcreator.foreigntechnologies.init;
+
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
+
+import net.minecraft.world.entity.MobCategory;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.Entity;
+
+import net.mcreator.foreigntechnologies.entity.WatcherEntity;
+import net.mcreator.foreigntechnologies.ForeignTechnologiesMod;
+
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
+public class ForeignTechnologiesModEntities {
+	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITIES, ForeignTechnologiesMod.MODID);
+	public static final RegistryObject<EntityType<WatcherEntity>> WATCHER = register("watcher",
+			EntityType.Builder.<WatcherEntity>of(WatcherEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(100)
+					.setUpdateInterval(3).setCustomClientFactory(WatcherEntity::new).fireImmune().sized(1f, 1f));
+
+	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
+		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
+	}
+
+	@SubscribeEvent
+	public static void init(FMLCommonSetupEvent event) {
+		event.enqueueWork(() -> {
+			WatcherEntity.init();
+		});
+	}
+
+	@SubscribeEvent
+	public static void registerAttributes(EntityAttributeCreationEvent event) {
+		event.put(WATCHER.get(), WatcherEntity.createAttributes().build());
+	}
+}

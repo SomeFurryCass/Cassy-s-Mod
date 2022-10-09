@@ -7,6 +7,7 @@ package net.mcreator.foreigntechnologies.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -190,6 +191,9 @@ public class ForeignTechnologiesModItems {
 			() -> new KorisarmorArmorItem.Leggings());
 	public static final RegistryObject<Item> KORISARMOR_ARMOR_BOOTS = REGISTRY.register("korisarmor_armor_boots",
 			() -> new KorisarmorArmorItem.Boots());
+	public static final RegistryObject<Item> WATCHER = REGISTRY.register("watcher_spawn_egg",
+			() -> new ForgeSpawnEggItem(ForeignTechnologiesModEntities.WATCHER, -16777216, -1,
+					new Item.Properties().tab(ForeignTechnologiesModTabs.TAB_ETHER_TOOLS)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
