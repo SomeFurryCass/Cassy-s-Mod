@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 60,
+  "cookingtime": 160,
+  "ingredient": {
+    "item": "foreign_technologies:koris_chunk"
+  },
+  "result": "foreign_technologies:koris"
+}

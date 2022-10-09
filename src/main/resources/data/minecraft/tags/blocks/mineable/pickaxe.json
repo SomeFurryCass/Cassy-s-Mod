@@ -7,6 +7,8 @@
     "foreign_technologies:ether_glass",
     "foreign_technologies:ether_surface",
     "foreign_technologies:ether_panel",
-    "foreign_technologies:ether_slate_brick"
+    "foreign_technologies:ether_slate_brick",
+    "foreign_technologies:koris_ore",
+    "foreign_technologies:korisslateore"
   ]
 }

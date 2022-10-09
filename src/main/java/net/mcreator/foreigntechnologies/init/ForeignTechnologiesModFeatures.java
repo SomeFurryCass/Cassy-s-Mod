@@ -17,6 +17,8 @@ import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Holder;
 
+import net.mcreator.foreigntechnologies.world.features.ores.KorisslateoreFeature;
+import net.mcreator.foreigntechnologies.world.features.ores.KorisOreFeature;
 import net.mcreator.foreigntechnologies.world.features.SmallstalkFeature;
 import net.mcreator.foreigntechnologies.world.features.LargestalkFeature;
 import net.mcreator.foreigntechnologies.world.features.HugestalkFeature;
@@ -41,6 +43,10 @@ public class ForeignTechnologiesModFeatures {
 			GenerationStep.Decoration.SURFACE_STRUCTURES, LargestalkFeature.GENERATE_BIOMES, LargestalkFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> HUGESTALK = register("hugestalk", HugestalkFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, HugestalkFeature.GENERATE_BIOMES, HugestalkFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> KORIS_ORE = register("koris_ore", KorisOreFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, KorisOreFeature.GENERATE_BIOMES, KorisOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> KORISSLATEORE = register("korisslateore", KorisslateoreFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.UNDERGROUND_ORES, KorisslateoreFeature.GENERATE_BIOMES, KorisslateoreFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

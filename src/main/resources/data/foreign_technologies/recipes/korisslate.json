@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 40,
+  "cookingtime": 300,
+  "ingredient": {
+    "item": "foreign_technologies:korisslateore"
+  },
+  "result": "foreign_technologies:koris"
+}

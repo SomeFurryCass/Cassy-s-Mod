@@ -1177,6 +1177,62 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pure_ether_bottle_recipe"
+    },
+    {
+      "name": "KorisOre",
+      "type": "block",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koris_ore"
+    },
+    {
+      "name": "KorisChunk",
+      "type": "item",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koris_chunk"
+    },
+    {
+      "name": "Korisslateore",
+      "type": "block",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "korisslateore"
+    },
+    {
+      "name": "Koris",
+      "type": "item",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "koris"
+    },
+    {
+      "name": "Korisstone",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "korisstone"
+    },
+    {
+      "name": "Korisslate",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "korisslate"
+    },
+    {
+      "name": "Korissmelt",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "korissmelt"
     }
   ],
   "variable_elements": [],
@@ -1245,6 +1301,7 @@
       "item.foreign_technologies.netherite_e_sword": "Netherite E Sword",
       "item.foreign_technologies.pure_ether_bottle": "Pure Ether Bottle",
       "item.foreign_technologies.strange_e_hoe": "Strange E Hoe",
+      "block.foreign_technologies.korisslateore": "Korisslateore",
       "item.foreign_technologies.weak_ether": "Weak Ether",
       "item.foreign_technologies.diamond_core": "Diamond Core",
       "item.foreign_technologies.iron_e_pick": "Iron E Pick",
@@ -1258,6 +1315,7 @@
       "item.foreign_technologies.netherite_e_pick": "Netherite E Pick",
       "item.foreign_technologies.ether_emitter": "Ether Lens",
       "item.foreign_technologies.stone_e_pick": "Stone E Pick",
+      "item.foreign_technologies.koris_chunk": "Koris Chunk",
       "block.foreign_technologies.ether_glass": "Ether Glass",
       "item.foreign_technologies.strange_e_shovel": "Strange E Shovel",
       "subtitles.etherportalsound": "",
@@ -1266,6 +1324,7 @@
       "item.foreign_technologies.iron_e_axe": "Iron E Axe",
       "item.foreign_technologies.stone_e_axe": "Stone E Axe",
       "item.foreign_technologies.copper_e_sword": "Copper E Sword",
+      "block.foreign_technologies.koris_ore": "Koris Ore",
       "item.foreign_technologies.diamond_e_axe": "Diamond E Axe",
       "block.foreign_technologies.ether_panel": "Ether Panel",
       "item.foreign_technologies.otherworldy_transmission.desc": "Description :3",
@@ -1283,6 +1342,7 @@
       "block.foreign_technologies.ether_generator": "Ether Generator",
       "item.foreign_technologies.gold_e_shovel": "Gold E Shovel",
       "biome.foreign_technologies.the_corruption": "The Corruption",
+      "item.foreign_technologies.koris": "Koris",
       "item.foreign_technologies.ironcore": "Iron Core",
       "item.foreign_technologies.strange_ball": "Strange Ball",
       "item.foreign_technologies.coppercore": "Copper Core",

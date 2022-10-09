@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "foreign_technologies:block/ether_purifier_ative"
+    },
+    "facing=east": {
+      "model": "foreign_technologies:block/ether_purifier_ative",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "foreign_technologies:block/ether_purifier_ative",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "foreign_technologies:block/ether_purifier_ative",
+      "y": 270
     }
   }
 }

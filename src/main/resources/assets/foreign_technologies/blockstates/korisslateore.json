@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "foreign_technologies:block/korisslateore",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "foreign_technologies:block/korisslateore"
+    },
+    "axis=z": {
+      "model": "foreign_technologies:block/korisslateore",
+      "x": 90
+    }
+  }
+}

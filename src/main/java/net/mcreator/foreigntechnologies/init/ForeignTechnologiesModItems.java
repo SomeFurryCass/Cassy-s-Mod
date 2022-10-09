@@ -45,6 +45,8 @@ import net.mcreator.foreigntechnologies.item.NetheriteEPickItem;
 import net.mcreator.foreigntechnologies.item.NetheriteEHoeItem;
 import net.mcreator.foreigntechnologies.item.NetheriteEAxeItem;
 import net.mcreator.foreigntechnologies.item.NetheriteCoreItem;
+import net.mcreator.foreigntechnologies.item.KorisItem;
+import net.mcreator.foreigntechnologies.item.KorisChunkItem;
 import net.mcreator.foreigntechnologies.item.IroncoreItem;
 import net.mcreator.foreigntechnologies.item.IronESwordItem;
 import net.mcreator.foreigntechnologies.item.IronEShovelItem;
@@ -164,6 +166,11 @@ public class ForeignTechnologiesModItems {
 	public static final RegistryObject<Item> ETHER_SLATE_BRICK = block(ForeignTechnologiesModBlocks.ETHER_SLATE_BRICK,
 			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
 	public static final RegistryObject<Item> THE_DEEP_ETHER = REGISTRY.register("the_deep_ether", () -> new TheDeepEtherItem());
+	public static final RegistryObject<Item> KORIS_ORE = block(ForeignTechnologiesModBlocks.KORIS_ORE, ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> KORIS_CHUNK = REGISTRY.register("koris_chunk", () -> new KorisChunkItem());
+	public static final RegistryObject<Item> KORISSLATEORE = block(ForeignTechnologiesModBlocks.KORISSLATEORE,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> KORIS = REGISTRY.register("koris", () -> new KorisItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

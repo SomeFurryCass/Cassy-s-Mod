@@ -19,14 +19,16 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModItems;
+
 import java.util.List;
 import java.util.Collections;
 
-public class EtherPanelBlock extends Block {
+public class KorisslateoreBlock extends Block {
 	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 
-	public EtherPanelBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.DEEPSLATE_BRICKS).strength(5f, 20f).requiresCorrectToolForDrops());
+	public KorisslateoreBlock() {
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.DEEPSLATE).strength(3f, 28f).requiresCorrectToolForDrops());
 		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y));
 	}
 
@@ -60,7 +62,7 @@ public class EtherPanelBlock extends Block {
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
 		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
-			return tieredItem.getTier().getLevel() >= 2;
+			return tieredItem.getTier().getLevel() >= 3;
 		return false;
 	}
 
@@ -69,6 +71,6 @@ public class EtherPanelBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+		return Collections.singletonList(new ItemStack(ForeignTechnologiesModItems.KORIS_CHUNK.get(), 2));
 	}
 }

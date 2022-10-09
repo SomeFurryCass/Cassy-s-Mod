@@ -2,12 +2,12 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "etherpaneltopbottom",
-    "textureTop": "etherpaneltopbottom",
-    "textureLeft": "etherpanelsidesupdate",
-    "textureFront": "etherpanelsidesupdate",
-    "textureRight": "etherpanelsidesupdate",
-    "textureBack": "etherpanelsidesupdate",
+    "texture": "etherkorisslatetop",
+    "textureTop": "etherkorisslatetop",
+    "textureLeft": "etherkorisslate",
+    "textureFront": "etherkorisslate",
+    "textureRight": "etherkorisslate",
+    "textureBack": "etherkorisslate",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 5,
@@ -33,10 +33,10 @@
         "subtract": false
       }
     ],
-    "name": "Ether Panel",
+    "name": "Korisslateore",
     "specialInfo": [],
-    "hardness": 5.0,
-    "resistance": 20.0,
+    "hardness": 3.0,
+    "resistance": 28.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -44,9 +44,9 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:KorisChunk"
     },
-    "dropAmount": 1,
+    "dropAmount": 2,
     "useLootTableForDrops": false,
     "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "DEEPSLATE_BRICKS"
+      "value": "DEEPSLATE"
     },
     "breakSound": {
       "value": ""
@@ -98,7 +98,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 3,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "CUSTOM:Ether"
@@ -123,16 +123,18 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
+    "spawnWorldTypes": [
+      "CUSTOM:Etherdimension"
+    ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "CUSTOM:EtherSlate"
       }
     ],
-    "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
+    "generationShape": "TRIANGLE",
+    "frequencyPerChunks": 8,
+    "frequencyOnChunk": 12,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64
   }

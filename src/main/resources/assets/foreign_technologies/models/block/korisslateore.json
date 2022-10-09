@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "foreign_technologies:blocks/etherkorisslatetop",
+    "up": "foreign_technologies:blocks/etherkorisslatetop",
+    "north": "foreign_technologies:blocks/etherkorisslate",
+    "east": "foreign_technologies:blocks/etherkorisslate",
+    "south": "foreign_technologies:blocks/etherkorisslate",
+    "west": "foreign_technologies:blocks/etherkorisslate",
+    "particle": "foreign_technologies:blocks/etherkorisslatetop"
+  }
+}
