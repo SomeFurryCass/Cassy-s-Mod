@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:reinforced_etherstone"
+    },
+    "3": {
+      "item": "foreign_technologies:reinforced_etherstone"
+    },
+    "4": {
+      "item": "foreign_technologies:reinforced_etherstone"
+    },
+    "6": {
+      "item": "foreign_technologies:reinforced_etherstone"
+    },
+    "7": {
+      "item": "foreign_technologies:reinforced_etherstone"
+    },
+    "8": {
+      "item": "foreign_technologies:reinforced_etherstone"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:r_etherstone_stairs",
+    "count": 4
+  }
+}

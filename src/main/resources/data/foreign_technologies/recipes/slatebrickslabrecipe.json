@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:ether_slate_brick"
+    },
+    "1": {
+      "item": "foreign_technologies:ether_slate_brick"
+    },
+    "2": {
+      "item": "foreign_technologies:ether_slate_brick"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:slate_brick_slab",
+    "count": 3
+  }
+}

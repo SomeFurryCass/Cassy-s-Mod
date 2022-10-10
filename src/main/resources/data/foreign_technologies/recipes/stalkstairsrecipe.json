@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:stalk_planks"
+    },
+    "3": {
+      "item": "foreign_technologies:stalk_planks"
+    },
+    "4": {
+      "item": "foreign_technologies:stalk_planks"
+    },
+    "6": {
+      "item": "foreign_technologies:stalk_planks"
+    },
+    "7": {
+      "item": "foreign_technologies:stalk_planks"
+    },
+    "8": {
+      "item": "foreign_technologies:stalk_planks"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:stalk_stairs",
+    "count": 4
+  }
+}

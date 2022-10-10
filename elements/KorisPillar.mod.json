@@ -35,7 +35,7 @@
     ],
     "name": "Koris Pillar",
     "specialInfo": [],
-    "hardness": 4.0,
+    "hardness": 5.0,
     "resistance": 30.0,
     "hasGravity": false,
     "isWaterloggable": false,

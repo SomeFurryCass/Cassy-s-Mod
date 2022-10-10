@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:reinforced_etherstone"
+    },
+    "1": {
+      "item": "foreign_technologies:reinforced_etherstone"
+    },
+    "2": {
+      "item": "foreign_technologies:reinforced_etherstone"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:r_ether_slab",
+    "count": 3
+  }
+}

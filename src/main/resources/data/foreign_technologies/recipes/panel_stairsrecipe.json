@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:ether_panel"
+    },
+    "3": {
+      "item": "foreign_technologies:ether_panel"
+    },
+    "4": {
+      "item": "foreign_technologies:ether_panel"
+    },
+    "6": {
+      "item": "foreign_technologies:ether_panel"
+    },
+    "7": {
+      "item": "foreign_technologies:ether_panel"
+    },
+    "8": {
+      "item": "foreign_technologies:ether_panel"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:panel_stairs",
+    "count": 4
+  }
+}

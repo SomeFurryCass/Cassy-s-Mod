@@ -98,7 +98,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 5,
+    "breakHarvestLevel": 6,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "CUSTOM:Ether"
@@ -137,8 +137,8 @@
       }
     ],
     "generationShape": "TRIANGLE",
-    "frequencyPerChunks": 6,
-    "frequencyOnChunk": 6,
+    "frequencyPerChunks": 2,
+    "frequencyOnChunk": 3,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 256
   }

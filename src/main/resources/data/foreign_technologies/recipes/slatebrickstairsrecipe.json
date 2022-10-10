@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:ether_slate_brick"
+    },
+    "3": {
+      "item": "foreign_technologies:ether_slate_brick"
+    },
+    "4": {
+      "item": "foreign_technologies:ether_slate_brick"
+    },
+    "6": {
+      "item": "foreign_technologies:ether_slate_brick"
+    },
+    "7": {
+      "item": "foreign_technologies:ether_slate_brick"
+    },
+    "8": {
+      "item": "foreign_technologies:ether_slate_brick"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:slate_brick_stairs",
+    "count": 4
+  }
+}

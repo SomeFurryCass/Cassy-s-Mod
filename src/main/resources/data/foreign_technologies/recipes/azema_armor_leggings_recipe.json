@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:azem"
+    },
+    "1": {
+      "item": "foreign_technologies:azem"
+    },
+    "2": {
+      "item": "foreign_technologies:azem"
+    },
+    "3": {
+      "item": "foreign_technologies:azem"
+    },
+    "5": {
+      "item": "foreign_technologies:azem"
+    },
+    "6": {
+      "item": "foreign_technologies:azem"
+    },
+    "8": {
+      "item": "foreign_technologies:azem"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:azema_armor_leggings",
+    "count": 1
+  }
+}

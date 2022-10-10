@@ -99,6 +99,7 @@ import net.mcreator.foreigntechnologies.item.AzemaShovelItem;
 import net.mcreator.foreigntechnologies.item.AzemaPickaxeItem;
 import net.mcreator.foreigntechnologies.item.AzemaHoeItem;
 import net.mcreator.foreigntechnologies.item.AzemaAxeItem;
+import net.mcreator.foreigntechnologies.item.AzemaArmorItem;
 import net.mcreator.foreigntechnologies.item.AzemItem;
 import net.mcreator.foreigntechnologies.item.AzemChunkItem;
 import net.mcreator.foreigntechnologies.ForeignTechnologiesMod;
@@ -261,6 +262,30 @@ public class ForeignTechnologiesModItems {
 	public static final RegistryObject<Item> ETHERIUMS_SWORD = REGISTRY.register("etheriums_sword", () -> new EtheriumsSwordItem());
 	public static final RegistryObject<Item> ETHERIUMS_SHOVEL = REGISTRY.register("etheriums_shovel", () -> new EtheriumsShovelItem());
 	public static final RegistryObject<Item> ETHERIUMS_HOE = REGISTRY.register("etheriums_hoe", () -> new EtheriumsHoeItem());
+	public static final RegistryObject<Item> AZEMA_ARMOR_HELMET = REGISTRY.register("azema_armor_helmet", () -> new AzemaArmorItem.Helmet());
+	public static final RegistryObject<Item> AZEMA_ARMOR_CHESTPLATE = REGISTRY.register("azema_armor_chestplate",
+			() -> new AzemaArmorItem.Chestplate());
+	public static final RegistryObject<Item> AZEMA_ARMOR_LEGGINGS = REGISTRY.register("azema_armor_leggings", () -> new AzemaArmorItem.Leggings());
+	public static final RegistryObject<Item> AZEMA_ARMOR_BOOTS = REGISTRY.register("azema_armor_boots", () -> new AzemaArmorItem.Boots());
+	public static final RegistryObject<Item> AZEM_FENCE = block(ForeignTechnologiesModBlocks.AZEM_FENCE, ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> ETHERSTONE_STAIRS = block(ForeignTechnologiesModBlocks.ETHERSTONE_STAIRS,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> ETHERSTONE_SLAB = block(ForeignTechnologiesModBlocks.ETHERSTONE_SLAB,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> STALK_STAIRS = block(ForeignTechnologiesModBlocks.STALK_STAIRS,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> STALK_SLAB = block(ForeignTechnologiesModBlocks.STALK_SLAB, ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> SLATE_BRICK_SLAB = block(ForeignTechnologiesModBlocks.SLATE_BRICK_SLAB,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> SLATE_BRICK_STAIRS = block(ForeignTechnologiesModBlocks.SLATE_BRICK_STAIRS,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> PANEL_STAIRS = block(ForeignTechnologiesModBlocks.PANEL_STAIRS,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> PANEL_SLAB = block(ForeignTechnologiesModBlocks.PANEL_SLAB, ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> R_ETHERSTONE_STAIRS = block(ForeignTechnologiesModBlocks.R_ETHERSTONE_STAIRS,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> R_ETHER_SLAB = block(ForeignTechnologiesModBlocks.R_ETHER_SLAB,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

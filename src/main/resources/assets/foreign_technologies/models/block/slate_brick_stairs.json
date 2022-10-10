@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "foreign_technologies:blocks/etherslatebrick",
+    "top": "foreign_technologies:blocks/etherslatebrick",
+    "side": "foreign_technologies:blocks/etherslatebrick"
+  }
+}

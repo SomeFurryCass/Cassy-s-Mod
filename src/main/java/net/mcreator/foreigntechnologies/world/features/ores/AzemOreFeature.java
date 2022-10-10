@@ -43,10 +43,10 @@ public class AzemOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new AzemOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("foreign_technologies:azem_ore", FEATURE,
-				new OreConfiguration(AzemOreFeatureRuleTest.INSTANCE, ForeignTechnologiesModBlocks.AZEM_ORE.get().defaultBlockState(), 12));
+				new OreConfiguration(AzemOreFeatureRuleTest.INSTANCE, ForeignTechnologiesModBlocks.AZEM_ORE.get().defaultBlockState(), 6));
 		PLACED_FEATURE = PlacementUtils.register("foreign_technologies:azem_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(12), InSquarePlacement.spread(),
-						HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(60)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(8), InSquarePlacement.spread(),
+						HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(40)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

@@ -3,9 +3,9 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "azema_pickaxe",
+    "texture": "azempick",
     "customModelName": "Normal",
-    "name": "Azema Pickaxe",
+    "name": "Azem Pickaxe",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:EtherTools"

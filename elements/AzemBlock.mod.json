@@ -35,7 +35,7 @@
     ],
     "name": "Azem Block",
     "specialInfo": [],
-    "hardness": 3.0,
+    "hardness": 5.0,
     "resistance": 30.0,
     "hasGravity": false,
     "isWaterloggable": false,

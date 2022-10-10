@@ -6,8 +6,8 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.HoeItem;
-import net.minecraft.world.item.CreativeModeTab;
 
+import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModTabs;
 import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModItems;
 
 public class AzemaHoeItem extends HoeItem {
@@ -36,6 +36,6 @@ public class AzemaHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(ForeignTechnologiesModItems.AZEM.get()));
 			}
-		}, 0, -2.4f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant());
+		}, 0, -2.4f, new Item.Properties().tab(ForeignTechnologiesModTabs.TAB_ETHER_TOOLS).fireResistant());
 	}
 }

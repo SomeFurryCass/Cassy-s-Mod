@@ -35,7 +35,7 @@
     ],
     "name": "Koris Plating",
     "specialInfo": [],
-    "hardness": 4.5,
+    "hardness": 45.0,
     "resistance": 45.0,
     "hasGravity": false,
     "isWaterloggable": false,

@@ -3,12 +3,12 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "azema_shovel",
+    "texture": "azemshovel",
     "customModelName": "Normal",
     "name": "Azem Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:EtherTools"
     },
     "toolType": "Spade",
     "harvestLevel": 5,

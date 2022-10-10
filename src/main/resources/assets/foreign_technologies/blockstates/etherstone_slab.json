@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "foreign_technologies:block/etherstone_slab"
+    },
+    "type=top": {
+      "model": "foreign_technologies:block/etherstone_slab_top"
+    },
+    "type=double": {
+      "model": "foreign_technologies:block/etherstone_slab_full"
+    }
+  }
+}

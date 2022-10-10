@@ -23,6 +23,15 @@
     "foreign_technologies:azem_block",
     "foreign_technologies:koris_block",
     "foreign_technologies:koris_plating",
-    "foreign_technologies:etherium_block"
+    "foreign_technologies:etherium_block",
+    "foreign_technologies:azem_fence",
+    "foreign_technologies:etherstone_stairs",
+    "foreign_technologies:etherstone_slab",
+    "foreign_technologies:slate_brick_slab",
+    "foreign_technologies:slate_brick_stairs",
+    "foreign_technologies:panel_stairs",
+    "foreign_technologies:panel_slab",
+    "foreign_technologies:r_etherstone_stairs",
+    "foreign_technologies:r_ether_slab"
   ]
 }

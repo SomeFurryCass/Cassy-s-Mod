@@ -3,9 +3,9 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "azema_axe",
+    "texture": "azemaxe",
     "customModelName": "Normal",
-    "name": "Azema Axe",
+    "name": "Azem Axe",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:EtherTools"

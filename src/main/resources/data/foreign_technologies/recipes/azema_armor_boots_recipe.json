@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:azem"
+    },
+    "2": {
+      "item": "foreign_technologies:azem"
+    },
+    "3": {
+      "item": "foreign_technologies:azem"
+    },
+    "5": {
+      "item": "foreign_technologies:azem"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:azema_armor_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "foreign_technologies:blocks/etherpaneltopbottom",
+    "top": "foreign_technologies:blocks/etherpaneltopbottom",
+    "side": "foreign_technologies:blocks/etherpanelsidesupdate"
+  }
+}

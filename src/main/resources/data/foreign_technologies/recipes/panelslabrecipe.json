@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:ether_panel"
+    },
+    "1": {
+      "item": "foreign_technologies:ether_panel"
+    },
+    "2": {
+      "item": "foreign_technologies:ether_panel"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:panel_slab",
+    "count": 3
+  }
+}

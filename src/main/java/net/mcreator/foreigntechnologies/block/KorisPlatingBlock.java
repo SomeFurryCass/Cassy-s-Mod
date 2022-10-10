@@ -27,7 +27,7 @@ public class KorisPlatingBlock extends Block {
 						() -> new SoundEvent(new ResourceLocation("foreign_technologies:metalbreakloud")),
 						() -> new SoundEvent(new ResourceLocation("foreign_technologies:metalhitloud")),
 						() -> new SoundEvent(new ResourceLocation("foreign_technologies:metalsteploud"))))
-				.strength(4.5f, 45f).requiresCorrectToolForDrops());
+				.strength(45f).requiresCorrectToolForDrops());
 	}
 
 	@Override

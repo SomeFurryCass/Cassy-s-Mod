@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:stalk_planks"
+    },
+    "1": {
+      "item": "foreign_technologies:stalk_planks"
+    },
+    "2": {
+      "item": "foreign_technologies:stalk_planks"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:stalk_slab",
+    "count": 3
+  }
+}

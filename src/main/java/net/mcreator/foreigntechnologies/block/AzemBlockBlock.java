@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class AzemBlockBlock extends Block {
 	public AzemBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(3f, 30f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(5f, 30f).requiresCorrectToolForDrops());
 	}
 
 	@Override

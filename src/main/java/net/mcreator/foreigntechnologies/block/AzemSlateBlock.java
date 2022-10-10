@@ -28,8 +28,7 @@ public class AzemSlateBlock extends Block {
 	public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 
 	public AzemSlateBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.DEEPSLATE).strength(3.0999999999999996f, 29f)
-				.requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.DEEPSLATE).strength(3.1f, 29f).requiresCorrectToolForDrops());
 		this.registerDefaultState(this.stateDefinition.any().setValue(AXIS, Direction.Axis.Y));
 	}
 
@@ -72,6 +71,6 @@ public class AzemSlateBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(ForeignTechnologiesModItems.AZEM_CHUNK.get(), 2));
+		return Collections.singletonList(new ItemStack(ForeignTechnologiesModItems.AZEM_CHUNK.get()));
 	}
 }

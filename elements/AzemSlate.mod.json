@@ -35,7 +35,7 @@
     ],
     "name": "Azem Slate",
     "specialInfo": [],
-    "hardness": 3.0999999999999996,
+    "hardness": 3.1,
     "resistance": 29.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -46,7 +46,7 @@
     "customDrop": {
       "value": "CUSTOM:AzemChunk"
     },
-    "dropAmount": 2,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
     "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
@@ -133,9 +133,9 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 12,
-    "frequencyOnChunk": 10,
+    "frequencyPerChunks": 4,
+    "frequencyOnChunk": 4,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 100
   }
 }

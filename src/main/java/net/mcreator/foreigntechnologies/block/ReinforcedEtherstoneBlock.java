@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class ReinforcedEtherstoneBlock extends Block {
 	public ReinforcedEtherstoneBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(3.5f, 32f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(10f, 32f).requiresCorrectToolForDrops());
 	}
 
 	@Override

@@ -4,6 +4,8 @@
     "foreign_technologies:ether_stalk",
     "foreign_technologies:stripped_stalk",
     "foreign_technologies:stalk_planks",
-    "foreign_technologies:stalk_door"
+    "foreign_technologies:stalk_door",
+    "foreign_technologies:stalk_stairs",
+    "foreign_technologies:stalk_slab"
   ]
 }

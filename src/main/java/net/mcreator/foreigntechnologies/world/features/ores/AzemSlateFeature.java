@@ -43,10 +43,10 @@ public class AzemSlateFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new AzemSlateFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("foreign_technologies:azem_slate", FEATURE,
-				new OreConfiguration(AzemSlateFeatureRuleTest.INSTANCE, ForeignTechnologiesModBlocks.AZEM_SLATE.get().defaultBlockState(), 10));
+				new OreConfiguration(AzemSlateFeatureRuleTest.INSTANCE, ForeignTechnologiesModBlocks.AZEM_SLATE.get().defaultBlockState(), 4));
 		PLACED_FEATURE = PlacementUtils.register("foreign_technologies:azem_slate", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(12), InSquarePlacement.spread(),
-						HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(64)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(4), InSquarePlacement.spread(),
+						HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(100)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

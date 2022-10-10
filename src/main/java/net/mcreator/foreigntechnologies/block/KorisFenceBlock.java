@@ -25,7 +25,7 @@ import java.util.Collections;
 
 public class KorisFenceBlock extends IronBarsBlock {
 	public KorisFenceBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(4f, 35f).requiresCorrectToolForDrops().noOcclusion()
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(8f, 35f).requiresCorrectToolForDrops().noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 	}
 

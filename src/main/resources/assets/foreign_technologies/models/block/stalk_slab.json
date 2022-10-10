@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "foreign_technologies:blocks/stalkplanks",
+    "top": "foreign_technologies:blocks/stalkplanks",
+    "side": "foreign_technologies:blocks/stalkplanks"
+  }
+}

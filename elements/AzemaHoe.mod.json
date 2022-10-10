@@ -3,12 +3,12 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "azema_hoe",
+    "texture": "azemhoe",
     "customModelName": "Normal",
     "name": "Azem Hoe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:EtherTools"
     },
     "toolType": "Hoe",
     "harvestLevel": 5,

@@ -36,7 +36,7 @@
     ],
     "name": "Koris Fence",
     "specialInfo": [],
-    "hardness": 4.0,
+    "hardness": 8.0,
     "resistance": 35.0,
     "hasGravity": false,
     "isWaterloggable": false,

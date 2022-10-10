@@ -14,7 +14,7 @@ public class EtheriumsAxeItem extends AxeItem {
 	public EtheriumsAxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 10000;
 			}
 
 			public float getSpeed() {

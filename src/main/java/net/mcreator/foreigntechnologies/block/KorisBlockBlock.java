@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class KorisBlockBlock extends Block {
 	public KorisBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(3.5f, 35f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(10f, 35f).requiresCorrectToolForDrops());
 	}
 
 	@Override
