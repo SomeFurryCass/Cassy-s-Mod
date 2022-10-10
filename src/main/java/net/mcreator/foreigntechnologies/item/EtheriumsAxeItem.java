@@ -5,9 +5,9 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.AxeItem;
 
+import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModTabs;
 import net.mcreator.foreigntechnologies.init.ForeignTechnologiesModItems;
 
 public class EtheriumsAxeItem extends AxeItem {
@@ -36,6 +36,6 @@ public class EtheriumsAxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(ForeignTechnologiesModItems.ETHERIUM.get()));
 			}
-		}, 1, -2f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant());
+		}, 1, -2f, new Item.Properties().tab(ForeignTechnologiesModTabs.TAB_ETHER_TOOLS).fireResistant());
 	}
 }

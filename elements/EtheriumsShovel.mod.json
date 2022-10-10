@@ -8,7 +8,7 @@
     "name": "Etheriums Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:EtherTools"
     },
     "toolType": "Spade",
     "harvestLevel": 7,
