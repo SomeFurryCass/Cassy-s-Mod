@@ -21,6 +21,7 @@ import net.minecraft.world.level.dimension.LevelStem;
 import net.minecraft.world.level.dimension.DimensionType;
 import net.minecraft.world.level.chunk.ChunkGenerator;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.biome.MultiNoiseBiomeSource;
 import net.minecraft.world.level.biome.Climate;
 import net.minecraft.world.level.biome.Biome;
@@ -32,6 +33,7 @@ import net.minecraft.core.Holder;
 import net.mcreator.foreigntechnologies.world.biome.TheCorruptionBiome;
 import net.mcreator.foreigntechnologies.world.biome.EtheroverworldBiome;
 import net.mcreator.foreigntechnologies.world.biome.EtherdeeplandsBiome;
+import net.mcreator.foreigntechnologies.world.biome.EtherHighlandsBiome;
 import net.mcreator.foreigntechnologies.ForeignTechnologiesMod;
 
 import java.util.Map;
@@ -46,6 +48,7 @@ public class ForeignTechnologiesModBiomes {
 	public static final RegistryObject<Biome> ETHEROVERWORLD = REGISTRY.register("etheroverworld", () -> EtheroverworldBiome.createBiome());
 	public static final RegistryObject<Biome> ETHERDEEPLANDS = REGISTRY.register("etherdeeplands", () -> EtherdeeplandsBiome.createBiome());
 	public static final RegistryObject<Biome> THE_CORRUPTION = REGISTRY.register("the_corruption", () -> TheCorruptionBiome.createBiome());
+	public static final RegistryObject<Biome> ETHER_HIGHLANDS = REGISTRY.register("ether_highlands", () -> EtherHighlandsBiome.createBiome());
 
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
@@ -53,6 +56,7 @@ public class ForeignTechnologiesModBiomes {
 			EtheroverworldBiome.init();
 			EtherdeeplandsBiome.init();
 			TheCorruptionBiome.init();
+			EtherHighlandsBiome.init();
 		});
 	}
 
@@ -77,6 +81,8 @@ public class ForeignTechnologiesModBiomes {
 								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, ETHERDEEPLANDS.getId()))));
 						parameters.add(new Pair<>(TheCorruptionBiome.PARAMETER_POINT,
 								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, THE_CORRUPTION.getId()))));
+						parameters.add(new Pair<>(EtherHighlandsBiome.PARAMETER_POINT,
+								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, ETHER_HIGHLANDS.getId()))));
 
 						MultiNoiseBiomeSource moddedNoiseSource = new MultiNoiseBiomeSource(new Climate.ParameterList<>(parameters),
 								noiseSource.preset);
@@ -104,6 +110,10 @@ public class ForeignTechnologiesModBiomes {
 											ForeignTechnologiesModBlocks.DISTORTION.get().defaultBlockState(),
 											ForeignTechnologiesModBlocks.DISTORTION.get().defaultBlockState(),
 											ForeignTechnologiesModBlocks.DISTORTION.get().defaultBlockState()));
+							surfaceRules.add(1,
+									preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, ETHER_HIGHLANDS.getId()),
+											Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(),
+											ForeignTechnologiesModBlocks.ETHERSTONE.get().defaultBlockState()));
 							NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(),
 									noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
 									noiseGeneratorSettings.noiseRouter(),

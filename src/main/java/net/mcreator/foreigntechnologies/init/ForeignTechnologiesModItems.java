@@ -22,6 +22,7 @@ import net.mcreator.foreigntechnologies.item.WoodEHoeItem;
 import net.mcreator.foreigntechnologies.item.WoodEAxeItem;
 import net.mcreator.foreigntechnologies.item.WeakEtherLensItem;
 import net.mcreator.foreigntechnologies.item.WeakEtherItem;
+import net.mcreator.foreigntechnologies.item.TheEdgeItem;
 import net.mcreator.foreigntechnologies.item.TheDeepEtherItem;
 import net.mcreator.foreigntechnologies.item.SuperEtherEmitterItem;
 import net.mcreator.foreigntechnologies.item.StrangeESwordItem;
@@ -48,6 +49,7 @@ import net.mcreator.foreigntechnologies.item.NetheriteEPickItem;
 import net.mcreator.foreigntechnologies.item.NetheriteEHoeItem;
 import net.mcreator.foreigntechnologies.item.NetheriteEAxeItem;
 import net.mcreator.foreigntechnologies.item.NetheriteCoreItem;
+import net.mcreator.foreigntechnologies.item.MusicDiscItem;
 import net.mcreator.foreigntechnologies.item.KoristoolsSwordItem;
 import net.mcreator.foreigntechnologies.item.KoristoolsShovelItem;
 import net.mcreator.foreigntechnologies.item.KoristoolsPickaxeItem;
@@ -286,6 +288,8 @@ public class ForeignTechnologiesModItems {
 			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
 	public static final RegistryObject<Item> R_ETHER_SLAB = block(ForeignTechnologiesModBlocks.R_ETHER_SLAB,
 			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> THE_EDGE = REGISTRY.register("the_edge", () -> new TheEdgeItem());
+	public static final RegistryObject<Item> MUSIC_DISC = REGISTRY.register("music_disc", () -> new MusicDiscItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

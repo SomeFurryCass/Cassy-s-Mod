@@ -1005,14 +1005,6 @@
       "registry_name": "ether_surface"
     },
     {
-      "name": "Etherslaterecipie",
-      "type": "recipe",
-      "sortid": 87,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "etherslaterecipie"
-    },
-    {
       "name": "EtherSlate",
       "type": "block",
       "sortid": 81,
@@ -2191,6 +2183,30 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "panel_stairsrecipe"
+    },
+    {
+      "name": "EtherHighlands",
+      "type": "biome",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ether_highlands"
+    },
+    {
+      "name": "TheEdge",
+      "type": "musicdisc",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_edge"
+    },
+    {
+      "name": "MusicDisc",
+      "type": "musicdisc",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc"
     }
   ],
   "variable_elements": [],
@@ -2306,6 +2322,14 @@
       ],
       "category": "block",
       "subtitle": ""
+    },
+    {
+      "name": "highlands",
+      "files": [
+        "highlands"
+      ],
+      "category": "music",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -2316,6 +2340,7 @@
       "item.foreign_technologies.etheriuma_armor_chestplate": "Etherium Chestplate",
       "subtitles.otherworldysounds": "",
       "biome.foreign_technologies.etheroverworld": "Ether",
+      "item.foreign_technologies.the_edge.desc": "The Edge",
       "item.foreign_technologies.korisarmor_armor_leggings": "Koris Leggings",
       "item.foreign_technologies.strange_e_pick": "Strange E Pick",
       "block.foreign_technologies.ether_purifier": "Ether Purifier",
@@ -2332,6 +2357,7 @@
       "item.foreign_technologies.strange_e_hoe": "Strange E Hoe",
       "block.foreign_technologies.korisslateore": "Koris Slate",
       "item.foreign_technologies.weak_ether": "Weak Ether",
+      "subtitles.highlands": "",
       "item.foreign_technologies.diamond_core": "Diamond Core",
       "item.foreign_technologies.iron_e_pick": "Iron E Pick",
       "item.foreign_technologies.azema_armor_chestplate": "Azem Chestplate",
@@ -2359,15 +2385,16 @@
       "block.foreign_technologies.koris_fence": "Koris Fence",
       "block.foreign_technologies.azem_fence": "Azem Fence",
       "block.foreign_technologies.ether_panel": "Ether Panel",
-      "item.foreign_technologies.otherworldy_transmission.desc": "Description :3",
+      "item.foreign_technologies.otherworldy_transmission.desc": "Otherworldy Transmission",
       "subtitles.watcherdeath": "",
       "item.foreign_technologies.iron_e_shovel": "Iron E Shovel",
       "block.foreign_technologies.stalk_slab": "Stalk Slab",
       "item.foreign_technologies.copper_e_pick": "Copper E Pick",
+      "item.foreign_technologies.music_disc": "Music Disc",
       "item.foreign_technologies.diamond_e_pick": "Diamond E Pick",
       "biome.foreign_technologies.etherdeeplands": "Etherdeeplands",
       "item.foreign_technologies.netherite_core": "Netherite Core",
-      "item.foreign_technologies.otherworldy_transmission": "Otherworldy Transmission",
+      "item.foreign_technologies.otherworldy_transmission": "Music_Disc",
       "item.foreign_technologies.etheriums_hoe": "Etherium Hoe",
       "biome.foreign_technologies.the_corruption": "The Corruption",
       "item.foreign_technologies.azema_hoe": "Azem Hoe",
@@ -2402,6 +2429,7 @@
       "item.foreign_technologies.goldcore": "Gold Core",
       "block.foreign_technologies.ether_purifier_ative": "Ether Purifier",
       "item.foreign_technologies.etheriums_shovel": "Etherium Shovel",
+      "item.foreign_technologies.the_edge": "Music_Disc",
       "item.foreign_technologies.brittle_stone_core": "Brittle Stone Core",
       "advancements.foreign_tech.title": "Foreign Tech",
       "item.foreign_technologies.etherium": "Etherium",
@@ -2409,6 +2437,7 @@
       "item.foreign_technologies.raw_ether": "Raw Ether",
       "item.foreign_technologies.iron_e_hoe": "Iron E Hoe",
       "subtitles.metalsteploud": "",
+      "item.foreign_technologies.music_disc.desc": "Ether Highlands",
       "block.foreign_technologies.etherstone_stairs": "Etherstone Stairs",
       "item.foreign_technologies.gold_e_pick": "Gold E Pick",
       "block.foreign_technologies.koris_pillar": "Koris Pillar",
@@ -2450,6 +2479,7 @@
       "block.foreign_technologies.ether_stalk": "Ether Stalk",
       "item.foreign_technologies.pure_ether": "Pure Ether",
       "block.foreign_technologies.koris_plating": "Koris Plating",
+      "biome.foreign_technologies.ether_highlands": "Ether Highlands",
       "block.foreign_technologies.panel_slab": "Panel Slab",
       "block.foreign_technologies.ether_generator": "Ether Generator",
       "item.foreign_technologies.gold_e_shovel": "Gold E Shovel",

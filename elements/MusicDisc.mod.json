@@ -3,13 +3,13 @@
   "_type": "musicdisc",
   "definition": {
     "texture": "music_disc_ether",
-    "name": "Music_Disc",
-    "description": "Otherworldy Transmission",
+    "name": "Music Disc",
+    "description": "Ether Highlands",
     "creativeTab": {
-      "value": "CUSTOM:EtherTools"
+      "value": "MISC"
     },
     "music": {
-      "value": "CUSTOM:otherworldysounds"
+      "value": "CUSTOM:highlands"
     },
     "specialInfo": [],
     "hasGlow": false

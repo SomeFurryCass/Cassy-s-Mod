@@ -124,5 +124,14 @@
         "stream": false
       }
     ]
+  },
+  "highlands": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "foreign_technologies:highlands",
+        "stream": true
+      }
+    ]
   }
 }
