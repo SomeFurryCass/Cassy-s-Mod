@@ -19,6 +19,7 @@ import net.mcreator.foreigntechnologies.block.StrippedStalkBlock;
 import net.mcreator.foreigntechnologies.block.StellarwoodPlanksBlock;
 import net.mcreator.foreigntechnologies.block.StellarwoodBlock;
 import net.mcreator.foreigntechnologies.block.StellarStarlightBlock;
+import net.mcreator.foreigntechnologies.block.StellarSaplingBlock;
 import net.mcreator.foreigntechnologies.block.StellarLeavesBlock;
 import net.mcreator.foreigntechnologies.block.StellarGrassBlock;
 import net.mcreator.foreigntechnologies.block.StalkStairsBlock;
@@ -116,6 +117,7 @@ public class ForeignTechnologiesModBlocks {
 	public static final RegistryObject<Block> STELLAR_LEAVES = REGISTRY.register("stellar_leaves", () -> new StellarLeavesBlock());
 	public static final RegistryObject<Block> STELLAR_GRASS = REGISTRY.register("stellar_grass", () -> new StellarGrassBlock());
 	public static final RegistryObject<Block> STELLAR_STARLIGHT = REGISTRY.register("stellar_starlight", () -> new StellarStarlightBlock());
+	public static final RegistryObject<Block> STELLAR_SAPLING = REGISTRY.register("stellar_sapling", () -> new StellarSaplingBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -129,6 +131,7 @@ public class ForeignTechnologiesModBlocks {
 			EtherLampBlock.registerRenderLayer();
 			AzemFenceBlock.registerRenderLayer();
 			StellarStarlightBlock.registerRenderLayer();
+			StellarSaplingBlock.registerRenderLayer();
 		}
 	}
 }

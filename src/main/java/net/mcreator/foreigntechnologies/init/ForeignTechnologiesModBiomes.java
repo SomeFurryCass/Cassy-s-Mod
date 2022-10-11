@@ -21,7 +21,6 @@ import net.minecraft.world.level.dimension.LevelStem;
 import net.minecraft.world.level.dimension.DimensionType;
 import net.minecraft.world.level.chunk.ChunkGenerator;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.biome.MultiNoiseBiomeSource;
 import net.minecraft.world.level.biome.Climate;
 import net.minecraft.world.level.biome.Biome;
@@ -81,8 +80,6 @@ public class ForeignTechnologiesModBiomes {
 								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, ETHERDEEPLANDS.getId()))));
 						parameters.add(new Pair<>(TheCorruptionBiome.PARAMETER_POINT,
 								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, THE_CORRUPTION.getId()))));
-						parameters.add(new Pair<>(EtherHighlandsBiome.PARAMETER_POINT,
-								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, ETHER_HIGHLANDS.getId()))));
 
 						MultiNoiseBiomeSource moddedNoiseSource = new MultiNoiseBiomeSource(new Climate.ParameterList<>(parameters),
 								noiseSource.preset);
@@ -109,10 +106,6 @@ public class ForeignTechnologiesModBiomes {
 									preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, THE_CORRUPTION.getId()),
 											ForeignTechnologiesModBlocks.DISTORTION.get().defaultBlockState(),
 											ForeignTechnologiesModBlocks.DISTORTION.get().defaultBlockState(),
-											ForeignTechnologiesModBlocks.DISTORTION.get().defaultBlockState()));
-							surfaceRules.add(1,
-									preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, ETHER_HIGHLANDS.getId()),
-											Blocks.GRASS_BLOCK.defaultBlockState(), ForeignTechnologiesModBlocks.DISTORTION.get().defaultBlockState(),
 											ForeignTechnologiesModBlocks.DISTORTION.get().defaultBlockState()));
 							NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(),
 									noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),

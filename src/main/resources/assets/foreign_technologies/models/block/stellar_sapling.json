@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "foreign_technologies:blocks/stellarsapling",
+    "particle": "foreign_technologies:blocks/stellarsapling"
+  }
+}

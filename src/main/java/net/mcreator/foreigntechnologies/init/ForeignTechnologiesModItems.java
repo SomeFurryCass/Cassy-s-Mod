@@ -302,6 +302,8 @@ public class ForeignTechnologiesModItems {
 			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
 	public static final RegistryObject<Item> STELLAR_STARLIGHT = block(ForeignTechnologiesModBlocks.STELLAR_STARLIGHT,
 			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> STELLAR_SAPLING = block(ForeignTechnologiesModBlocks.STELLAR_SAPLING,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

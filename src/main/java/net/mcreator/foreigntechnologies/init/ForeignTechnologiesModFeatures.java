@@ -17,12 +17,14 @@ import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Holder;
 
+import net.mcreator.foreigntechnologies.world.features.plants.StellarSaplingFeature;
 import net.mcreator.foreigntechnologies.world.features.ores.KorisslateoreFeature;
 import net.mcreator.foreigntechnologies.world.features.ores.KorisOreFeature;
 import net.mcreator.foreigntechnologies.world.features.ores.EtheriumClusterFeature;
 import net.mcreator.foreigntechnologies.world.features.ores.EtherDropOreFeature;
 import net.mcreator.foreigntechnologies.world.features.ores.AzemSlateFeature;
 import net.mcreator.foreigntechnologies.world.features.ores.AzemOreFeature;
+import net.mcreator.foreigntechnologies.world.features.StellarTreeFeature;
 import net.mcreator.foreigntechnologies.world.features.SmallstalkFeature;
 import net.mcreator.foreigntechnologies.world.features.LargestalkFeature;
 import net.mcreator.foreigntechnologies.world.features.HugestalkFeature;
@@ -60,6 +62,11 @@ public class ForeignTechnologiesModFeatures {
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, AzemOreFeature.GENERATE_BIOMES, AzemOreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> AZEM_SLATE = register("azem_slate", AzemSlateFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, AzemSlateFeature.GENERATE_BIOMES, AzemSlateFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> STELLAR_SAPLING = register("stellar_sapling", StellarSaplingFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, StellarSaplingFeature.GENERATE_BIOMES,
+					StellarSaplingFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> STELLAR_TREE = register("stellar_tree", StellarTreeFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.SURFACE_STRUCTURES, StellarTreeFeature.GENERATE_BIOMES, StellarTreeFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);
