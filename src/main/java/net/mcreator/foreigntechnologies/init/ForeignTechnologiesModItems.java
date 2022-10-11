@@ -38,6 +38,7 @@ import net.mcreator.foreigntechnologies.item.StoneEPickItem;
 import net.mcreator.foreigntechnologies.item.StoneEHoeItem;
 import net.mcreator.foreigntechnologies.item.StoneEAxeItem;
 import net.mcreator.foreigntechnologies.item.StoneCoreItem;
+import net.mcreator.foreigntechnologies.item.StellariteItem;
 import net.mcreator.foreigntechnologies.item.StalkReedItem;
 import net.mcreator.foreigntechnologies.item.RawEtherItem;
 import net.mcreator.foreigntechnologies.item.PureEtherItem;
@@ -290,6 +291,17 @@ public class ForeignTechnologiesModItems {
 			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
 	public static final RegistryObject<Item> THE_EDGE = REGISTRY.register("the_edge", () -> new TheEdgeItem());
 	public static final RegistryObject<Item> MUSIC_DISC = REGISTRY.register("music_disc", () -> new MusicDiscItem());
+	public static final RegistryObject<Item> STELLARWOOD = block(ForeignTechnologiesModBlocks.STELLARWOOD,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> STELLARWOOD_PLANKS = block(ForeignTechnologiesModBlocks.STELLARWOOD_PLANKS,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> STELLARITE = REGISTRY.register("stellarite", () -> new StellariteItem());
+	public static final RegistryObject<Item> STELLAR_LEAVES = block(ForeignTechnologiesModBlocks.STELLAR_LEAVES,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> STELLAR_GRASS = block(ForeignTechnologiesModBlocks.STELLAR_GRASS,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
+	public static final RegistryObject<Item> STELLAR_STARLIGHT = block(ForeignTechnologiesModBlocks.STELLAR_STARLIGHT,
+			ForeignTechnologiesModTabs.TAB_ETHER_TOOLS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

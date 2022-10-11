@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "foreign_technologies:blocks/stellarwoodplanksside",
+    "up": "foreign_technologies:blocks/stellarwoodplanksside",
+    "north": "foreign_technologies:blocks/stellarwoodplanksside",
+    "east": "foreign_technologies:blocks/stellarwoodplanksside",
+    "south": "foreign_technologies:blocks/stellarwoodplanksside",
+    "west": "foreign_technologies:blocks/stellarwoodplanksside",
+    "particle": "foreign_technologies:blocks/stellarwoodplanksside"
+  }
+}

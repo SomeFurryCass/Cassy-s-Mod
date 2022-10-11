@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "foreign_technologies:blocks/stallarstarlight",
+    "up": "foreign_technologies:blocks/stallarstarlight",
+    "north": "foreign_technologies:blocks/stallarstarlight",
+    "east": "foreign_technologies:blocks/stallarstarlight",
+    "south": "foreign_technologies:blocks/stallarstarlight",
+    "west": "foreign_technologies:blocks/stallarstarlight",
+    "particle": "foreign_technologies:blocks/stallarstarlight"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "foreign_technologies:stellarwood"
+    }
+  ],
+  "result": {
+    "item": "foreign_technologies:stellarwood_planks",
+    "count": 4
+  }
+}

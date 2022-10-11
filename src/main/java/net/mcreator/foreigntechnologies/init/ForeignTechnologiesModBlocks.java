@@ -16,6 +16,11 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.foreigntechnologies.block.TheDeepEtherPortalBlock;
 import net.mcreator.foreigntechnologies.block.StrippedStalkBlock;
+import net.mcreator.foreigntechnologies.block.StellarwoodPlanksBlock;
+import net.mcreator.foreigntechnologies.block.StellarwoodBlock;
+import net.mcreator.foreigntechnologies.block.StellarStarlightBlock;
+import net.mcreator.foreigntechnologies.block.StellarLeavesBlock;
+import net.mcreator.foreigntechnologies.block.StellarGrassBlock;
 import net.mcreator.foreigntechnologies.block.StalkStairsBlock;
 import net.mcreator.foreigntechnologies.block.StalkSlabBlock;
 import net.mcreator.foreigntechnologies.block.StalkPlanksBlock;
@@ -106,6 +111,11 @@ public class ForeignTechnologiesModBlocks {
 	public static final RegistryObject<Block> PANEL_SLAB = REGISTRY.register("panel_slab", () -> new PanelSlabBlock());
 	public static final RegistryObject<Block> R_ETHERSTONE_STAIRS = REGISTRY.register("r_etherstone_stairs", () -> new REtherstoneStairsBlock());
 	public static final RegistryObject<Block> R_ETHER_SLAB = REGISTRY.register("r_ether_slab", () -> new REtherSlabBlock());
+	public static final RegistryObject<Block> STELLARWOOD = REGISTRY.register("stellarwood", () -> new StellarwoodBlock());
+	public static final RegistryObject<Block> STELLARWOOD_PLANKS = REGISTRY.register("stellarwood_planks", () -> new StellarwoodPlanksBlock());
+	public static final RegistryObject<Block> STELLAR_LEAVES = REGISTRY.register("stellar_leaves", () -> new StellarLeavesBlock());
+	public static final RegistryObject<Block> STELLAR_GRASS = REGISTRY.register("stellar_grass", () -> new StellarGrassBlock());
+	public static final RegistryObject<Block> STELLAR_STARLIGHT = REGISTRY.register("stellar_starlight", () -> new StellarStarlightBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -118,6 +128,7 @@ public class ForeignTechnologiesModBlocks {
 			StalkDoorBlock.registerRenderLayer();
 			EtherLampBlock.registerRenderLayer();
 			AzemFenceBlock.registerRenderLayer();
+			StellarStarlightBlock.registerRenderLayer();
 		}
 	}
 }

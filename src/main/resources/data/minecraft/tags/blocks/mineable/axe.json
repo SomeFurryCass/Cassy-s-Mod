@@ -6,6 +6,8 @@
     "foreign_technologies:stalk_planks",
     "foreign_technologies:stalk_door",
     "foreign_technologies:stalk_stairs",
-    "foreign_technologies:stalk_slab"
+    "foreign_technologies:stalk_slab",
+    "foreign_technologies:stellarwood",
+    "foreign_technologies:stellarwood_planks"
   ]
 }

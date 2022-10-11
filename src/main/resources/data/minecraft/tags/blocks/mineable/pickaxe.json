@@ -32,6 +32,9 @@
     "foreign_technologies:panel_stairs",
     "foreign_technologies:panel_slab",
     "foreign_technologies:r_etherstone_stairs",
-    "foreign_technologies:r_ether_slab"
+    "foreign_technologies:r_ether_slab",
+    "foreign_technologies:stellar_leaves",
+    "foreign_technologies:stellar_grass",
+    "foreign_technologies:stellar_starlight"
   ]
 }

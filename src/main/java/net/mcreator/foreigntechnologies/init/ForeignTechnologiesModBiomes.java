@@ -112,8 +112,8 @@ public class ForeignTechnologiesModBiomes {
 											ForeignTechnologiesModBlocks.DISTORTION.get().defaultBlockState()));
 							surfaceRules.add(1,
 									preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, ETHER_HIGHLANDS.getId()),
-											Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(),
-											ForeignTechnologiesModBlocks.ETHERSTONE.get().defaultBlockState()));
+											Blocks.GRASS_BLOCK.defaultBlockState(), ForeignTechnologiesModBlocks.DISTORTION.get().defaultBlockState(),
+											ForeignTechnologiesModBlocks.DISTORTION.get().defaultBlockState()));
 							NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(),
 									noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
 									noiseGeneratorSettings.noiseRouter(),

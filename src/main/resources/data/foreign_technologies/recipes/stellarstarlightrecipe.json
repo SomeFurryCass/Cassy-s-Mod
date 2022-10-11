@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "foreign_technologies:ether_glass"
+    },
+    "1": {
+      "item": "foreign_technologies:stellarite"
+    },
+    "2": {
+      "item": "foreign_technologies:ether_glass"
+    },
+    "3": {
+      "item": "foreign_technologies:stellarite"
+    },
+    "4": {
+      "item": "minecraft:glowstone"
+    },
+    "5": {
+      "item": "foreign_technologies:stellarite"
+    },
+    "6": {
+      "item": "foreign_technologies:ether_glass"
+    },
+    "7": {
+      "item": "foreign_technologies:stellarite"
+    },
+    "8": {
+      "item": "foreign_technologies:ether_glass"
+    }
+  },
+  "result": {
+    "item": "foreign_technologies:stellar_starlight",
+    "count": 1
+  }
+}

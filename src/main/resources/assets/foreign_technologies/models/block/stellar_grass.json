@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "foreign_technologies:blocks/distortionanimation",
+    "up": "foreign_technologies:blocks/stellargrass",
+    "north": "foreign_technologies:blocks/stellargrassside",
+    "east": "foreign_technologies:blocks/stellargrassside",
+    "south": "foreign_technologies:blocks/stellargrassside",
+    "west": "foreign_technologies:blocks/stellargrassside",
+    "particle": "foreign_technologies:blocks/distortionanimation"
+  }
+}

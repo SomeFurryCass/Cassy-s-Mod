@@ -41,8 +41,8 @@ public class EtherHighlandsBiome {
 			Climate.Parameter.span(-1.087335036659f, -0.801620750945f), 0);
 
 	public static Biome createBiome() {
-		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-3355444).waterColor(-10053121).waterFogColor(-10053121)
-				.skyColor(-3355444).foliageColorOverride(-1).grassColorOverride(-1)
+		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-7937).waterColor(-13057).waterFogColor(-13057).skyColor(-7937)
+				.foliageColorOverride(-7937).grassColorOverride(-7937)
 				.ambientLoopSound(new SoundEvent(new ResourceLocation("foreign_technologies:highlands"))).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, PlacementUtils.register(
@@ -54,7 +54,7 @@ public class EtherHighlandsBiome {
 								new TwoLayersFeatureSize(1, 1, 2))
 								.decorators(ImmutableList.of(new AlterGroundDecorator(BlockStateProvider.simple(Blocks.PODZOL.defaultBlockState()))))
 								.build()),
-				List.of(CountPlacement.of(1), InSquarePlacement.spread(), SurfaceWaterDepthFilter.forMaxDepth(0),
+				List.of(CountPlacement.of(2), InSquarePlacement.spread(), SurfaceWaterDepthFilter.forMaxDepth(0),
 						PlacementUtils.HEIGHTMAP_OCEAN_FLOOR, PlacementUtils.filteredByBlockSurvival(Blocks.OAK_SAPLING), BiomeFilter.biome())));
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
 				PlacementUtils.register("foreign_technologies:grass_ether_highlands", VegetationFeatures.PATCH_GRASS,
