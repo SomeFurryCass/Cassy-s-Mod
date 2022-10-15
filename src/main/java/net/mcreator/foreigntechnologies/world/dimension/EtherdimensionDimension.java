@@ -31,6 +31,8 @@ public class EtherdimensionDimension {
 			replaceableBlocks.add(ForeignTechnologiesModBlocks.ETHERSTONE.get());
 			replaceableBlocks.add(ForeignTechnologiesModBlocks.ETHER_SLATE.get());
 			replaceableBlocks.add(ForeignTechnologiesModBlocks.ETHER_SLATE.get());
+			replaceableBlocks.add(ForeignTechnologiesModBlocks.STELLAR_GRASS.get());
+			replaceableBlocks.add(ForeignTechnologiesModBlocks.DISTORTION.get());
 			replaceableBlocks.add(ForeignTechnologiesModBlocks.ETHER_SURFACE.get());
 			replaceableBlocks.add(ForeignTechnologiesModBlocks.ETHERSTONE.get());
 			event.enqueueWork(() -> {

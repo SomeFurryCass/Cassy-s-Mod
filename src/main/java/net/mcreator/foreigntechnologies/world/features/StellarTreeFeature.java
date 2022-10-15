@@ -46,7 +46,7 @@ public class StellarTreeFeature extends Feature<NoneFeatureConfiguration> {
 
 	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("foreign_technologies:ether_highlands"));
 	private final Set<ResourceKey<Level>> generate_dimensions = Set
-			.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("foreign_technologies:the_deep_ether")));
+			.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("foreign_technologies:etherdimension")));
 	private final List<Block> base_blocks;
 	private StructureTemplate template = null;
 
@@ -64,8 +64,8 @@ public class StellarTreeFeature extends Feature<NoneFeatureConfiguration> {
 		if (template == null)
 			return false;
 		boolean anyPlaced = false;
-		if ((context.random().nextInt(1000000) + 1) <= 10000) {
-			int count = context.random().nextInt(8) + 1;
+		if ((context.random().nextInt(1000000) + 1) <= 150000) {
+			int count = context.random().nextInt(11) + 6;
 			for (int a = 0; a < count; a++) {
 				int i = context.origin().getX() + context.random().nextInt(16);
 				int k = context.origin().getZ() + context.random().nextInt(16);

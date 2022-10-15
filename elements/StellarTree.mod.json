@@ -5,15 +5,15 @@
     "structure": "stellartree",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First block",
-    "spawnProbability": 10000,
-    "minCountPerChunk": 1,
-    "maxCountPerChunk": 8,
+    "spawnProbability": 150000,
+    "minCountPerChunk": 6,
+    "maxCountPerChunk": 16,
     "spawnLocation": "Ground",
     "spawnHeightOffset": 0,
     "spawnXOffset": 0,
     "spawnZOffset": 0,
     "spawnWorldTypes": [
-      "CUSTOM:TheDeepEther"
+      "CUSTOM:Etherdimension"
     ],
     "restrictionBlocks": [
       {

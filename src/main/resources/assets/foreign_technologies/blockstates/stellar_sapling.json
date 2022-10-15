@@ -1,7 +1,0 @@
-{
-  "variants": {
-    "": {
-      "model": "foreign_technologies:block/stellar_sapling"
-    }
-  }
-}

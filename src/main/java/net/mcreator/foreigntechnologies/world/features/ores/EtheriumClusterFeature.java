@@ -45,7 +45,7 @@ public class EtheriumClusterFeature extends OreFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("foreign_technologies:etherium_cluster", FEATURE, new OreConfiguration(
 				EtheriumClusterFeatureRuleTest.INSTANCE, ForeignTechnologiesModBlocks.ETHERIUM_CLUSTER.get().defaultBlockState(), 3));
 		PLACED_FEATURE = PlacementUtils.register("foreign_technologies:etherium_cluster", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(2), InSquarePlacement.spread(),
+				List.of(CountPlacement.of(4), InSquarePlacement.spread(),
 						HeightRangePlacement.triangle(VerticalAnchor.absolute(0), VerticalAnchor.absolute(256)), BiomeFilter.biome()));
 		return FEATURE;
 	}
